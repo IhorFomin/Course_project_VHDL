@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Fomin_convert_1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Fomin_convert_1|lpm_mult:Mult0" CBX_FILE_NAME="mult_k2t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

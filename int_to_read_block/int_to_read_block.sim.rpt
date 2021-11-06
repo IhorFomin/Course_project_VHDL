@@ -1,0 +1,498 @@
+Simulator report for int_to_read_block
+Wed Nov 03 23:20:33 2021
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 210 nodes    ;
+; Simulation Coverage         ;      50.65 % ;
+; Total Number of Transitions ; 2569         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Stratix II   ;
+; Device                      ; EP2S15F484C3 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      50.65 % ;
+; Total nodes checked                                 ; 210          ;
+; Total output ports checked                          ; 231          ;
+; Total output ports with complete 1/0-value coverage ; 117          ;
+; Total output ports with no 1/0-value coverage       ; 103          ;
+; Total output ports with no 1-value coverage         ; 104          ;
+; Total output ports with no 0-value coverage         ; 113          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                      ;
++---------------------------------------+---------------------------------------+------------------+
+; Node Name                             ; Output Port Name                      ; Output Port Type ;
++---------------------------------------+---------------------------------------+------------------+
+; |int_to_read_block|Add0~2             ; |int_to_read_block|Add0~2             ; cout             ;
+; |int_to_read_block|Add0~5             ; |int_to_read_block|Add0~5             ; sumout           ;
+; |int_to_read_block|Add0~5             ; |int_to_read_block|Add0~6             ; cout             ;
+; |int_to_read_block|Add0~9             ; |int_to_read_block|Add0~9             ; sumout           ;
+; |int_to_read_block|Add0~9             ; |int_to_read_block|Add0~10            ; cout             ;
+; |int_to_read_block|Add0~13            ; |int_to_read_block|Add0~13            ; sumout           ;
+; |int_to_read_block|Add0~13            ; |int_to_read_block|Add0~14            ; cout             ;
+; |int_to_read_block|Add0~17            ; |int_to_read_block|Add0~17            ; sumout           ;
+; |int_to_read_block|Add1~1             ; |int_to_read_block|Add1~1             ; sumout           ;
+; |int_to_read_block|Add1~1             ; |int_to_read_block|Add1~2             ; cout             ;
+; |int_to_read_block|Add1~5             ; |int_to_read_block|Add1~5             ; sumout           ;
+; |int_to_read_block|Add1~5             ; |int_to_read_block|Add1~6             ; cout             ;
+; |int_to_read_block|Add1~9             ; |int_to_read_block|Add1~9             ; sumout           ;
+; |int_to_read_block|Add1~9             ; |int_to_read_block|Add1~10            ; cout             ;
+; |int_to_read_block|Add1~13            ; |int_to_read_block|Add1~13            ; sumout           ;
+; |int_to_read_block|Add1~13            ; |int_to_read_block|Add1~14            ; cout             ;
+; |int_to_read_block|coun[0]            ; |int_to_read_block|coun[0]            ; regout           ;
+; |int_to_read_block|coun[1]            ; |int_to_read_block|coun[1]            ; regout           ;
+; |int_to_read_block|coun[2]            ; |int_to_read_block|coun[2]            ; regout           ;
+; |int_to_read_block|coun[3]            ; |int_to_read_block|coun[3]            ; regout           ;
+; |int_to_read_block|coun[4]            ; |int_to_read_block|coun[4]            ; regout           ;
+; |int_to_read_block|m1[1]              ; |int_to_read_block|m1[1]              ; regout           ;
+; |int_to_read_block|m1[2]              ; |int_to_read_block|m1[2]              ; regout           ;
+; |int_to_read_block|m1[3]              ; |int_to_read_block|m1[3]              ; regout           ;
+; |int_to_read_block|m1[4]              ; |int_to_read_block|m1[4]              ; regout           ;
+; |int_to_read_block|m1[5]              ; |int_to_read_block|m1[5]              ; regout           ;
+; |int_to_read_block|m1[6]              ; |int_to_read_block|m1[6]              ; regout           ;
+; |int_to_read_block|m1[7]              ; |int_to_read_block|m1[7]              ; regout           ;
+; |int_to_read_block|m1[8]              ; |int_to_read_block|m1[8]              ; regout           ;
+; |int_to_read_block|m1[9]              ; |int_to_read_block|m1[9]              ; regout           ;
+; |int_to_read_block|m1[10]             ; |int_to_read_block|m1[10]             ; regout           ;
+; |int_to_read_block|m1[11]             ; |int_to_read_block|m1[11]             ; regout           ;
+; |int_to_read_block|m1[12]             ; |int_to_read_block|m1[12]             ; regout           ;
+; |int_to_read_block|m1[13]             ; |int_to_read_block|m1[13]             ; regout           ;
+; |int_to_read_block|m1[14]             ; |int_to_read_block|m1[14]             ; regout           ;
+; |int_to_read_block|m1[15]             ; |int_to_read_block|m1[15]             ; regout           ;
+; |int_to_read_block|m1[16]             ; |int_to_read_block|m1[16]             ; regout           ;
+; |int_to_read_block|m1[17]             ; |int_to_read_block|m1[17]             ; regout           ;
+; |int_to_read_block|m1[18]             ; |int_to_read_block|m1[18]             ; regout           ;
+; |int_to_read_block|m1[19]             ; |int_to_read_block|m1[19]             ; regout           ;
+; |int_to_read_block|count_t[2]         ; |int_to_read_block|count_t[2]         ; regout           ;
+; |int_to_read_block|count_t[3]         ; |int_to_read_block|count_t[3]         ; regout           ;
+; |int_to_read_block|Equal0~0           ; |int_to_read_block|Equal0~0           ; combout          ;
+; |int_to_read_block|Equal0~5           ; |int_to_read_block|Equal0~5           ; combout          ;
+; |int_to_read_block|count_t[0]         ; |int_to_read_block|count_t[0]         ; regout           ;
+; |int_to_read_block|count_t[1]         ; |int_to_read_block|count_t[1]         ; regout           ;
+; |int_to_read_block|Equal0~6           ; |int_to_read_block|Equal0~6           ; combout          ;
+; |int_to_read_block|LessThan0~0        ; |int_to_read_block|LessThan0~0        ; combout          ;
+; |int_to_read_block|LessThan1~0        ; |int_to_read_block|LessThan1~0        ; combout          ;
+; |int_to_read_block|process_0~0        ; |int_to_read_block|process_0~0        ; combout          ;
+; |int_to_read_block|clk2               ; |int_to_read_block|clk2               ; combout          ;
+; |int_to_read_block|clk1               ; |int_to_read_block|clk1               ; combout          ;
+; |int_to_read_block|coun[0]~0          ; |int_to_read_block|coun[0]~0          ; combout          ;
+; |int_to_read_block|count_t[0]~0       ; |int_to_read_block|count_t[0]~0       ; combout          ;
+; |int_to_read_block|x_real[0]          ; |int_to_read_block|x_real[0]          ; padio            ;
+; |int_to_read_block|x_real[1]          ; |int_to_read_block|x_real[1]          ; padio            ;
+; |int_to_read_block|x_real[2]          ; |int_to_read_block|x_real[2]          ; padio            ;
+; |int_to_read_block|x_real[3]          ; |int_to_read_block|x_real[3]          ; padio            ;
+; |int_to_read_block|x_real[4]          ; |int_to_read_block|x_real[4]          ; padio            ;
+; |int_to_read_block|x_real[12]         ; |int_to_read_block|x_real[12]         ; padio            ;
+; |int_to_read_block|x_real[13]         ; |int_to_read_block|x_real[13]         ; padio            ;
+; |int_to_read_block|x_real[14]         ; |int_to_read_block|x_real[14]         ; padio            ;
+; |int_to_read_block|x_real[15]         ; |int_to_read_block|x_real[15]         ; padio            ;
+; |int_to_read_block|x_real[16]         ; |int_to_read_block|x_real[16]         ; padio            ;
+; |int_to_read_block|x_real[17]         ; |int_to_read_block|x_real[17]         ; padio            ;
+; |int_to_read_block|x_real[18]         ; |int_to_read_block|x_real[18]         ; padio            ;
+; |int_to_read_block|x_real[19]         ; |int_to_read_block|x_real[19]         ; padio            ;
+; |int_to_read_block|x_real[20]         ; |int_to_read_block|x_real[20]         ; padio            ;
+; |int_to_read_block|x_real[21]         ; |int_to_read_block|x_real[21]         ; padio            ;
+; |int_to_read_block|x_real[22]         ; |int_to_read_block|x_real[22]         ; padio            ;
+; |int_to_read_block|x_real[23]         ; |int_to_read_block|x_real[23]         ; padio            ;
+; |int_to_read_block|x_real[24]         ; |int_to_read_block|x_real[24]         ; padio            ;
+; |int_to_read_block|x_real[25]         ; |int_to_read_block|x_real[25]         ; padio            ;
+; |int_to_read_block|x_real[26]         ; |int_to_read_block|x_real[26]         ; padio            ;
+; |int_to_read_block|x_real[27]         ; |int_to_read_block|x_real[27]         ; padio            ;
+; |int_to_read_block|x_real[28]         ; |int_to_read_block|x_real[28]         ; padio            ;
+; |int_to_read_block|x_real[29]         ; |int_to_read_block|x_real[29]         ; padio            ;
+; |int_to_read_block|x_real[30]         ; |int_to_read_block|x_real[30]         ; padio            ;
+; |int_to_read_block|x_real[31]         ; |int_to_read_block|x_real[31]         ; padio            ;
+; |int_to_read_block|count[0]           ; |int_to_read_block|count[0]           ; padio            ;
+; |int_to_read_block|count[1]           ; |int_to_read_block|count[1]           ; padio            ;
+; |int_to_read_block|count[2]           ; |int_to_read_block|count[2]           ; padio            ;
+; |int_to_read_block|count[3]           ; |int_to_read_block|count[3]           ; padio            ;
+; |int_to_read_block|count[4]           ; |int_to_read_block|count[4]           ; padio            ;
+; |int_to_read_block|recording          ; |int_to_read_block|recording          ; padio            ;
+; |int_to_read_block|reading            ; |int_to_read_block|reading            ; padio            ;
+; |int_to_read_block|shift              ; |int_to_read_block|shift              ; padio            ;
+; |int_to_read_block|shift_key          ; |int_to_read_block|shift_key          ; padio            ;
+; |int_to_read_block|sign               ; |int_to_read_block|sign~corein        ; combout          ;
+; |int_to_read_block|start              ; |int_to_read_block|start~corein       ; combout          ;
+; |int_to_read_block|stb                ; |int_to_read_block|stb~corein         ; combout          ;
+; |int_to_read_block|x[1]               ; |int_to_read_block|x[1]~corein        ; combout          ;
+; |int_to_read_block|x[3]               ; |int_to_read_block|x[3]~corein        ; combout          ;
+; |int_to_read_block|x[9]               ; |int_to_read_block|x[9]~corein        ; combout          ;
+; |int_to_read_block|clk                ; |int_to_read_block|clk~corein         ; combout          ;
+; |int_to_read_block|clk1~clkctrl       ; |int_to_read_block|clk1~clkctrl       ; outclk           ;
+; |int_to_read_block|clk2~clkctrl       ; |int_to_read_block|clk2~clkctrl       ; outclk           ;
+; |int_to_read_block|m1[19]~clkctrl     ; |int_to_read_block|m1[19]~clkctrl     ; outclk           ;
+; |int_to_read_block|process_0~0clkctrl ; |int_to_read_block|process_0~0clkctrl ; outclk           ;
+; |int_to_read_block|m1[2]~feeder       ; |int_to_read_block|m1[2]~feeder       ; combout          ;
+; |int_to_read_block|m1[3]~feeder       ; |int_to_read_block|m1[3]~feeder       ; combout          ;
+; |int_to_read_block|m1[4]~feeder       ; |int_to_read_block|m1[4]~feeder       ; combout          ;
+; |int_to_read_block|m1[5]~feeder       ; |int_to_read_block|m1[5]~feeder       ; combout          ;
+; |int_to_read_block|m1[6]~feeder       ; |int_to_read_block|m1[6]~feeder       ; combout          ;
+; |int_to_read_block|m1[7]~feeder       ; |int_to_read_block|m1[7]~feeder       ; combout          ;
+; |int_to_read_block|m1[8]~feeder       ; |int_to_read_block|m1[8]~feeder       ; combout          ;
+; |int_to_read_block|m1[9]~feeder       ; |int_to_read_block|m1[9]~feeder       ; combout          ;
+; |int_to_read_block|m1[10]~feeder      ; |int_to_read_block|m1[10]~feeder      ; combout          ;
+; |int_to_read_block|m1[11]~feeder      ; |int_to_read_block|m1[11]~feeder      ; combout          ;
+; |int_to_read_block|m1[12]~feeder      ; |int_to_read_block|m1[12]~feeder      ; combout          ;
+; |int_to_read_block|m1[13]~feeder      ; |int_to_read_block|m1[13]~feeder      ; combout          ;
+; |int_to_read_block|m1[14]~feeder      ; |int_to_read_block|m1[14]~feeder      ; combout          ;
+; |int_to_read_block|m1[15]~feeder      ; |int_to_read_block|m1[15]~feeder      ; combout          ;
+; |int_to_read_block|m1[16]~feeder      ; |int_to_read_block|m1[16]~feeder      ; combout          ;
+; |int_to_read_block|m1[17]~feeder      ; |int_to_read_block|m1[17]~feeder      ; combout          ;
+; |int_to_read_block|m1[18]~feeder      ; |int_to_read_block|m1[18]~feeder      ; combout          ;
+; |int_to_read_block|m1[19]~feeder      ; |int_to_read_block|m1[19]~feeder      ; combout          ;
++---------------------------------------+---------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                               ;
++----------------------------------+----------------------------------+------------------+
+; Node Name                        ; Output Port Name                 ; Output Port Type ;
++----------------------------------+----------------------------------+------------------+
+; |int_to_read_block|Add1~17       ; |int_to_read_block|Add1~17       ; sumout           ;
+; |int_to_read_block|Add1~17       ; |int_to_read_block|Add1~18       ; cout             ;
+; |int_to_read_block|Add1~21       ; |int_to_read_block|Add1~21       ; sumout           ;
+; |int_to_read_block|Add1~21       ; |int_to_read_block|Add1~22       ; cout             ;
+; |int_to_read_block|Add1~25       ; |int_to_read_block|Add1~25       ; sumout           ;
+; |int_to_read_block|Add1~25       ; |int_to_read_block|Add1~26       ; cout             ;
+; |int_to_read_block|Add1~29       ; |int_to_read_block|Add1~29       ; sumout           ;
+; |int_to_read_block|Add1~29       ; |int_to_read_block|Add1~30       ; cout             ;
+; |int_to_read_block|Add1~33       ; |int_to_read_block|Add1~33       ; sumout           ;
+; |int_to_read_block|Add1~33       ; |int_to_read_block|Add1~34       ; cout             ;
+; |int_to_read_block|Add1~37       ; |int_to_read_block|Add1~37       ; sumout           ;
+; |int_to_read_block|Add1~37       ; |int_to_read_block|Add1~38       ; cout             ;
+; |int_to_read_block|Add1~41       ; |int_to_read_block|Add1~41       ; sumout           ;
+; |int_to_read_block|Add1~41       ; |int_to_read_block|Add1~42       ; cout             ;
+; |int_to_read_block|Add1~45       ; |int_to_read_block|Add1~45       ; sumout           ;
+; |int_to_read_block|Add1~45       ; |int_to_read_block|Add1~46       ; cout             ;
+; |int_to_read_block|Add1~49       ; |int_to_read_block|Add1~49       ; sumout           ;
+; |int_to_read_block|Add1~49       ; |int_to_read_block|Add1~50       ; cout             ;
+; |int_to_read_block|Add1~53       ; |int_to_read_block|Add1~53       ; sumout           ;
+; |int_to_read_block|Add1~53       ; |int_to_read_block|Add1~54       ; cout             ;
+; |int_to_read_block|Add1~57       ; |int_to_read_block|Add1~57       ; sumout           ;
+; |int_to_read_block|Add1~57       ; |int_to_read_block|Add1~58       ; cout             ;
+; |int_to_read_block|Add1~61       ; |int_to_read_block|Add1~61       ; sumout           ;
+; |int_to_read_block|Add1~61       ; |int_to_read_block|Add1~62       ; cout             ;
+; |int_to_read_block|Add1~65       ; |int_to_read_block|Add1~65       ; sumout           ;
+; |int_to_read_block|Add1~65       ; |int_to_read_block|Add1~66       ; cout             ;
+; |int_to_read_block|Add1~69       ; |int_to_read_block|Add1~69       ; sumout           ;
+; |int_to_read_block|Add1~69       ; |int_to_read_block|Add1~70       ; cout             ;
+; |int_to_read_block|Add1~73       ; |int_to_read_block|Add1~73       ; sumout           ;
+; |int_to_read_block|Add1~73       ; |int_to_read_block|Add1~74       ; cout             ;
+; |int_to_read_block|Add1~77       ; |int_to_read_block|Add1~77       ; sumout           ;
+; |int_to_read_block|Add1~77       ; |int_to_read_block|Add1~78       ; cout             ;
+; |int_to_read_block|Add1~81       ; |int_to_read_block|Add1~81       ; sumout           ;
+; |int_to_read_block|Add1~81       ; |int_to_read_block|Add1~82       ; cout             ;
+; |int_to_read_block|Add1~85       ; |int_to_read_block|Add1~85       ; sumout           ;
+; |int_to_read_block|Add1~85       ; |int_to_read_block|Add1~86       ; cout             ;
+; |int_to_read_block|Add1~89       ; |int_to_read_block|Add1~89       ; sumout           ;
+; |int_to_read_block|Add1~89       ; |int_to_read_block|Add1~90       ; cout             ;
+; |int_to_read_block|Add1~93       ; |int_to_read_block|Add1~93       ; sumout           ;
+; |int_to_read_block|Add1~93       ; |int_to_read_block|Add1~94       ; cout             ;
+; |int_to_read_block|Add1~97       ; |int_to_read_block|Add1~97       ; sumout           ;
+; |int_to_read_block|Add1~97       ; |int_to_read_block|Add1~98       ; cout             ;
+; |int_to_read_block|Add1~101      ; |int_to_read_block|Add1~101      ; sumout           ;
+; |int_to_read_block|Add1~101      ; |int_to_read_block|Add1~102      ; cout             ;
+; |int_to_read_block|Add1~105      ; |int_to_read_block|Add1~105      ; sumout           ;
+; |int_to_read_block|Add1~105      ; |int_to_read_block|Add1~106      ; cout             ;
+; |int_to_read_block|Add1~109      ; |int_to_read_block|Add1~109      ; sumout           ;
+; |int_to_read_block|Add1~109      ; |int_to_read_block|Add1~110      ; cout             ;
+; |int_to_read_block|Add1~113      ; |int_to_read_block|Add1~113      ; sumout           ;
+; |int_to_read_block|Add1~113      ; |int_to_read_block|Add1~114      ; cout             ;
+; |int_to_read_block|Add1~117      ; |int_to_read_block|Add1~117      ; sumout           ;
+; |int_to_read_block|Add1~117      ; |int_to_read_block|Add1~118      ; cout             ;
+; |int_to_read_block|Add1~121      ; |int_to_read_block|Add1~121      ; sumout           ;
+; |int_to_read_block|m1[0]         ; |int_to_read_block|m1[0]         ; regout           ;
+; |int_to_read_block|count_t[6]    ; |int_to_read_block|count_t[6]    ; regout           ;
+; |int_to_read_block|count_t[5]    ; |int_to_read_block|count_t[5]    ; regout           ;
+; |int_to_read_block|count_t[7]    ; |int_to_read_block|count_t[7]    ; regout           ;
+; |int_to_read_block|count_t[8]    ; |int_to_read_block|count_t[8]    ; regout           ;
+; |int_to_read_block|count_t[9]    ; |int_to_read_block|count_t[9]    ; regout           ;
+; |int_to_read_block|count_t[10]   ; |int_to_read_block|count_t[10]   ; regout           ;
+; |int_to_read_block|count_t[12]   ; |int_to_read_block|count_t[12]   ; regout           ;
+; |int_to_read_block|count_t[11]   ; |int_to_read_block|count_t[11]   ; regout           ;
+; |int_to_read_block|Equal0~1      ; |int_to_read_block|Equal0~1      ; combout          ;
+; |int_to_read_block|count_t[13]   ; |int_to_read_block|count_t[13]   ; regout           ;
+; |int_to_read_block|count_t[14]   ; |int_to_read_block|count_t[14]   ; regout           ;
+; |int_to_read_block|count_t[15]   ; |int_to_read_block|count_t[15]   ; regout           ;
+; |int_to_read_block|count_t[16]   ; |int_to_read_block|count_t[16]   ; regout           ;
+; |int_to_read_block|count_t[18]   ; |int_to_read_block|count_t[18]   ; regout           ;
+; |int_to_read_block|count_t[17]   ; |int_to_read_block|count_t[17]   ; regout           ;
+; |int_to_read_block|Equal0~2      ; |int_to_read_block|Equal0~2      ; combout          ;
+; |int_to_read_block|count_t[25]   ; |int_to_read_block|count_t[25]   ; regout           ;
+; |int_to_read_block|count_t[26]   ; |int_to_read_block|count_t[26]   ; regout           ;
+; |int_to_read_block|count_t[27]   ; |int_to_read_block|count_t[27]   ; regout           ;
+; |int_to_read_block|count_t[28]   ; |int_to_read_block|count_t[28]   ; regout           ;
+; |int_to_read_block|count_t[30]   ; |int_to_read_block|count_t[30]   ; regout           ;
+; |int_to_read_block|count_t[29]   ; |int_to_read_block|count_t[29]   ; regout           ;
+; |int_to_read_block|Equal0~3      ; |int_to_read_block|Equal0~3      ; combout          ;
+; |int_to_read_block|count_t[19]   ; |int_to_read_block|count_t[19]   ; regout           ;
+; |int_to_read_block|count_t[20]   ; |int_to_read_block|count_t[20]   ; regout           ;
+; |int_to_read_block|count_t[21]   ; |int_to_read_block|count_t[21]   ; regout           ;
+; |int_to_read_block|count_t[22]   ; |int_to_read_block|count_t[22]   ; regout           ;
+; |int_to_read_block|count_t[24]   ; |int_to_read_block|count_t[24]   ; regout           ;
+; |int_to_read_block|count_t[23]   ; |int_to_read_block|count_t[23]   ; regout           ;
+; |int_to_read_block|Equal0~4      ; |int_to_read_block|Equal0~4      ; combout          ;
+; |int_to_read_block|count_t[31]   ; |int_to_read_block|count_t[31]   ; regout           ;
+; |int_to_read_block|m1[0]~0       ; |int_to_read_block|m1[0]~0       ; combout          ;
+; |int_to_read_block|count_t[31]~1 ; |int_to_read_block|count_t[31]~1 ; combout          ;
+; |int_to_read_block|x_real[5]     ; |int_to_read_block|x_real[5]     ; padio            ;
+; |int_to_read_block|x_real[6]     ; |int_to_read_block|x_real[6]     ; padio            ;
+; |int_to_read_block|x_real[7]     ; |int_to_read_block|x_real[7]     ; padio            ;
+; |int_to_read_block|x_real[8]     ; |int_to_read_block|x_real[8]     ; padio            ;
+; |int_to_read_block|x_real[9]     ; |int_to_read_block|x_real[9]     ; padio            ;
+; |int_to_read_block|x_real[10]    ; |int_to_read_block|x_real[10]    ; padio            ;
+; |int_to_read_block|x_real[11]    ; |int_to_read_block|x_real[11]    ; padio            ;
+; |int_to_read_block|x[0]          ; |int_to_read_block|x[0]~corein   ; combout          ;
+; |int_to_read_block|x[4]          ; |int_to_read_block|x[4]~corein   ; combout          ;
+; |int_to_read_block|x[5]          ; |int_to_read_block|x[5]~corein   ; combout          ;
+; |int_to_read_block|x[6]          ; |int_to_read_block|x[6]~corein   ; combout          ;
+; |int_to_read_block|x[15]         ; |int_to_read_block|x[15]~corein  ; combout          ;
+; |int_to_read_block|x[16]         ; |int_to_read_block|x[16]~corein  ; combout          ;
+; |int_to_read_block|x[18]         ; |int_to_read_block|x[18]~corein  ; combout          ;
+; |int_to_read_block|x[19]         ; |int_to_read_block|x[19]~corein  ; combout          ;
+; |int_to_read_block|m1[1]~feeder  ; |int_to_read_block|m1[1]~feeder  ; combout          ;
+; |int_to_read_block|m1[0]~feeder  ; |int_to_read_block|m1[0]~feeder  ; combout          ;
++----------------------------------+----------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                               ;
++----------------------------------+----------------------------------+------------------+
+; Node Name                        ; Output Port Name                 ; Output Port Type ;
++----------------------------------+----------------------------------+------------------+
+; |int_to_read_block|Add1~17       ; |int_to_read_block|Add1~17       ; sumout           ;
+; |int_to_read_block|Add1~17       ; |int_to_read_block|Add1~18       ; cout             ;
+; |int_to_read_block|Add1~21       ; |int_to_read_block|Add1~21       ; sumout           ;
+; |int_to_read_block|Add1~21       ; |int_to_read_block|Add1~22       ; cout             ;
+; |int_to_read_block|Add1~25       ; |int_to_read_block|Add1~25       ; sumout           ;
+; |int_to_read_block|Add1~25       ; |int_to_read_block|Add1~26       ; cout             ;
+; |int_to_read_block|Add1~29       ; |int_to_read_block|Add1~29       ; sumout           ;
+; |int_to_read_block|Add1~29       ; |int_to_read_block|Add1~30       ; cout             ;
+; |int_to_read_block|Add1~33       ; |int_to_read_block|Add1~33       ; sumout           ;
+; |int_to_read_block|Add1~33       ; |int_to_read_block|Add1~34       ; cout             ;
+; |int_to_read_block|Add1~37       ; |int_to_read_block|Add1~37       ; sumout           ;
+; |int_to_read_block|Add1~37       ; |int_to_read_block|Add1~38       ; cout             ;
+; |int_to_read_block|Add1~41       ; |int_to_read_block|Add1~41       ; sumout           ;
+; |int_to_read_block|Add1~41       ; |int_to_read_block|Add1~42       ; cout             ;
+; |int_to_read_block|Add1~45       ; |int_to_read_block|Add1~45       ; sumout           ;
+; |int_to_read_block|Add1~45       ; |int_to_read_block|Add1~46       ; cout             ;
+; |int_to_read_block|Add1~49       ; |int_to_read_block|Add1~49       ; sumout           ;
+; |int_to_read_block|Add1~49       ; |int_to_read_block|Add1~50       ; cout             ;
+; |int_to_read_block|Add1~53       ; |int_to_read_block|Add1~53       ; sumout           ;
+; |int_to_read_block|Add1~53       ; |int_to_read_block|Add1~54       ; cout             ;
+; |int_to_read_block|Add1~57       ; |int_to_read_block|Add1~57       ; sumout           ;
+; |int_to_read_block|Add1~57       ; |int_to_read_block|Add1~58       ; cout             ;
+; |int_to_read_block|Add1~61       ; |int_to_read_block|Add1~61       ; sumout           ;
+; |int_to_read_block|Add1~61       ; |int_to_read_block|Add1~62       ; cout             ;
+; |int_to_read_block|Add1~65       ; |int_to_read_block|Add1~65       ; sumout           ;
+; |int_to_read_block|Add1~65       ; |int_to_read_block|Add1~66       ; cout             ;
+; |int_to_read_block|Add1~69       ; |int_to_read_block|Add1~69       ; sumout           ;
+; |int_to_read_block|Add1~69       ; |int_to_read_block|Add1~70       ; cout             ;
+; |int_to_read_block|Add1~73       ; |int_to_read_block|Add1~73       ; sumout           ;
+; |int_to_read_block|Add1~73       ; |int_to_read_block|Add1~74       ; cout             ;
+; |int_to_read_block|Add1~77       ; |int_to_read_block|Add1~77       ; sumout           ;
+; |int_to_read_block|Add1~77       ; |int_to_read_block|Add1~78       ; cout             ;
+; |int_to_read_block|Add1~81       ; |int_to_read_block|Add1~81       ; sumout           ;
+; |int_to_read_block|Add1~81       ; |int_to_read_block|Add1~82       ; cout             ;
+; |int_to_read_block|Add1~85       ; |int_to_read_block|Add1~85       ; sumout           ;
+; |int_to_read_block|Add1~85       ; |int_to_read_block|Add1~86       ; cout             ;
+; |int_to_read_block|Add1~89       ; |int_to_read_block|Add1~89       ; sumout           ;
+; |int_to_read_block|Add1~89       ; |int_to_read_block|Add1~90       ; cout             ;
+; |int_to_read_block|Add1~93       ; |int_to_read_block|Add1~93       ; sumout           ;
+; |int_to_read_block|Add1~93       ; |int_to_read_block|Add1~94       ; cout             ;
+; |int_to_read_block|Add1~97       ; |int_to_read_block|Add1~97       ; sumout           ;
+; |int_to_read_block|Add1~97       ; |int_to_read_block|Add1~98       ; cout             ;
+; |int_to_read_block|Add1~101      ; |int_to_read_block|Add1~101      ; sumout           ;
+; |int_to_read_block|Add1~101      ; |int_to_read_block|Add1~102      ; cout             ;
+; |int_to_read_block|Add1~105      ; |int_to_read_block|Add1~105      ; sumout           ;
+; |int_to_read_block|Add1~105      ; |int_to_read_block|Add1~106      ; cout             ;
+; |int_to_read_block|Add1~109      ; |int_to_read_block|Add1~109      ; sumout           ;
+; |int_to_read_block|Add1~109      ; |int_to_read_block|Add1~110      ; cout             ;
+; |int_to_read_block|Add1~113      ; |int_to_read_block|Add1~113      ; sumout           ;
+; |int_to_read_block|Add1~113      ; |int_to_read_block|Add1~114      ; cout             ;
+; |int_to_read_block|Add1~117      ; |int_to_read_block|Add1~117      ; sumout           ;
+; |int_to_read_block|Add1~117      ; |int_to_read_block|Add1~118      ; cout             ;
+; |int_to_read_block|Add1~121      ; |int_to_read_block|Add1~121      ; sumout           ;
+; |int_to_read_block|m1[0]         ; |int_to_read_block|m1[0]         ; regout           ;
+; |int_to_read_block|count_t[4]    ; |int_to_read_block|count_t[4]    ; regout           ;
+; |int_to_read_block|count_t[6]    ; |int_to_read_block|count_t[6]    ; regout           ;
+; |int_to_read_block|count_t[5]    ; |int_to_read_block|count_t[5]    ; regout           ;
+; |int_to_read_block|count_t[7]    ; |int_to_read_block|count_t[7]    ; regout           ;
+; |int_to_read_block|count_t[8]    ; |int_to_read_block|count_t[8]    ; regout           ;
+; |int_to_read_block|count_t[9]    ; |int_to_read_block|count_t[9]    ; regout           ;
+; |int_to_read_block|count_t[10]   ; |int_to_read_block|count_t[10]   ; regout           ;
+; |int_to_read_block|count_t[12]   ; |int_to_read_block|count_t[12]   ; regout           ;
+; |int_to_read_block|count_t[11]   ; |int_to_read_block|count_t[11]   ; regout           ;
+; |int_to_read_block|Equal0~1      ; |int_to_read_block|Equal0~1      ; combout          ;
+; |int_to_read_block|count_t[13]   ; |int_to_read_block|count_t[13]   ; regout           ;
+; |int_to_read_block|count_t[14]   ; |int_to_read_block|count_t[14]   ; regout           ;
+; |int_to_read_block|count_t[15]   ; |int_to_read_block|count_t[15]   ; regout           ;
+; |int_to_read_block|count_t[16]   ; |int_to_read_block|count_t[16]   ; regout           ;
+; |int_to_read_block|count_t[18]   ; |int_to_read_block|count_t[18]   ; regout           ;
+; |int_to_read_block|count_t[17]   ; |int_to_read_block|count_t[17]   ; regout           ;
+; |int_to_read_block|Equal0~2      ; |int_to_read_block|Equal0~2      ; combout          ;
+; |int_to_read_block|count_t[25]   ; |int_to_read_block|count_t[25]   ; regout           ;
+; |int_to_read_block|count_t[26]   ; |int_to_read_block|count_t[26]   ; regout           ;
+; |int_to_read_block|count_t[27]   ; |int_to_read_block|count_t[27]   ; regout           ;
+; |int_to_read_block|count_t[28]   ; |int_to_read_block|count_t[28]   ; regout           ;
+; |int_to_read_block|count_t[30]   ; |int_to_read_block|count_t[30]   ; regout           ;
+; |int_to_read_block|count_t[29]   ; |int_to_read_block|count_t[29]   ; regout           ;
+; |int_to_read_block|Equal0~3      ; |int_to_read_block|Equal0~3      ; combout          ;
+; |int_to_read_block|count_t[19]   ; |int_to_read_block|count_t[19]   ; regout           ;
+; |int_to_read_block|count_t[20]   ; |int_to_read_block|count_t[20]   ; regout           ;
+; |int_to_read_block|count_t[21]   ; |int_to_read_block|count_t[21]   ; regout           ;
+; |int_to_read_block|count_t[22]   ; |int_to_read_block|count_t[22]   ; regout           ;
+; |int_to_read_block|count_t[24]   ; |int_to_read_block|count_t[24]   ; regout           ;
+; |int_to_read_block|count_t[23]   ; |int_to_read_block|count_t[23]   ; regout           ;
+; |int_to_read_block|Equal0~4      ; |int_to_read_block|Equal0~4      ; combout          ;
+; |int_to_read_block|count_t[31]   ; |int_to_read_block|count_t[31]   ; regout           ;
+; |int_to_read_block|m1[0]~0       ; |int_to_read_block|m1[0]~0       ; combout          ;
+; |int_to_read_block|count_t[31]~1 ; |int_to_read_block|count_t[31]~1 ; combout          ;
+; |int_to_read_block|x_real[5]     ; |int_to_read_block|x_real[5]     ; padio            ;
+; |int_to_read_block|x_real[6]     ; |int_to_read_block|x_real[6]     ; padio            ;
+; |int_to_read_block|x_real[7]     ; |int_to_read_block|x_real[7]     ; padio            ;
+; |int_to_read_block|x_real[8]     ; |int_to_read_block|x_real[8]     ; padio            ;
+; |int_to_read_block|x_real[9]     ; |int_to_read_block|x_real[9]     ; padio            ;
+; |int_to_read_block|x_real[10]    ; |int_to_read_block|x_real[10]    ; padio            ;
+; |int_to_read_block|x_real[11]    ; |int_to_read_block|x_real[11]    ; padio            ;
+; |int_to_read_block|x[0]          ; |int_to_read_block|x[0]~corein   ; combout          ;
+; |int_to_read_block|x[2]          ; |int_to_read_block|x[2]~corein   ; combout          ;
+; |int_to_read_block|x[4]          ; |int_to_read_block|x[4]~corein   ; combout          ;
+; |int_to_read_block|x[5]          ; |int_to_read_block|x[5]~corein   ; combout          ;
+; |int_to_read_block|x[7]          ; |int_to_read_block|x[7]~corein   ; combout          ;
+; |int_to_read_block|x[8]          ; |int_to_read_block|x[8]~corein   ; combout          ;
+; |int_to_read_block|x[10]         ; |int_to_read_block|x[10]~corein  ; combout          ;
+; |int_to_read_block|x[11]         ; |int_to_read_block|x[11]~corein  ; combout          ;
+; |int_to_read_block|x[12]         ; |int_to_read_block|x[12]~corein  ; combout          ;
+; |int_to_read_block|x[13]         ; |int_to_read_block|x[13]~corein  ; combout          ;
+; |int_to_read_block|x[14]         ; |int_to_read_block|x[14]~corein  ; combout          ;
+; |int_to_read_block|x[15]         ; |int_to_read_block|x[15]~corein  ; combout          ;
+; |int_to_read_block|x[16]         ; |int_to_read_block|x[16]~corein  ; combout          ;
+; |int_to_read_block|x[17]         ; |int_to_read_block|x[17]~corein  ; combout          ;
+; |int_to_read_block|x[18]         ; |int_to_read_block|x[18]~corein  ; combout          ;
+; |int_to_read_block|x[19]         ; |int_to_read_block|x[19]~corein  ; combout          ;
+; |int_to_read_block|m1[1]~feeder  ; |int_to_read_block|m1[1]~feeder  ; combout          ;
+; |int_to_read_block|m1[0]~feeder  ; |int_to_read_block|m1[0]~feeder  ; combout          ;
++----------------------------------+----------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Wed Nov 03 23:20:32 2021
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off int_to_read_block -c int_to_read_block
+Info: Using vector source file "C:/Users/FOMSI/Desktop/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/int_to_read_block/int_to_read_block.vwf"
+Info: Inverted registers were found during simulation
+    Info: Register: |int_to_read_block|count_t[0]
+    Info: Register: |int_to_read_block|count_t[31]
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      50.65 %
+Info: Number of transitions in simulation is 2569
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 150 megabytes
+    Info: Processing ended: Wed Nov 03 23:20:33 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
