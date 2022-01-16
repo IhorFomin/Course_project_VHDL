@@ -20,12 +20,12 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 
-VECTOR("C:/Users/FOMSI/Desktop/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/math_block/math_block.vwf")
+VECTOR("C:/Users/FOMSI/Desktop/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/math_block/db/math_block.sim.cvwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 1000000;
-		NUMERATOR = 960;
+		NUMERATOR = 978;
 		DENOMINATOR = 1000000;
 		TOP_INDEX = 0;
 	}
@@ -839,12 +839,12 @@ VECTOR("C:/Users/FOMSI/Desktop/Учеба 2021 1-Семестр/Технологическое проектирован
 	}
 }
 
-VECTOR("C:/Users/FOMSI/Desktop/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/math_block/db/math_block.sim.cvwf")
+VECTOR("C:/Users/FOMSI/Desktop/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/math_block/math_block.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 1000000;
-		NUMERATOR = 978;
+		NUMERATOR = 1115;
 		DENOMINATOR = 1000000;
 		TOP_INDEX = 0;
 	}

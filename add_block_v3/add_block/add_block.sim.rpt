@@ -1,5 +1,5 @@
 Simulator report for add_block
-Tue Nov 16 23:04:33 2021
+Mon Dec 13 12:53:03 2021
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -46,8 +46,8 @@ applicable agreement for further details.
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 ms       ;
 ; Simulation Netlist Size     ; 1804 nodes   ;
-; Simulation Coverage         ;      52.87 % ;
-; Total Number of Transitions ; 1050809      ;
+; Simulation Coverage         ;      51.71 % ;
+; Total Number of Transitions ; 25395        ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Stratix II   ;
 ; Device                      ; EP2S15F484C3 ;
@@ -94,13 +94,13 @@ Please use Quartus II to view the waveform report data.
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      52.87 % ;
+; Total coverage as a percentage                      ;      51.71 % ;
 ; Total nodes checked                                 ; 1804         ;
 ; Total output ports checked                          ; 3881         ;
-; Total output ports with complete 1/0-value coverage ; 2052         ;
-; Total output ports with no 1/0-value coverage       ; 1777         ;
-; Total output ports with no 1-value coverage         ; 1779         ;
-; Total output ports with no 0-value coverage         ; 1827         ;
+; Total output ports with complete 1/0-value coverage ; 2007         ;
+; Total output ports with no 1/0-value coverage       ; 1807         ;
+; Total output ports with no 1-value coverage         ; 1809         ;
+; Total output ports with no 0-value coverage         ; 1872         ;
 +-----------------------------------------------------+--------------+
 
 
@@ -771,15 +771,8 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |add_block|ram_block_v2:t4|data[1]                                             ; |add_block|ram_block_v2:t4|data[1]                                                       ; regout           ;
 ; |add_block|ram_block_v2:t4|data[2]                                             ; |add_block|ram_block_v2:t4|data[2]                                                       ; regout           ;
 ; |add_block|ram_block_v2:t4|data[3]                                             ; |add_block|ram_block_v2:t4|data[3]                                                       ; regout           ;
-; |add_block|ram_block_v2:t4|data[4]                                             ; |add_block|ram_block_v2:t4|data[4]                                                       ; regout           ;
-; |add_block|ram_block_v2:t4|data[14]                                            ; |add_block|ram_block_v2:t4|data[14]                                                      ; regout           ;
-; |add_block|ram_block_v2:t4|data[15]                                            ; |add_block|ram_block_v2:t4|data[15]                                                      ; regout           ;
-; |add_block|ram_block_v2:t4|data[17]                                            ; |add_block|ram_block_v2:t4|data[17]                                                      ; regout           ;
-; |add_block|ram_block_v2:t4|data[18]                                            ; |add_block|ram_block_v2:t4|data[18]                                                      ; regout           ;
-; |add_block|ram_block_v2:t4|data[20]                                            ; |add_block|ram_block_v2:t4|data[20]                                                      ; regout           ;
 ; |add_block|ram_block_v2:t4|data[21]                                            ; |add_block|ram_block_v2:t4|data[21]                                                      ; regout           ;
 ; |add_block|ram_block_v2:t4|data[22]                                            ; |add_block|ram_block_v2:t4|data[22]                                                      ; regout           ;
-; |add_block|ram_block_v2:t4|data[23]                                            ; |add_block|ram_block_v2:t4|data[23]                                                      ; regout           ;
 ; |add_block|ram_block_v2:t4|data[24]                                            ; |add_block|ram_block_v2:t4|data[24]                                                      ; regout           ;
 ; |add_block|ram_block_v2:t4|data[25]                                            ; |add_block|ram_block_v2:t4|data[25]                                                      ; regout           ;
 ; |add_block|ram_block_v2:t4|data[26]                                            ; |add_block|ram_block_v2:t4|data[26]                                                      ; regout           ;
@@ -864,15 +857,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |add_block|Fomin_convert_1:t1|Add1~13                                          ; |add_block|Fomin_convert_1:t1|Add1~14                                                    ; cout             ;
 ; |add_block|Fomin_convert_1:t1|Add1~17                                          ; |add_block|Fomin_convert_1:t1|Add1~17                                                    ; sumout           ;
 ; |add_block|Fomin_convert_1:t1|Add1~17                                          ; |add_block|Fomin_convert_1:t1|Add1~18                                                    ; cout             ;
-; |add_block|Fomin_convert_1:t1|Add1~21                                          ; |add_block|Fomin_convert_1:t1|Add1~21                                                    ; sumout           ;
-; |add_block|Fomin_convert_1:t1|Add1~21                                          ; |add_block|Fomin_convert_1:t1|Add1~22                                                    ; cout             ;
-; |add_block|Fomin_convert_1:t1|Add1~25                                          ; |add_block|Fomin_convert_1:t1|Add1~25                                                    ; sumout           ;
-; |add_block|Fomin_convert_1:t1|Add1~25                                          ; |add_block|Fomin_convert_1:t1|Add1~26                                                    ; cout             ;
-; |add_block|Fomin_convert_1:t1|Add1~29                                          ; |add_block|Fomin_convert_1:t1|Add1~29                                                    ; sumout           ;
-; |add_block|Fomin_convert_1:t1|Add1~29                                          ; |add_block|Fomin_convert_1:t1|Add1~30                                                    ; cout             ;
-; |add_block|Fomin_convert_1:t1|Add1~33                                          ; |add_block|Fomin_convert_1:t1|Add1~33                                                    ; sumout           ;
-; |add_block|Fomin_convert_1:t1|Add1~33                                          ; |add_block|Fomin_convert_1:t1|Add1~34                                                    ; cout             ;
-; |add_block|Fomin_convert_1:t1|Add1~37                                          ; |add_block|Fomin_convert_1:t1|Add1~37                                                    ; sumout           ;
 ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1      ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1~DATAOUT8       ; dataout8         ;
 ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1      ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1~DATAOUT9       ; dataout9         ;
 ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1      ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1~DATAOUT11      ; dataout11        ;
@@ -1125,16 +1109,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |add_block|int_to_read_block:t3|Add1~13                                        ; |add_block|int_to_read_block:t3|Add1~14                                                  ; cout             ;
 ; |add_block|int_to_read_block:t3|Add1~17                                        ; |add_block|int_to_read_block:t3|Add1~17                                                  ; sumout           ;
 ; |add_block|int_to_read_block:t3|Add1~17                                        ; |add_block|int_to_read_block:t3|Add1~18                                                  ; cout             ;
-; |add_block|int_to_read_block:t3|Add1~21                                        ; |add_block|int_to_read_block:t3|Add1~21                                                  ; sumout           ;
-; |add_block|int_to_read_block:t3|Add1~21                                        ; |add_block|int_to_read_block:t3|Add1~22                                                  ; cout             ;
-; |add_block|int_to_read_block:t3|Add1~25                                        ; |add_block|int_to_read_block:t3|Add1~25                                                  ; sumout           ;
-; |add_block|int_to_read_block:t3|Add1~25                                        ; |add_block|int_to_read_block:t3|Add1~26                                                  ; cout             ;
-; |add_block|int_to_read_block:t3|Add1~29                                        ; |add_block|int_to_read_block:t3|Add1~29                                                  ; sumout           ;
-; |add_block|int_to_read_block:t3|Add1~29                                        ; |add_block|int_to_read_block:t3|Add1~30                                                  ; cout             ;
-; |add_block|int_to_read_block:t3|Add1~33                                        ; |add_block|int_to_read_block:t3|Add1~33                                                  ; sumout           ;
-; |add_block|int_to_read_block:t3|Add1~33                                        ; |add_block|int_to_read_block:t3|Add1~34                                                  ; cout             ;
-; |add_block|int_to_read_block:t3|Add1~37                                        ; |add_block|int_to_read_block:t3|Add1~37                                                  ; sumout           ;
-; |add_block|int_to_read_block:t3|Add1~37                                        ; |add_block|int_to_read_block:t3|Add1~38                                                  ; cout             ;
 ; |add_block|ram_block_v2:t4|ram_block~488                                       ; |add_block|ram_block_v2:t4|ram_block~488                                                 ; combout          ;
 ; |add_block|ram_block_v2:t4|ram_block~492                                       ; |add_block|ram_block_v2:t4|ram_block~492                                                 ; combout          ;
 ; |add_block|ram_block_v2:t4|ram_block~506                                       ; |add_block|ram_block_v2:t4|ram_block~506                                                 ; combout          ;
@@ -1593,11 +1567,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |add_block|Fomin_convert_1:t1|x1[29]                                           ; |add_block|Fomin_convert_1:t1|x1[29]                                                     ; regout           ;
 ; |add_block|Fomin_convert_1:t1|x1[30]                                           ; |add_block|Fomin_convert_1:t1|x1[30]                                                     ; regout           ;
 ; |add_block|Fomin_convert_1:t1|x1[31]                                           ; |add_block|Fomin_convert_1:t1|x1[31]                                                     ; regout           ;
-; |add_block|Fomin_convert_1:t1|count[10]                                        ; |add_block|Fomin_convert_1:t1|count[10]                                                  ; regout           ;
-; |add_block|Fomin_convert_1:t1|count[9]                                         ; |add_block|Fomin_convert_1:t1|count[9]                                                   ; regout           ;
-; |add_block|Fomin_convert_1:t1|count[8]                                         ; |add_block|Fomin_convert_1:t1|count[8]                                                   ; regout           ;
-; |add_block|Fomin_convert_1:t1|count[7]                                         ; |add_block|Fomin_convert_1:t1|count[7]                                                   ; regout           ;
-; |add_block|Fomin_convert_1:t1|count[6]                                         ; |add_block|Fomin_convert_1:t1|count[6]                                                   ; regout           ;
 ; |add_block|Fomin_convert_1:t1|count[5]                                         ; |add_block|Fomin_convert_1:t1|count[5]                                                   ; regout           ;
 ; |add_block|Fomin_convert_1:t1|count[4]                                         ; |add_block|Fomin_convert_1:t1|count[4]                                                   ; regout           ;
 ; |add_block|Fomin_convert_1:t1|count[3]                                         ; |add_block|Fomin_convert_1:t1|count[3]                                                   ; regout           ;
@@ -1710,14 +1679,7 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |add_block|int_to_read_block:t3|count_t[2]                                     ; |add_block|int_to_read_block:t3|count_t[2]                                               ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[3]                                     ; |add_block|int_to_read_block:t3|count_t[3]                                               ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[4]                                     ; |add_block|int_to_read_block:t3|count_t[4]                                               ; regout           ;
-; |add_block|int_to_read_block:t3|count_t[6]                                     ; |add_block|int_to_read_block:t3|count_t[6]                                               ; regout           ;
-; |add_block|int_to_read_block:t3|count_t[5]                                     ; |add_block|int_to_read_block:t3|count_t[5]                                               ; regout           ;
 ; |add_block|int_to_read_block:t3|Equal0~0                                       ; |add_block|int_to_read_block:t3|Equal0~0                                                 ; combout          ;
-; |add_block|int_to_read_block:t3|count_t[7]                                     ; |add_block|int_to_read_block:t3|count_t[7]                                               ; regout           ;
-; |add_block|int_to_read_block:t3|count_t[8]                                     ; |add_block|int_to_read_block:t3|count_t[8]                                               ; regout           ;
-; |add_block|int_to_read_block:t3|count_t[9]                                     ; |add_block|int_to_read_block:t3|count_t[9]                                               ; regout           ;
-; |add_block|int_to_read_block:t3|count_t[10]                                    ; |add_block|int_to_read_block:t3|count_t[10]                                              ; regout           ;
-; |add_block|int_to_read_block:t3|Equal0~1                                       ; |add_block|int_to_read_block:t3|Equal0~1                                                 ; combout          ;
 ; |add_block|int_to_read_block:t3|LessThan1~0                                    ; |add_block|int_to_read_block:t3|LessThan1~0                                              ; combout          ;
 ; |add_block|int_to_read_block:t3|count_t[0]                                     ; |add_block|int_to_read_block:t3|count_t[0]                                               ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[1]                                     ; |add_block|int_to_read_block:t3|count_t[1]                                               ; regout           ;
@@ -1894,15 +1856,8 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |add_block|blk_4_z[1]                                                          ; |add_block|blk_4_z[1]                                                                    ; padio            ;
 ; |add_block|blk_4_z[2]                                                          ; |add_block|blk_4_z[2]                                                                    ; padio            ;
 ; |add_block|blk_4_z[3]                                                          ; |add_block|blk_4_z[3]                                                                    ; padio            ;
-; |add_block|blk_4_z[4]                                                          ; |add_block|blk_4_z[4]                                                                    ; padio            ;
-; |add_block|blk_4_z[14]                                                         ; |add_block|blk_4_z[14]                                                                   ; padio            ;
-; |add_block|blk_4_z[15]                                                         ; |add_block|blk_4_z[15]                                                                   ; padio            ;
-; |add_block|blk_4_z[17]                                                         ; |add_block|blk_4_z[17]                                                                   ; padio            ;
-; |add_block|blk_4_z[18]                                                         ; |add_block|blk_4_z[18]                                                                   ; padio            ;
-; |add_block|blk_4_z[20]                                                         ; |add_block|blk_4_z[20]                                                                   ; padio            ;
 ; |add_block|blk_4_z[21]                                                         ; |add_block|blk_4_z[21]                                                                   ; padio            ;
 ; |add_block|blk_4_z[22]                                                         ; |add_block|blk_4_z[22]                                                                   ; padio            ;
-; |add_block|blk_4_z[23]                                                         ; |add_block|blk_4_z[23]                                                                   ; padio            ;
 ; |add_block|blk_4_z[24]                                                         ; |add_block|blk_4_z[24]                                                                   ; padio            ;
 ; |add_block|blk_4_z[25]                                                         ; |add_block|blk_4_z[25]                                                                   ; padio            ;
 ; |add_block|blk_4_z[26]                                                         ; |add_block|blk_4_z[26]                                                                   ; padio            ;
@@ -2304,6 +2259,15 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5  ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5~DATAOUT37  ; dataout37        ;
 ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5  ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5~DATAOUT38  ; dataout38        ;
 ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5  ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5~DATAOUT39  ; dataout39        ;
+; |add_block|Fomin_convert_1:t1|Add1~21                                          ; |add_block|Fomin_convert_1:t1|Add1~21                                                    ; sumout           ;
+; |add_block|Fomin_convert_1:t1|Add1~21                                          ; |add_block|Fomin_convert_1:t1|Add1~22                                                    ; cout             ;
+; |add_block|Fomin_convert_1:t1|Add1~25                                          ; |add_block|Fomin_convert_1:t1|Add1~25                                                    ; sumout           ;
+; |add_block|Fomin_convert_1:t1|Add1~25                                          ; |add_block|Fomin_convert_1:t1|Add1~26                                                    ; cout             ;
+; |add_block|Fomin_convert_1:t1|Add1~29                                          ; |add_block|Fomin_convert_1:t1|Add1~29                                                    ; sumout           ;
+; |add_block|Fomin_convert_1:t1|Add1~29                                          ; |add_block|Fomin_convert_1:t1|Add1~30                                                    ; cout             ;
+; |add_block|Fomin_convert_1:t1|Add1~33                                          ; |add_block|Fomin_convert_1:t1|Add1~33                                                    ; sumout           ;
+; |add_block|Fomin_convert_1:t1|Add1~33                                          ; |add_block|Fomin_convert_1:t1|Add1~34                                                    ; cout             ;
+; |add_block|Fomin_convert_1:t1|Add1~37                                          ; |add_block|Fomin_convert_1:t1|Add1~37                                                    ; sumout           ;
 ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1      ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1                ; dataout0         ;
 ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1      ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1~DATAOUT1       ; dataout1         ;
 ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1      ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1~DATAOUT2       ; dataout2         ;
@@ -2646,6 +2610,16 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4~DATAOUT32      ; dataout32        ;
 ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4~DATAOUT33      ; dataout33        ;
 ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4~DATAOUT35      ; dataout35        ;
+; |add_block|int_to_read_block:t3|Add1~21                                        ; |add_block|int_to_read_block:t3|Add1~21                                                  ; sumout           ;
+; |add_block|int_to_read_block:t3|Add1~21                                        ; |add_block|int_to_read_block:t3|Add1~22                                                  ; cout             ;
+; |add_block|int_to_read_block:t3|Add1~25                                        ; |add_block|int_to_read_block:t3|Add1~25                                                  ; sumout           ;
+; |add_block|int_to_read_block:t3|Add1~25                                        ; |add_block|int_to_read_block:t3|Add1~26                                                  ; cout             ;
+; |add_block|int_to_read_block:t3|Add1~29                                        ; |add_block|int_to_read_block:t3|Add1~29                                                  ; sumout           ;
+; |add_block|int_to_read_block:t3|Add1~29                                        ; |add_block|int_to_read_block:t3|Add1~30                                                  ; cout             ;
+; |add_block|int_to_read_block:t3|Add1~33                                        ; |add_block|int_to_read_block:t3|Add1~33                                                  ; sumout           ;
+; |add_block|int_to_read_block:t3|Add1~33                                        ; |add_block|int_to_read_block:t3|Add1~34                                                  ; cout             ;
+; |add_block|int_to_read_block:t3|Add1~37                                        ; |add_block|int_to_read_block:t3|Add1~37                                                  ; sumout           ;
+; |add_block|int_to_read_block:t3|Add1~37                                        ; |add_block|int_to_read_block:t3|Add1~38                                                  ; cout             ;
 ; |add_block|int_to_read_block:t3|Add1~41                                        ; |add_block|int_to_read_block:t3|Add1~41                                                  ; sumout           ;
 ; |add_block|int_to_read_block:t3|Add1~41                                        ; |add_block|int_to_read_block:t3|Add1~42                                                  ; cout             ;
 ; |add_block|int_to_read_block:t3|Add1~45                                        ; |add_block|int_to_read_block:t3|Add1~45                                                  ; sumout           ;
@@ -3351,6 +3325,7 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4~DATAOUT15      ; dataout15        ;
 ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4~DATAOUT16      ; dataout16        ;
 ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4~DATAOUT17      ; dataout17        ;
+; |add_block|Fomin_convert_1:t1|count[10]                                        ; |add_block|Fomin_convert_1:t1|count[10]                                                  ; regout           ;
 ; |add_block|Fomin_convert_1:t1|p1[9]                                            ; |add_block|Fomin_convert_1:t1|p1[9]                                                      ; regout           ;
 ; |add_block|Fomin_convert_1:t1|p1[8]                                            ; |add_block|Fomin_convert_1:t1|p1[8]                                                      ; regout           ;
 ; |add_block|Fomin_convert_1:t1|p1[7]                                            ; |add_block|Fomin_convert_1:t1|p1[7]                                                      ; regout           ;
@@ -3361,8 +3336,18 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |add_block|Fomin_convert_1:t1|p1[2]                                            ; |add_block|Fomin_convert_1:t1|p1[2]                                                      ; regout           ;
 ; |add_block|Fomin_convert_1:t1|p1[1]                                            ; |add_block|Fomin_convert_1:t1|p1[1]                                                      ; regout           ;
 ; |add_block|Fomin_convert_1:t1|p1[0]                                            ; |add_block|Fomin_convert_1:t1|p1[0]                                                      ; regout           ;
+; |add_block|Fomin_convert_1:t1|count[9]                                         ; |add_block|Fomin_convert_1:t1|count[9]                                                   ; regout           ;
+; |add_block|Fomin_convert_1:t1|count[8]                                         ; |add_block|Fomin_convert_1:t1|count[8]                                                   ; regout           ;
+; |add_block|Fomin_convert_1:t1|count[7]                                         ; |add_block|Fomin_convert_1:t1|count[7]                                                   ; regout           ;
+; |add_block|Fomin_convert_1:t1|count[6]                                         ; |add_block|Fomin_convert_1:t1|count[6]                                                   ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[6]                                     ; |add_block|int_to_read_block:t3|count_t[6]                                               ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[7]                                     ; |add_block|int_to_read_block:t3|count_t[7]                                               ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[8]                                     ; |add_block|int_to_read_block:t3|count_t[8]                                               ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[9]                                     ; |add_block|int_to_read_block:t3|count_t[9]                                               ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[10]                                    ; |add_block|int_to_read_block:t3|count_t[10]                                              ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[12]                                    ; |add_block|int_to_read_block:t3|count_t[12]                                              ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[11]                                    ; |add_block|int_to_read_block:t3|count_t[11]                                              ; regout           ;
+; |add_block|int_to_read_block:t3|Equal0~1                                       ; |add_block|int_to_read_block:t3|Equal0~1                                                 ; combout          ;
 ; |add_block|int_to_read_block:t3|count_t[13]                                    ; |add_block|int_to_read_block:t3|count_t[13]                                              ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[14]                                    ; |add_block|int_to_read_block:t3|count_t[14]                                              ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[15]                                    ; |add_block|int_to_read_block:t3|count_t[15]                                              ; regout           ;
@@ -4059,11 +4044,18 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |add_block|math_block:t2|Add0~121                                              ; |add_block|math_block:t2|Add0~122                                                        ; cout             ;
 ; |add_block|math_block:t2|Add0~125                                              ; |add_block|math_block:t2|Add0~126                                                        ; cout             ;
 ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_out5       ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_out5~DATAOUT32       ; dataout32        ;
+; |add_block|ram_block_v2:t4|data[4]                                             ; |add_block|ram_block_v2:t4|data[4]                                                       ; regout           ;
 ; |add_block|ram_block_v2:t4|data[11]                                            ; |add_block|ram_block_v2:t4|data[11]                                                      ; regout           ;
 ; |add_block|ram_block_v2:t4|data[12]                                            ; |add_block|ram_block_v2:t4|data[12]                                                      ; regout           ;
 ; |add_block|ram_block_v2:t4|data[13]                                            ; |add_block|ram_block_v2:t4|data[13]                                                      ; regout           ;
+; |add_block|ram_block_v2:t4|data[14]                                            ; |add_block|ram_block_v2:t4|data[14]                                                      ; regout           ;
+; |add_block|ram_block_v2:t4|data[15]                                            ; |add_block|ram_block_v2:t4|data[15]                                                      ; regout           ;
 ; |add_block|ram_block_v2:t4|data[16]                                            ; |add_block|ram_block_v2:t4|data[16]                                                      ; regout           ;
+; |add_block|ram_block_v2:t4|data[17]                                            ; |add_block|ram_block_v2:t4|data[17]                                                      ; regout           ;
+; |add_block|ram_block_v2:t4|data[18]                                            ; |add_block|ram_block_v2:t4|data[18]                                                      ; regout           ;
 ; |add_block|ram_block_v2:t4|data[19]                                            ; |add_block|ram_block_v2:t4|data[19]                                                      ; regout           ;
+; |add_block|ram_block_v2:t4|data[20]                                            ; |add_block|ram_block_v2:t4|data[20]                                                      ; regout           ;
+; |add_block|ram_block_v2:t4|data[23]                                            ; |add_block|ram_block_v2:t4|data[23]                                                      ; regout           ;
 ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5  ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5~DATAOUT11  ; dataout11        ;
 ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5  ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5~DATAOUT12  ; dataout12        ;
 ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5  ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5~DATAOUT13  ; dataout13        ;
@@ -4093,6 +4085,15 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5  ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5~DATAOUT37  ; dataout37        ;
 ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5  ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5~DATAOUT38  ; dataout38        ;
 ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5  ; |add_block|Fomin_convert_1:t1|lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5~DATAOUT39  ; dataout39        ;
+; |add_block|Fomin_convert_1:t1|Add1~21                                          ; |add_block|Fomin_convert_1:t1|Add1~21                                                    ; sumout           ;
+; |add_block|Fomin_convert_1:t1|Add1~21                                          ; |add_block|Fomin_convert_1:t1|Add1~22                                                    ; cout             ;
+; |add_block|Fomin_convert_1:t1|Add1~25                                          ; |add_block|Fomin_convert_1:t1|Add1~25                                                    ; sumout           ;
+; |add_block|Fomin_convert_1:t1|Add1~25                                          ; |add_block|Fomin_convert_1:t1|Add1~26                                                    ; cout             ;
+; |add_block|Fomin_convert_1:t1|Add1~29                                          ; |add_block|Fomin_convert_1:t1|Add1~29                                                    ; sumout           ;
+; |add_block|Fomin_convert_1:t1|Add1~29                                          ; |add_block|Fomin_convert_1:t1|Add1~30                                                    ; cout             ;
+; |add_block|Fomin_convert_1:t1|Add1~33                                          ; |add_block|Fomin_convert_1:t1|Add1~33                                                    ; sumout           ;
+; |add_block|Fomin_convert_1:t1|Add1~33                                          ; |add_block|Fomin_convert_1:t1|Add1~34                                                    ; cout             ;
+; |add_block|Fomin_convert_1:t1|Add1~37                                          ; |add_block|Fomin_convert_1:t1|Add1~37                                                    ; sumout           ;
 ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1      ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1                ; dataout0         ;
 ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1      ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1~DATAOUT1       ; dataout1         ;
 ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1      ; |add_block|math_block:t2|lpm_mult:Mult5|mult_k2t:auto_generated|mac_mult1~DATAOUT2       ; dataout2         ;
@@ -4435,6 +4436,16 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4~DATAOUT32      ; dataout32        ;
 ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4~DATAOUT33      ; dataout33        ;
 ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult8|mult_86t:auto_generated|mac_mult4~DATAOUT35      ; dataout35        ;
+; |add_block|int_to_read_block:t3|Add1~21                                        ; |add_block|int_to_read_block:t3|Add1~21                                                  ; sumout           ;
+; |add_block|int_to_read_block:t3|Add1~21                                        ; |add_block|int_to_read_block:t3|Add1~22                                                  ; cout             ;
+; |add_block|int_to_read_block:t3|Add1~25                                        ; |add_block|int_to_read_block:t3|Add1~25                                                  ; sumout           ;
+; |add_block|int_to_read_block:t3|Add1~25                                        ; |add_block|int_to_read_block:t3|Add1~26                                                  ; cout             ;
+; |add_block|int_to_read_block:t3|Add1~29                                        ; |add_block|int_to_read_block:t3|Add1~29                                                  ; sumout           ;
+; |add_block|int_to_read_block:t3|Add1~29                                        ; |add_block|int_to_read_block:t3|Add1~30                                                  ; cout             ;
+; |add_block|int_to_read_block:t3|Add1~33                                        ; |add_block|int_to_read_block:t3|Add1~33                                                  ; sumout           ;
+; |add_block|int_to_read_block:t3|Add1~33                                        ; |add_block|int_to_read_block:t3|Add1~34                                                  ; cout             ;
+; |add_block|int_to_read_block:t3|Add1~37                                        ; |add_block|int_to_read_block:t3|Add1~37                                                  ; sumout           ;
+; |add_block|int_to_read_block:t3|Add1~37                                        ; |add_block|int_to_read_block:t3|Add1~38                                                  ; cout             ;
 ; |add_block|int_to_read_block:t3|Add1~41                                        ; |add_block|int_to_read_block:t3|Add1~41                                                  ; sumout           ;
 ; |add_block|int_to_read_block:t3|Add1~41                                        ; |add_block|int_to_read_block:t3|Add1~42                                                  ; cout             ;
 ; |add_block|int_to_read_block:t3|Add1~45                                        ; |add_block|int_to_read_block:t3|Add1~45                                                  ; sumout           ;
@@ -5164,6 +5175,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4~DATAOUT15      ; dataout15        ;
 ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4~DATAOUT16      ; dataout16        ;
 ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4      ; |add_block|math_block:t2|lpm_mult:Mult6|mult_k2t:auto_generated|mac_mult4~DATAOUT17      ; dataout17        ;
+; |add_block|Fomin_convert_1:t1|count[10]                                        ; |add_block|Fomin_convert_1:t1|count[10]                                                  ; regout           ;
 ; |add_block|Fomin_convert_1:t1|p1[9]                                            ; |add_block|Fomin_convert_1:t1|p1[9]                                                      ; regout           ;
 ; |add_block|Fomin_convert_1:t1|p1[8]                                            ; |add_block|Fomin_convert_1:t1|p1[8]                                                      ; regout           ;
 ; |add_block|Fomin_convert_1:t1|p1[7]                                            ; |add_block|Fomin_convert_1:t1|p1[7]                                                      ; regout           ;
@@ -5174,8 +5186,19 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |add_block|Fomin_convert_1:t1|p1[2]                                            ; |add_block|Fomin_convert_1:t1|p1[2]                                                      ; regout           ;
 ; |add_block|Fomin_convert_1:t1|p1[1]                                            ; |add_block|Fomin_convert_1:t1|p1[1]                                                      ; regout           ;
 ; |add_block|Fomin_convert_1:t1|p1[0]                                            ; |add_block|Fomin_convert_1:t1|p1[0]                                                      ; regout           ;
+; |add_block|Fomin_convert_1:t1|count[9]                                         ; |add_block|Fomin_convert_1:t1|count[9]                                                   ; regout           ;
+; |add_block|Fomin_convert_1:t1|count[8]                                         ; |add_block|Fomin_convert_1:t1|count[8]                                                   ; regout           ;
+; |add_block|Fomin_convert_1:t1|count[7]                                         ; |add_block|Fomin_convert_1:t1|count[7]                                                   ; regout           ;
+; |add_block|Fomin_convert_1:t1|count[6]                                         ; |add_block|Fomin_convert_1:t1|count[6]                                                   ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[6]                                     ; |add_block|int_to_read_block:t3|count_t[6]                                               ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[5]                                     ; |add_block|int_to_read_block:t3|count_t[5]                                               ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[7]                                     ; |add_block|int_to_read_block:t3|count_t[7]                                               ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[8]                                     ; |add_block|int_to_read_block:t3|count_t[8]                                               ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[9]                                     ; |add_block|int_to_read_block:t3|count_t[9]                                               ; regout           ;
+; |add_block|int_to_read_block:t3|count_t[10]                                    ; |add_block|int_to_read_block:t3|count_t[10]                                              ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[12]                                    ; |add_block|int_to_read_block:t3|count_t[12]                                              ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[11]                                    ; |add_block|int_to_read_block:t3|count_t[11]                                              ; regout           ;
+; |add_block|int_to_read_block:t3|Equal0~1                                       ; |add_block|int_to_read_block:t3|Equal0~1                                                 ; combout          ;
 ; |add_block|int_to_read_block:t3|count_t[13]                                    ; |add_block|int_to_read_block:t3|count_t[13]                                              ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[14]                                    ; |add_block|int_to_read_block:t3|count_t[14]                                              ; regout           ;
 ; |add_block|int_to_read_block:t3|count_t[15]                                    ; |add_block|int_to_read_block:t3|count_t[15]                                              ; regout           ;
@@ -5727,6 +5750,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |add_block|blk_3_a[8]                                                          ; |add_block|blk_3_a[8]                                                                    ; padio            ;
 ; |add_block|blk_3_a[9]                                                          ; |add_block|blk_3_a[9]                                                                    ; padio            ;
 ; |add_block|blk_3_a[10]                                                         ; |add_block|blk_3_a[10]                                                                   ; padio            ;
+; |add_block|blk_4_z[4]                                                          ; |add_block|blk_4_z[4]                                                                    ; padio            ;
 ; |add_block|blk_4_z[5]                                                          ; |add_block|blk_4_z[5]                                                                    ; padio            ;
 ; |add_block|blk_4_z[6]                                                          ; |add_block|blk_4_z[6]                                                                    ; padio            ;
 ; |add_block|blk_4_z[7]                                                          ; |add_block|blk_4_z[7]                                                                    ; padio            ;
@@ -5736,8 +5760,14 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |add_block|blk_4_z[11]                                                         ; |add_block|blk_4_z[11]                                                                   ; padio            ;
 ; |add_block|blk_4_z[12]                                                         ; |add_block|blk_4_z[12]                                                                   ; padio            ;
 ; |add_block|blk_4_z[13]                                                         ; |add_block|blk_4_z[13]                                                                   ; padio            ;
+; |add_block|blk_4_z[14]                                                         ; |add_block|blk_4_z[14]                                                                   ; padio            ;
+; |add_block|blk_4_z[15]                                                         ; |add_block|blk_4_z[15]                                                                   ; padio            ;
 ; |add_block|blk_4_z[16]                                                         ; |add_block|blk_4_z[16]                                                                   ; padio            ;
+; |add_block|blk_4_z[17]                                                         ; |add_block|blk_4_z[17]                                                                   ; padio            ;
+; |add_block|blk_4_z[18]                                                         ; |add_block|blk_4_z[18]                                                                   ; padio            ;
 ; |add_block|blk_4_z[19]                                                         ; |add_block|blk_4_z[19]                                                                   ; padio            ;
+; |add_block|blk_4_z[20]                                                         ; |add_block|blk_4_z[20]                                                                   ; padio            ;
+; |add_block|blk_4_z[23]                                                         ; |add_block|blk_4_z[23]                                                                   ; padio            ;
 ; |add_block|n[2]                                                                ; |add_block|n[2]~corein                                                                   ; combout          ;
 ; |add_block|x[9]                                                                ; |add_block|x[9]~corein                                                                   ; combout          ;
 ; |add_block|x[8]                                                                ; |add_block|x[8]~corein                                                                   ; combout          ;
@@ -5802,7 +5832,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Nov 16 23:04:13 2021
+    Info: Processing started: Mon Dec 13 12:53:01 2021
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off add_block -c add_block
 Info: Using vector source file "C:/Users/FOMSI/Desktop/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/add_block_v3/add_block/add_block.vwf"
 Info: Inverted registers were found during simulation
@@ -5825,25 +5855,16 @@ Info: Inverted registers were found during simulation
     Info: Register: |add_block|Fomin_convert_1:t1|z[31]
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
-Warning: Found clock high time violation at 266393.11 ns on register "|add_block|int_to_read_block:t3|clk_22~clkctrl_SIM_1547_CE_DFF"
-Warning: Found clock high time violation at 266393.16 ns on register "|add_block|int_to_read_block:t3|clk_11~clkctrl_SIM_1545_CE_DFF"
-Warning: Found clock high time violation at 327833.11 ns on register "|add_block|int_to_read_block:t3|clk_22~clkctrl_SIM_1547_CE_DFF"
-Warning: Found clock high time violation at 327833.16 ns on register "|add_block|int_to_read_block:t3|clk_11~clkctrl_SIM_1545_CE_DFF"
-Warning: Found clock high time violation at 389273.11 ns on register "|add_block|int_to_read_block:t3|clk_22~clkctrl_SIM_1547_CE_DFF"
-Warning: Found clock high time violation at 389273.16 ns on register "|add_block|int_to_read_block:t3|clk_11~clkctrl_SIM_1545_CE_DFF"
-Warning: Found clock high time violation at 450713.11 ns on register "|add_block|int_to_read_block:t3|clk_22~clkctrl_SIM_1547_CE_DFF"
-Warning: Found clock high time violation at 450713.16 ns on register "|add_block|int_to_read_block:t3|clk_11~clkctrl_SIM_1545_CE_DFF"
-Warning: Found clock high time violation at 757973.13 ns on register "|add_block|int_to_read_block:t3|clk_11~clkctrl_SIM_1545_CE_DFF"
-Warning: Found clock high time violation at 819413.13 ns on register "|add_block|int_to_read_block:t3|clk_11~clkctrl_SIM_1545_CE_DFF"
-Warning: Found clock high time violation at 880853.13 ns on register "|add_block|int_to_read_block:t3|clk_11~clkctrl_SIM_1545_CE_DFF"
-Warning: Found clock high time violation at 942293.13 ns on register "|add_block|int_to_read_block:t3|clk_11~clkctrl_SIM_1545_CE_DFF"
+Warning: Found clock high time violation at 291008.11 ns on register "|add_block|int_to_read_block:t3|clk_22~clkctrl_SIM_1547_CE_DFF"
+Warning: Found clock high time violation at 291008.16 ns on register "|add_block|int_to_read_block:t3|clk_11~clkctrl_SIM_1545_CE_DFF"
+Warning: Found clock high time violation at 795008.13 ns on register "|add_block|int_to_read_block:t3|clk_11~clkctrl_SIM_1545_CE_DFF"
 Info: Simulation partitioned into 1 sub-simulations
-Info: Simulation coverage is      52.87 %
-Info: Number of transitions in simulation is 1050809
-Info: Quartus II Simulator was successful. 0 errors, 12 warnings
+Info: Simulation coverage is      51.71 %
+Info: Number of transitions in simulation is 25395
+Info: Quartus II Simulator was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 177 megabytes
-    Info: Processing ended: Tue Nov 16 23:04:33 2021
-    Info: Elapsed time: 00:00:20
-    Info: Total CPU time (on all processors): 00:00:22
+    Info: Processing ended: Mon Dec 13 12:53:03 2021
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 
