@@ -31,7 +31,7 @@ ON
 # case_insensitive
 # source_file
 converter_regstr.vhd
-6ad2f006dfd322d8b37523add658327
+28f0c7d8e698f0613233d282d1aa833
 5
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
