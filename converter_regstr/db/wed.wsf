@@ -332,7 +332,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 1000000000;
-		NUMERATOR = 1052;
+		NUMERATOR = 1131;
 		DENOMINATOR = 1000000000;
 		TOP_INDEX = 0;
 	}
