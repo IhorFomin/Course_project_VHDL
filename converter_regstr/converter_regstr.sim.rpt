@@ -1,5 +1,5 @@
 Simulator report for converter_regstr
-Sun Jan 16 16:44:04 2022
+Fri Jan 28 21:20:16 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -281,7 +281,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sun Jan 16 16:44:03 2022
+    Info: Processing started: Fri Jan 28 21:20:16 2022
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off converter_regstr -c converter_regstr
 Info: Using vector source file "C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/converter_regstr/converter_regstr.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
@@ -291,8 +291,8 @@ Info: Simulation coverage is      66.99 %
 Info: Number of transitions in simulation is 452
 Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 149 megabytes
-    Info: Processing ended: Sun Jan 16 16:44:04 2022
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Fri Jan 28 21:20:16 2022
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
 

@@ -1,0 +1,382 @@
+Simulator report for block_6
+Fri Jan 28 21:24:07 2022
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 ms       ;
+; Simulation Netlist Size     ; 157 nodes    ;
+; Simulation Coverage         ;      59.38 % ;
+; Total Number of Transitions ; 1924         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Stratix II   ;
+; Device                      ; EP2S15F484C3 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      59.38 % ;
+; Total nodes checked                                 ; 157          ;
+; Total output ports checked                          ; 160          ;
+; Total output ports with complete 1/0-value coverage ; 95           ;
+; Total output ports with no 1/0-value coverage       ; 61           ;
+; Total output ports with no 1-value coverage         ; 61           ;
+; Total output ports with no 0-value coverage         ; 65           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                      ;
++-------------------------------+-------------------------------+------------------+
+; Node Name                     ; Output Port Name              ; Output Port Type ;
++-------------------------------+-------------------------------+------------------+
+; |block_6|Add0~1               ; |block_6|Add0~1               ; sumout           ;
+; |block_6|Add0~1               ; |block_6|Add0~2               ; cout             ;
+; |block_6|Add0~5               ; |block_6|Add0~5               ; sumout           ;
+; |block_6|Add0~5               ; |block_6|Add0~6               ; cout             ;
+; |block_6|Add0~9               ; |block_6|Add0~9               ; sumout           ;
+; |block_6|Add0~9               ; |block_6|Add0~10              ; cout             ;
+; |block_6|Add0~13              ; |block_6|Add0~13              ; sumout           ;
+; |block_6|count[0]             ; |block_6|count[0]             ; regout           ;
+; |block_6|count[1]             ; |block_6|count[1]             ; regout           ;
+; |block_6|count[2]             ; |block_6|count[2]             ; regout           ;
+; |block_6|count[3]             ; |block_6|count[3]             ; regout           ;
+; |block_6|kod~0                ; |block_6|kod~0                ; combout          ;
+; |block_6|process_0~0          ; |block_6|process_0~0          ; combout          ;
+; |block_6|count[0]~0           ; |block_6|count[0]~0           ; combout          ;
+; |block_6|count[0]~1           ; |block_6|count[0]~1           ; combout          ;
+; |block_6|tmp                  ; |block_6|tmp                  ; regout           ;
+; |block_6|reg2~0               ; |block_6|reg2~0               ; combout          ;
+; |block_6|reg1[0]              ; |block_6|reg1[0]              ; regout           ;
+; |block_6|reg1[18]             ; |block_6|reg1[18]             ; regout           ;
+; |block_6|reg1[8]              ; |block_6|reg1[8]              ; regout           ;
+; |block_6|tmp~0                ; |block_6|tmp~0                ; combout          ;
+; |block_6|tmp~1                ; |block_6|tmp~1                ; combout          ;
+; |block_6|reg1[1]              ; |block_6|reg1[1]              ; regout           ;
+; |block_6|reg1[31]~0           ; |block_6|reg1[31]~0           ; combout          ;
+; |block_6|reg1[19]             ; |block_6|reg1[19]             ; regout           ;
+; |block_6|reg1[9]              ; |block_6|reg1[9]              ; regout           ;
+; |block_6|reg1[2]              ; |block_6|reg1[2]              ; regout           ;
+; |block_6|reg1[20]             ; |block_6|reg1[20]             ; regout           ;
+; |block_6|reg1[10]             ; |block_6|reg1[10]             ; regout           ;
+; |block_6|reg1[3]              ; |block_6|reg1[3]              ; regout           ;
+; |block_6|reg1[21]             ; |block_6|reg1[21]             ; regout           ;
+; |block_6|reg1[11]             ; |block_6|reg1[11]             ; regout           ;
+; |block_6|reg1[4]              ; |block_6|reg1[4]              ; regout           ;
+; |block_6|reg1[22]             ; |block_6|reg1[22]             ; regout           ;
+; |block_6|reg1[12]             ; |block_6|reg1[12]             ; regout           ;
+; |block_6|reg1[5]              ; |block_6|reg1[5]              ; regout           ;
+; |block_6|reg1[23]             ; |block_6|reg1[23]             ; regout           ;
+; |block_6|reg1[13]             ; |block_6|reg1[13]             ; regout           ;
+; |block_6|reg1[6]              ; |block_6|reg1[6]              ; regout           ;
+; |block_6|reg1[24]             ; |block_6|reg1[24]             ; regout           ;
+; |block_6|reg1[14]             ; |block_6|reg1[14]             ; regout           ;
+; |block_6|reg1[7]              ; |block_6|reg1[7]              ; regout           ;
+; |block_6|reg1[25]             ; |block_6|reg1[25]             ; regout           ;
+; |block_6|reg1[15]             ; |block_6|reg1[15]             ; regout           ;
+; |block_6|reg1[26]             ; |block_6|reg1[26]             ; regout           ;
+; |block_6|reg1[16]             ; |block_6|reg1[16]             ; regout           ;
+; |block_6|reg1[27]             ; |block_6|reg1[27]             ; regout           ;
+; |block_6|reg1[17]             ; |block_6|reg1[17]             ; regout           ;
+; |block_6|reg1[28]             ; |block_6|reg1[28]             ; regout           ;
+; |block_6|reg1[29]             ; |block_6|reg1[29]             ; regout           ;
+; |block_6|reg1[30]             ; |block_6|reg1[30]             ; regout           ;
+; |block_6|reg1[31]             ; |block_6|reg1[31]             ; regout           ;
+; |block_6|reg2                 ; |block_6|reg2                 ; combout          ;
+; |block_6|count_key[0]         ; |block_6|count_key[0]         ; padio            ;
+; |block_6|count_key[1]         ; |block_6|count_key[1]         ; padio            ;
+; |block_6|count_key[2]         ; |block_6|count_key[2]         ; padio            ;
+; |block_6|count_key[3]         ; |block_6|count_key[3]         ; padio            ;
+; |block_6|kod                  ; |block_6|kod                  ; padio            ;
+; |block_6|load                 ; |block_6|load~corein          ; combout          ;
+; |block_6|clk                  ; |block_6|clk~corein           ; combout          ;
+; |block_6|posledov             ; |block_6|posledov~corein      ; combout          ;
+; |block_6|clk~clkctrl          ; |block_6|clk~clkctrl          ; outclk           ;
+; |block_6|reg1[31]~0clkctrl    ; |block_6|reg1[31]~0clkctrl    ; outclk           ;
+; |block_6|process_0~0DUPLICATE ; |block_6|process_0~0DUPLICATE ; combout          ;
+; |block_6|reg1[17]~feeder      ; |block_6|reg1[17]~feeder      ; combout          ;
+; |block_6|reg1[7]~feeder       ; |block_6|reg1[7]~feeder       ; combout          ;
+; |block_6|reg1[0]~feeder       ; |block_6|reg1[0]~feeder       ; combout          ;
+; |block_6|reg1[18]~feeder      ; |block_6|reg1[18]~feeder      ; combout          ;
+; |block_6|reg1[8]~feeder       ; |block_6|reg1[8]~feeder       ; combout          ;
+; |block_6|reg1[1]~feeder       ; |block_6|reg1[1]~feeder       ; combout          ;
+; |block_6|reg1[19]~feeder      ; |block_6|reg1[19]~feeder      ; combout          ;
+; |block_6|reg1[9]~feeder       ; |block_6|reg1[9]~feeder       ; combout          ;
+; |block_6|reg1[2]~feeder       ; |block_6|reg1[2]~feeder       ; combout          ;
+; |block_6|reg1[20]~feeder      ; |block_6|reg1[20]~feeder      ; combout          ;
+; |block_6|reg1[10]~feeder      ; |block_6|reg1[10]~feeder      ; combout          ;
+; |block_6|reg1[3]~feeder       ; |block_6|reg1[3]~feeder       ; combout          ;
+; |block_6|reg1[21]~feeder      ; |block_6|reg1[21]~feeder      ; combout          ;
+; |block_6|reg1[11]~feeder      ; |block_6|reg1[11]~feeder      ; combout          ;
+; |block_6|reg1[4]~feeder       ; |block_6|reg1[4]~feeder       ; combout          ;
+; |block_6|reg1[22]~feeder      ; |block_6|reg1[22]~feeder      ; combout          ;
+; |block_6|reg1[12]~feeder      ; |block_6|reg1[12]~feeder      ; combout          ;
+; |block_6|reg1[5]~feeder       ; |block_6|reg1[5]~feeder       ; combout          ;
+; |block_6|reg1[23]~feeder      ; |block_6|reg1[23]~feeder      ; combout          ;
+; |block_6|reg1[13]~feeder      ; |block_6|reg1[13]~feeder      ; combout          ;
+; |block_6|reg1[6]~feeder       ; |block_6|reg1[6]~feeder       ; combout          ;
+; |block_6|reg1[24]~feeder      ; |block_6|reg1[24]~feeder      ; combout          ;
+; |block_6|reg1[14]~feeder      ; |block_6|reg1[14]~feeder      ; combout          ;
+; |block_6|reg1[25]~feeder      ; |block_6|reg1[25]~feeder      ; combout          ;
+; |block_6|reg1[15]~feeder      ; |block_6|reg1[15]~feeder      ; combout          ;
+; |block_6|reg1[26]~feeder      ; |block_6|reg1[26]~feeder      ; combout          ;
+; |block_6|reg1[16]~feeder      ; |block_6|reg1[16]~feeder      ; combout          ;
+; |block_6|reg1[27]~feeder      ; |block_6|reg1[27]~feeder      ; combout          ;
+; |block_6|reg1[28]~feeder      ; |block_6|reg1[28]~feeder      ; combout          ;
+; |block_6|reg1[29]~feeder      ; |block_6|reg1[29]~feeder      ; combout          ;
+; |block_6|reg1[30]~feeder      ; |block_6|reg1[30]~feeder      ; combout          ;
++-------------------------------+-------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------+
+; Missing 1-Value Coverage                                             ;
++------------------------+--------------------------+------------------+
+; Node Name              ; Output Port Name         ; Output Port Type ;
++------------------------+--------------------------+------------------+
+; |block_6|count_key[5]  ; |block_6|count_key[5]    ; padio            ;
+; |block_6|count_key[6]  ; |block_6|count_key[6]    ; padio            ;
+; |block_6|count_key[7]  ; |block_6|count_key[7]    ; padio            ;
+; |block_6|count_key[8]  ; |block_6|count_key[8]    ; padio            ;
+; |block_6|count_key[9]  ; |block_6|count_key[9]    ; padio            ;
+; |block_6|count_key[10] ; |block_6|count_key[10]   ; padio            ;
+; |block_6|count_key[11] ; |block_6|count_key[11]   ; padio            ;
+; |block_6|count_key[12] ; |block_6|count_key[12]   ; padio            ;
+; |block_6|count_key[13] ; |block_6|count_key[13]   ; padio            ;
+; |block_6|count_key[14] ; |block_6|count_key[14]   ; padio            ;
+; |block_6|count_key[15] ; |block_6|count_key[15]   ; padio            ;
+; |block_6|count_key[16] ; |block_6|count_key[16]   ; padio            ;
+; |block_6|count_key[17] ; |block_6|count_key[17]   ; padio            ;
+; |block_6|count_key[18] ; |block_6|count_key[18]   ; padio            ;
+; |block_6|count_key[19] ; |block_6|count_key[19]   ; padio            ;
+; |block_6|count_key[20] ; |block_6|count_key[20]   ; padio            ;
+; |block_6|count_key[21] ; |block_6|count_key[21]   ; padio            ;
+; |block_6|count_key[22] ; |block_6|count_key[22]   ; padio            ;
+; |block_6|count_key[23] ; |block_6|count_key[23]   ; padio            ;
+; |block_6|count_key[24] ; |block_6|count_key[24]   ; padio            ;
+; |block_6|count_key[25] ; |block_6|count_key[25]   ; padio            ;
+; |block_6|count_key[26] ; |block_6|count_key[26]   ; padio            ;
+; |block_6|count_key[27] ; |block_6|count_key[27]   ; padio            ;
+; |block_6|count_key[28] ; |block_6|count_key[28]   ; padio            ;
+; |block_6|count_key[29] ; |block_6|count_key[29]   ; padio            ;
+; |block_6|count_key[30] ; |block_6|count_key[30]   ; padio            ;
+; |block_6|count_key[31] ; |block_6|count_key[31]   ; padio            ;
+; |block_6|ask           ; |block_6|ask~corein      ; combout          ;
+; |block_6|sdv           ; |block_6|sdv~corein      ; combout          ;
+; |block_6|key1[0]       ; |block_6|key1[0]~corein  ; combout          ;
+; |block_6|key1[18]      ; |block_6|key1[18]~corein ; combout          ;
+; |block_6|key1[8]       ; |block_6|key1[8]~corein  ; combout          ;
+; |block_6|key1[1]       ; |block_6|key1[1]~corein  ; combout          ;
+; |block_6|key1[19]      ; |block_6|key1[19]~corein ; combout          ;
+; |block_6|key1[9]       ; |block_6|key1[9]~corein  ; combout          ;
+; |block_6|key1[2]       ; |block_6|key1[2]~corein  ; combout          ;
+; |block_6|key1[20]      ; |block_6|key1[20]~corein ; combout          ;
+; |block_6|key1[10]      ; |block_6|key1[10]~corein ; combout          ;
+; |block_6|key1[3]       ; |block_6|key1[3]~corein  ; combout          ;
+; |block_6|key1[21]      ; |block_6|key1[21]~corein ; combout          ;
+; |block_6|key1[11]      ; |block_6|key1[11]~corein ; combout          ;
+; |block_6|key1[4]       ; |block_6|key1[4]~corein  ; combout          ;
+; |block_6|key1[22]      ; |block_6|key1[22]~corein ; combout          ;
+; |block_6|key1[12]      ; |block_6|key1[12]~corein ; combout          ;
+; |block_6|key1[5]       ; |block_6|key1[5]~corein  ; combout          ;
+; |block_6|key1[23]      ; |block_6|key1[23]~corein ; combout          ;
+; |block_6|key1[13]      ; |block_6|key1[13]~corein ; combout          ;
+; |block_6|key1[6]       ; |block_6|key1[6]~corein  ; combout          ;
+; |block_6|key1[24]      ; |block_6|key1[24]~corein ; combout          ;
+; |block_6|key1[14]      ; |block_6|key1[14]~corein ; combout          ;
+; |block_6|key1[7]       ; |block_6|key1[7]~corein  ; combout          ;
+; |block_6|key1[25]      ; |block_6|key1[25]~corein ; combout          ;
+; |block_6|key1[15]      ; |block_6|key1[15]~corein ; combout          ;
+; |block_6|key1[26]      ; |block_6|key1[26]~corein ; combout          ;
+; |block_6|key1[16]      ; |block_6|key1[16]~corein ; combout          ;
+; |block_6|key1[27]      ; |block_6|key1[27]~corein ; combout          ;
+; |block_6|key1[17]      ; |block_6|key1[17]~corein ; combout          ;
+; |block_6|key1[28]      ; |block_6|key1[28]~corein ; combout          ;
+; |block_6|key1[29]      ; |block_6|key1[29]~corein ; combout          ;
+; |block_6|key1[30]      ; |block_6|key1[30]~corein ; combout          ;
+; |block_6|key1[31]      ; |block_6|key1[31]~corein ; combout          ;
++------------------------+--------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------+
+; Missing 0-Value Coverage                                             ;
++------------------------+--------------------------+------------------+
+; Node Name              ; Output Port Name         ; Output Port Type ;
++------------------------+--------------------------+------------------+
+; |block_6|count[4]      ; |block_6|count[4]        ; regout           ;
+; |block_6|count_key[4]  ; |block_6|count_key[4]    ; padio            ;
+; |block_6|count_key[5]  ; |block_6|count_key[5]    ; padio            ;
+; |block_6|count_key[6]  ; |block_6|count_key[6]    ; padio            ;
+; |block_6|count_key[7]  ; |block_6|count_key[7]    ; padio            ;
+; |block_6|count_key[8]  ; |block_6|count_key[8]    ; padio            ;
+; |block_6|count_key[9]  ; |block_6|count_key[9]    ; padio            ;
+; |block_6|count_key[10] ; |block_6|count_key[10]   ; padio            ;
+; |block_6|count_key[11] ; |block_6|count_key[11]   ; padio            ;
+; |block_6|count_key[12] ; |block_6|count_key[12]   ; padio            ;
+; |block_6|count_key[13] ; |block_6|count_key[13]   ; padio            ;
+; |block_6|count_key[14] ; |block_6|count_key[14]   ; padio            ;
+; |block_6|count_key[15] ; |block_6|count_key[15]   ; padio            ;
+; |block_6|count_key[16] ; |block_6|count_key[16]   ; padio            ;
+; |block_6|count_key[17] ; |block_6|count_key[17]   ; padio            ;
+; |block_6|count_key[18] ; |block_6|count_key[18]   ; padio            ;
+; |block_6|count_key[19] ; |block_6|count_key[19]   ; padio            ;
+; |block_6|count_key[20] ; |block_6|count_key[20]   ; padio            ;
+; |block_6|count_key[21] ; |block_6|count_key[21]   ; padio            ;
+; |block_6|count_key[22] ; |block_6|count_key[22]   ; padio            ;
+; |block_6|count_key[23] ; |block_6|count_key[23]   ; padio            ;
+; |block_6|count_key[24] ; |block_6|count_key[24]   ; padio            ;
+; |block_6|count_key[25] ; |block_6|count_key[25]   ; padio            ;
+; |block_6|count_key[26] ; |block_6|count_key[26]   ; padio            ;
+; |block_6|count_key[27] ; |block_6|count_key[27]   ; padio            ;
+; |block_6|count_key[28] ; |block_6|count_key[28]   ; padio            ;
+; |block_6|count_key[29] ; |block_6|count_key[29]   ; padio            ;
+; |block_6|count_key[30] ; |block_6|count_key[30]   ; padio            ;
+; |block_6|count_key[31] ; |block_6|count_key[31]   ; padio            ;
+; |block_6|ask           ; |block_6|ask~corein      ; combout          ;
+; |block_6|start         ; |block_6|start~corein    ; combout          ;
+; |block_6|sdv           ; |block_6|sdv~corein      ; combout          ;
+; |block_6|key1[0]       ; |block_6|key1[0]~corein  ; combout          ;
+; |block_6|key1[18]      ; |block_6|key1[18]~corein ; combout          ;
+; |block_6|key1[8]       ; |block_6|key1[8]~corein  ; combout          ;
+; |block_6|key1[1]       ; |block_6|key1[1]~corein  ; combout          ;
+; |block_6|key1[19]      ; |block_6|key1[19]~corein ; combout          ;
+; |block_6|key1[9]       ; |block_6|key1[9]~corein  ; combout          ;
+; |block_6|key1[2]       ; |block_6|key1[2]~corein  ; combout          ;
+; |block_6|key1[20]      ; |block_6|key1[20]~corein ; combout          ;
+; |block_6|key1[10]      ; |block_6|key1[10]~corein ; combout          ;
+; |block_6|key1[3]       ; |block_6|key1[3]~corein  ; combout          ;
+; |block_6|key1[21]      ; |block_6|key1[21]~corein ; combout          ;
+; |block_6|key1[11]      ; |block_6|key1[11]~corein ; combout          ;
+; |block_6|key1[4]       ; |block_6|key1[4]~corein  ; combout          ;
+; |block_6|key1[22]      ; |block_6|key1[22]~corein ; combout          ;
+; |block_6|key1[12]      ; |block_6|key1[12]~corein ; combout          ;
+; |block_6|key1[5]       ; |block_6|key1[5]~corein  ; combout          ;
+; |block_6|key1[23]      ; |block_6|key1[23]~corein ; combout          ;
+; |block_6|key1[13]      ; |block_6|key1[13]~corein ; combout          ;
+; |block_6|key1[6]       ; |block_6|key1[6]~corein  ; combout          ;
+; |block_6|key1[24]      ; |block_6|key1[24]~corein ; combout          ;
+; |block_6|key1[14]      ; |block_6|key1[14]~corein ; combout          ;
+; |block_6|key1[7]       ; |block_6|key1[7]~corein  ; combout          ;
+; |block_6|key1[25]      ; |block_6|key1[25]~corein ; combout          ;
+; |block_6|key1[15]      ; |block_6|key1[15]~corein ; combout          ;
+; |block_6|key1[26]      ; |block_6|key1[26]~corein ; combout          ;
+; |block_6|key1[16]      ; |block_6|key1[16]~corein ; combout          ;
+; |block_6|key1[27]      ; |block_6|key1[27]~corein ; combout          ;
+; |block_6|key1[17]      ; |block_6|key1[17]~corein ; combout          ;
+; |block_6|key1[28]      ; |block_6|key1[28]~corein ; combout          ;
+; |block_6|key1[29]      ; |block_6|key1[29]~corein ; combout          ;
+; |block_6|key1[30]      ; |block_6|key1[30]~corein ; combout          ;
+; |block_6|key1[31]      ; |block_6|key1[31]~corein ; combout          ;
+; |block_6|start~clkctrl ; |block_6|start~clkctrl   ; outclk           ;
++------------------------+--------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Fri Jan 28 21:24:06 2022
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off block_6 -c block_6
+Info: Using vector source file "C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/block_6/block_6.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      59.38 %
+Info: Number of transitions in simulation is 1924
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 150 megabytes
+    Info: Processing ended: Fri Jan 28 21:24:07 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
