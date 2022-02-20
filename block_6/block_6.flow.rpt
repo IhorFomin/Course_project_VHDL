@@ -1,5 +1,5 @@
 Flow report for block_6
-Fri Jan 28 21:13:26 2022
+Mon Feb 14 20:43:54 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-------------------------------+----------------------------------------------+
-; Flow Status                   ; Successful - Fri Jan 28 21:13:26 2022        ;
+; Flow Status                   ; Successful - Mon Feb 14 20:43:54 2022        ;
 ; Quartus II Version            ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                 ; block_6                                      ;
 ; Top-level Entity Name         ; block_6                                      ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/28/2022 21:13:12 ;
+; Start date & time ; 02/14/2022 20:43:44 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; block_6             ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 255543652739180.164339719206624 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 255543652739180.164486422407556 ; --            ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                        ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                          ; --            ; --          ; Top            ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                             ; --            ; --          ; eda_blast_fpga ;
@@ -87,11 +87,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:02     ; 1.0                     ; 241 MB              ; 00:00:02                           ;
-; Fitter                  ; 00:00:05     ; 1.0                     ; 262 MB              ; 00:00:06                           ;
+; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 241 MB              ; 00:00:01                           ;
+; Fitter                  ; 00:00:04     ; 1.0                     ; 262 MB              ; 00:00:04                           ;
 ; Assembler               ; 00:00:02     ; 1.0                     ; 230 MB              ; 00:00:02                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 160 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:09     ; --                      ; --                  ; 00:00:10                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 159 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:07     ; --                      ; --                  ; 00:00:07                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

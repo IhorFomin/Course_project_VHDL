@@ -1,5 +1,5 @@
 Simulator report for math_block
-Wed Oct 20 17:32:08 2021
+Wed Feb 09 21:51:21 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -1648,72 +1648,72 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |math_block|exp~28                                           ; |math_block|exp~28                                                     ; combout          ;
 ; |math_block|exp~29                                           ; |math_block|exp~29                                                     ; combout          ;
 ; |math_block|exp~30                                           ; |math_block|exp~30                                                     ; combout          ;
-; |math_block|sum_out[0]                                       ; |math_block|sum_out[0]                                                 ; padio            ;
-; |math_block|sum_out[1]                                       ; |math_block|sum_out[1]                                                 ; padio            ;
-; |math_block|sum_out[2]                                       ; |math_block|sum_out[2]                                                 ; padio            ;
-; |math_block|sum_out[3]                                       ; |math_block|sum_out[3]                                                 ; padio            ;
-; |math_block|sum_out[4]                                       ; |math_block|sum_out[4]                                                 ; padio            ;
-; |math_block|sum_out[5]                                       ; |math_block|sum_out[5]                                                 ; padio            ;
-; |math_block|sum_out[6]                                       ; |math_block|sum_out[6]                                                 ; padio            ;
-; |math_block|sum_out[7]                                       ; |math_block|sum_out[7]                                                 ; padio            ;
-; |math_block|sum_out[8]                                       ; |math_block|sum_out[8]                                                 ; padio            ;
-; |math_block|sum_out[9]                                       ; |math_block|sum_out[9]                                                 ; padio            ;
-; |math_block|sum_out[10]                                      ; |math_block|sum_out[10]                                                ; padio            ;
-; |math_block|sum_out[11]                                      ; |math_block|sum_out[11]                                                ; padio            ;
-; |math_block|sum_out[12]                                      ; |math_block|sum_out[12]                                                ; padio            ;
-; |math_block|sum_out[13]                                      ; |math_block|sum_out[13]                                                ; padio            ;
-; |math_block|sum_out[14]                                      ; |math_block|sum_out[14]                                                ; padio            ;
-; |math_block|sum_out[15]                                      ; |math_block|sum_out[15]                                                ; padio            ;
-; |math_block|sum_out[16]                                      ; |math_block|sum_out[16]                                                ; padio            ;
-; |math_block|sum_out[17]                                      ; |math_block|sum_out[17]                                                ; padio            ;
-; |math_block|sum_out[18]                                      ; |math_block|sum_out[18]                                                ; padio            ;
-; |math_block|sum_out[19]                                      ; |math_block|sum_out[19]                                                ; padio            ;
-; |math_block|sum_out[20]                                      ; |math_block|sum_out[20]                                                ; padio            ;
-; |math_block|sum_out[21]                                      ; |math_block|sum_out[21]                                                ; padio            ;
-; |math_block|sum_out[22]                                      ; |math_block|sum_out[22]                                                ; padio            ;
-; |math_block|sum_out[23]                                      ; |math_block|sum_out[23]                                                ; padio            ;
-; |math_block|sum_out[24]                                      ; |math_block|sum_out[24]                                                ; padio            ;
-; |math_block|sum_out[25]                                      ; |math_block|sum_out[25]                                                ; padio            ;
-; |math_block|sum_out[26]                                      ; |math_block|sum_out[26]                                                ; padio            ;
-; |math_block|sum_out[27]                                      ; |math_block|sum_out[27]                                                ; padio            ;
-; |math_block|sum_out[28]                                      ; |math_block|sum_out[28]                                                ; padio            ;
-; |math_block|sum_out[29]                                      ; |math_block|sum_out[29]                                                ; padio            ;
-; |math_block|sum_out[30]                                      ; |math_block|sum_out[30]                                                ; padio            ;
-; |math_block|sum_out[31]                                      ; |math_block|sum_out[31]                                                ; padio            ;
-; |math_block|singX_out                                        ; |math_block|singX_out                                                  ; padio            ;
-; |math_block|X[0]                                             ; |math_block|X[0]~corein                                                ; combout          ;
-; |math_block|X[30]                                            ; |math_block|X[30]~corein                                               ; combout          ;
-; |math_block|X[31]                                            ; |math_block|X[31]~corein                                               ; combout          ;
-; |math_block|X[29]                                            ; |math_block|X[29]~corein                                               ; combout          ;
-; |math_block|X[28]                                            ; |math_block|X[28]~corein                                               ; combout          ;
-; |math_block|X[27]                                            ; |math_block|X[27]~corein                                               ; combout          ;
-; |math_block|X[26]                                            ; |math_block|X[26]~corein                                               ; combout          ;
-; |math_block|X[24]                                            ; |math_block|X[24]~corein                                               ; combout          ;
-; |math_block|X[25]                                            ; |math_block|X[25]~corein                                               ; combout          ;
-; |math_block|X[23]                                            ; |math_block|X[23]~corein                                               ; combout          ;
-; |math_block|X[22]                                            ; |math_block|X[22]~corein                                               ; combout          ;
-; |math_block|X[21]                                            ; |math_block|X[21]~corein                                               ; combout          ;
-; |math_block|X[20]                                            ; |math_block|X[20]~corein                                               ; combout          ;
-; |math_block|X[18]                                            ; |math_block|X[18]~corein                                               ; combout          ;
-; |math_block|X[19]                                            ; |math_block|X[19]~corein                                               ; combout          ;
-; |math_block|X[17]                                            ; |math_block|X[17]~corein                                               ; combout          ;
-; |math_block|X[16]                                            ; |math_block|X[16]~corein                                               ; combout          ;
-; |math_block|X[15]                                            ; |math_block|X[15]~corein                                               ; combout          ;
-; |math_block|X[14]                                            ; |math_block|X[14]~corein                                               ; combout          ;
-; |math_block|X[12]                                            ; |math_block|X[12]~corein                                               ; combout          ;
-; |math_block|X[13]                                            ; |math_block|X[13]~corein                                               ; combout          ;
-; |math_block|X[5]                                             ; |math_block|X[5]~corein                                                ; combout          ;
-; |math_block|X[4]                                             ; |math_block|X[4]~corein                                                ; combout          ;
-; |math_block|X[3]                                             ; |math_block|X[3]~corein                                                ; combout          ;
-; |math_block|X[2]                                             ; |math_block|X[2]~corein                                                ; combout          ;
-; |math_block|X[11]                                            ; |math_block|X[11]~corein                                               ; combout          ;
-; |math_block|X[10]                                            ; |math_block|X[10]~corein                                               ; combout          ;
-; |math_block|X[9]                                             ; |math_block|X[9]~corein                                                ; combout          ;
-; |math_block|X[8]                                             ; |math_block|X[8]~corein                                                ; combout          ;
-; |math_block|X[6]                                             ; |math_block|X[6]~corein                                                ; combout          ;
-; |math_block|X[7]                                             ; |math_block|X[7]~corein                                                ; combout          ;
-; |math_block|N[0]                                             ; |math_block|N[0]~corein                                                ; combout          ;
-; |math_block|N[1]                                             ; |math_block|N[1]~corein                                                ; combout          ;
+; |math_block|res_sum[0]                                       ; |math_block|res_sum[0]                                                 ; padio            ;
+; |math_block|res_sum[1]                                       ; |math_block|res_sum[1]                                                 ; padio            ;
+; |math_block|res_sum[2]                                       ; |math_block|res_sum[2]                                                 ; padio            ;
+; |math_block|res_sum[3]                                       ; |math_block|res_sum[3]                                                 ; padio            ;
+; |math_block|res_sum[4]                                       ; |math_block|res_sum[4]                                                 ; padio            ;
+; |math_block|res_sum[5]                                       ; |math_block|res_sum[5]                                                 ; padio            ;
+; |math_block|res_sum[6]                                       ; |math_block|res_sum[6]                                                 ; padio            ;
+; |math_block|res_sum[7]                                       ; |math_block|res_sum[7]                                                 ; padio            ;
+; |math_block|res_sum[8]                                       ; |math_block|res_sum[8]                                                 ; padio            ;
+; |math_block|res_sum[9]                                       ; |math_block|res_sum[9]                                                 ; padio            ;
+; |math_block|res_sum[10]                                      ; |math_block|res_sum[10]                                                ; padio            ;
+; |math_block|res_sum[11]                                      ; |math_block|res_sum[11]                                                ; padio            ;
+; |math_block|res_sum[12]                                      ; |math_block|res_sum[12]                                                ; padio            ;
+; |math_block|res_sum[13]                                      ; |math_block|res_sum[13]                                                ; padio            ;
+; |math_block|res_sum[14]                                      ; |math_block|res_sum[14]                                                ; padio            ;
+; |math_block|res_sum[15]                                      ; |math_block|res_sum[15]                                                ; padio            ;
+; |math_block|res_sum[16]                                      ; |math_block|res_sum[16]                                                ; padio            ;
+; |math_block|res_sum[17]                                      ; |math_block|res_sum[17]                                                ; padio            ;
+; |math_block|res_sum[18]                                      ; |math_block|res_sum[18]                                                ; padio            ;
+; |math_block|res_sum[19]                                      ; |math_block|res_sum[19]                                                ; padio            ;
+; |math_block|res_sum[20]                                      ; |math_block|res_sum[20]                                                ; padio            ;
+; |math_block|res_sum[21]                                      ; |math_block|res_sum[21]                                                ; padio            ;
+; |math_block|res_sum[22]                                      ; |math_block|res_sum[22]                                                ; padio            ;
+; |math_block|res_sum[23]                                      ; |math_block|res_sum[23]                                                ; padio            ;
+; |math_block|res_sum[24]                                      ; |math_block|res_sum[24]                                                ; padio            ;
+; |math_block|res_sum[25]                                      ; |math_block|res_sum[25]                                                ; padio            ;
+; |math_block|res_sum[26]                                      ; |math_block|res_sum[26]                                                ; padio            ;
+; |math_block|res_sum[27]                                      ; |math_block|res_sum[27]                                                ; padio            ;
+; |math_block|res_sum[28]                                      ; |math_block|res_sum[28]                                                ; padio            ;
+; |math_block|res_sum[29]                                      ; |math_block|res_sum[29]                                                ; padio            ;
+; |math_block|res_sum[30]                                      ; |math_block|res_sum[30]                                                ; padio            ;
+; |math_block|res_sum[31]                                      ; |math_block|res_sum[31]                                                ; padio            ;
+; |math_block|contr_sign_x_out                                 ; |math_block|contr_sign_x_out                                           ; padio            ;
+; |math_block|num_X2[0]                                        ; |math_block|num_X2[0]~corein                                           ; combout          ;
+; |math_block|num_X2[30]                                       ; |math_block|num_X2[30]~corein                                          ; combout          ;
+; |math_block|num_X2[31]                                       ; |math_block|num_X2[31]~corein                                          ; combout          ;
+; |math_block|num_X2[29]                                       ; |math_block|num_X2[29]~corein                                          ; combout          ;
+; |math_block|num_X2[28]                                       ; |math_block|num_X2[28]~corein                                          ; combout          ;
+; |math_block|num_X2[27]                                       ; |math_block|num_X2[27]~corein                                          ; combout          ;
+; |math_block|num_X2[26]                                       ; |math_block|num_X2[26]~corein                                          ; combout          ;
+; |math_block|num_X2[24]                                       ; |math_block|num_X2[24]~corein                                          ; combout          ;
+; |math_block|num_X2[25]                                       ; |math_block|num_X2[25]~corein                                          ; combout          ;
+; |math_block|num_X2[23]                                       ; |math_block|num_X2[23]~corein                                          ; combout          ;
+; |math_block|num_X2[22]                                       ; |math_block|num_X2[22]~corein                                          ; combout          ;
+; |math_block|num_X2[21]                                       ; |math_block|num_X2[21]~corein                                          ; combout          ;
+; |math_block|num_X2[20]                                       ; |math_block|num_X2[20]~corein                                          ; combout          ;
+; |math_block|num_X2[18]                                       ; |math_block|num_X2[18]~corein                                          ; combout          ;
+; |math_block|num_X2[19]                                       ; |math_block|num_X2[19]~corein                                          ; combout          ;
+; |math_block|num_X2[17]                                       ; |math_block|num_X2[17]~corein                                          ; combout          ;
+; |math_block|num_X2[16]                                       ; |math_block|num_X2[16]~corein                                          ; combout          ;
+; |math_block|num_X2[15]                                       ; |math_block|num_X2[15]~corein                                          ; combout          ;
+; |math_block|num_X2[14]                                       ; |math_block|num_X2[14]~corein                                          ; combout          ;
+; |math_block|num_X2[12]                                       ; |math_block|num_X2[12]~corein                                          ; combout          ;
+; |math_block|num_X2[13]                                       ; |math_block|num_X2[13]~corein                                          ; combout          ;
+; |math_block|num_X2[5]                                        ; |math_block|num_X2[5]~corein                                           ; combout          ;
+; |math_block|num_X2[4]                                        ; |math_block|num_X2[4]~corein                                           ; combout          ;
+; |math_block|num_X2[3]                                        ; |math_block|num_X2[3]~corein                                           ; combout          ;
+; |math_block|num_X2[2]                                        ; |math_block|num_X2[2]~corein                                           ; combout          ;
+; |math_block|num_X2[11]                                       ; |math_block|num_X2[11]~corein                                          ; combout          ;
+; |math_block|num_X2[10]                                       ; |math_block|num_X2[10]~corein                                          ; combout          ;
+; |math_block|num_X2[9]                                        ; |math_block|num_X2[9]~corein                                           ; combout          ;
+; |math_block|num_X2[8]                                        ; |math_block|num_X2[8]~corein                                           ; combout          ;
+; |math_block|num_X2[6]                                        ; |math_block|num_X2[6]~corein                                           ; combout          ;
+; |math_block|num_X2[7]                                        ; |math_block|num_X2[7]~corein                                           ; combout          ;
+; |math_block|num_N2[0]                                        ; |math_block|num_N2[0]~corein                                           ; combout          ;
+; |math_block|num_N2[1]                                        ; |math_block|num_N2[1]~corein                                           ; combout          ;
 +--------------------------------------------------------------+------------------------------------------------------------------------+------------------+
 
 
@@ -2464,36 +2464,36 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |math_block|Equal1~6                                         ; |math_block|Equal1~6                                                   ; combout          ;
 ; |math_block|exp~1                                            ; |math_block|exp~1                                                      ; combout          ;
 ; |math_block|exp~2                                            ; |math_block|exp~2                                                      ; combout          ;
-; |math_block|X[1]                                             ; |math_block|X[1]~corein                                                ; combout          ;
-; |math_block|N[31]                                            ; |math_block|N[31]~corein                                               ; combout          ;
-; |math_block|N[30]                                            ; |math_block|N[30]~corein                                               ; combout          ;
-; |math_block|N[29]                                            ; |math_block|N[29]~corein                                               ; combout          ;
-; |math_block|N[28]                                            ; |math_block|N[28]~corein                                               ; combout          ;
-; |math_block|N[26]                                            ; |math_block|N[26]~corein                                               ; combout          ;
-; |math_block|N[27]                                            ; |math_block|N[27]~corein                                               ; combout          ;
-; |math_block|N[25]                                            ; |math_block|N[25]~corein                                               ; combout          ;
-; |math_block|N[24]                                            ; |math_block|N[24]~corein                                               ; combout          ;
-; |math_block|N[23]                                            ; |math_block|N[23]~corein                                               ; combout          ;
-; |math_block|N[22]                                            ; |math_block|N[22]~corein                                               ; combout          ;
-; |math_block|N[20]                                            ; |math_block|N[20]~corein                                               ; combout          ;
-; |math_block|N[21]                                            ; |math_block|N[21]~corein                                               ; combout          ;
-; |math_block|N[19]                                            ; |math_block|N[19]~corein                                               ; combout          ;
-; |math_block|N[18]                                            ; |math_block|N[18]~corein                                               ; combout          ;
-; |math_block|N[17]                                            ; |math_block|N[17]~corein                                               ; combout          ;
-; |math_block|N[16]                                            ; |math_block|N[16]~corein                                               ; combout          ;
-; |math_block|N[14]                                            ; |math_block|N[14]~corein                                               ; combout          ;
-; |math_block|N[15]                                            ; |math_block|N[15]~corein                                               ; combout          ;
-; |math_block|N[7]                                             ; |math_block|N[7]~corein                                                ; combout          ;
-; |math_block|N[6]                                             ; |math_block|N[6]~corein                                                ; combout          ;
-; |math_block|N[5]                                             ; |math_block|N[5]~corein                                                ; combout          ;
-; |math_block|N[4]                                             ; |math_block|N[4]~corein                                                ; combout          ;
-; |math_block|N[3]                                             ; |math_block|N[3]~corein                                                ; combout          ;
-; |math_block|N[13]                                            ; |math_block|N[13]~corein                                               ; combout          ;
-; |math_block|N[12]                                            ; |math_block|N[12]~corein                                               ; combout          ;
-; |math_block|N[11]                                            ; |math_block|N[11]~corein                                               ; combout          ;
-; |math_block|N[10]                                            ; |math_block|N[10]~corein                                               ; combout          ;
-; |math_block|N[8]                                             ; |math_block|N[8]~corein                                                ; combout          ;
-; |math_block|N[9]                                             ; |math_block|N[9]~corein                                                ; combout          ;
+; |math_block|num_X2[1]                                        ; |math_block|num_X2[1]~corein                                           ; combout          ;
+; |math_block|num_N2[31]                                       ; |math_block|num_N2[31]~corein                                          ; combout          ;
+; |math_block|num_N2[30]                                       ; |math_block|num_N2[30]~corein                                          ; combout          ;
+; |math_block|num_N2[29]                                       ; |math_block|num_N2[29]~corein                                          ; combout          ;
+; |math_block|num_N2[28]                                       ; |math_block|num_N2[28]~corein                                          ; combout          ;
+; |math_block|num_N2[26]                                       ; |math_block|num_N2[26]~corein                                          ; combout          ;
+; |math_block|num_N2[27]                                       ; |math_block|num_N2[27]~corein                                          ; combout          ;
+; |math_block|num_N2[25]                                       ; |math_block|num_N2[25]~corein                                          ; combout          ;
+; |math_block|num_N2[24]                                       ; |math_block|num_N2[24]~corein                                          ; combout          ;
+; |math_block|num_N2[23]                                       ; |math_block|num_N2[23]~corein                                          ; combout          ;
+; |math_block|num_N2[22]                                       ; |math_block|num_N2[22]~corein                                          ; combout          ;
+; |math_block|num_N2[20]                                       ; |math_block|num_N2[20]~corein                                          ; combout          ;
+; |math_block|num_N2[21]                                       ; |math_block|num_N2[21]~corein                                          ; combout          ;
+; |math_block|num_N2[19]                                       ; |math_block|num_N2[19]~corein                                          ; combout          ;
+; |math_block|num_N2[18]                                       ; |math_block|num_N2[18]~corein                                          ; combout          ;
+; |math_block|num_N2[17]                                       ; |math_block|num_N2[17]~corein                                          ; combout          ;
+; |math_block|num_N2[16]                                       ; |math_block|num_N2[16]~corein                                          ; combout          ;
+; |math_block|num_N2[14]                                       ; |math_block|num_N2[14]~corein                                          ; combout          ;
+; |math_block|num_N2[15]                                       ; |math_block|num_N2[15]~corein                                          ; combout          ;
+; |math_block|num_N2[7]                                        ; |math_block|num_N2[7]~corein                                           ; combout          ;
+; |math_block|num_N2[6]                                        ; |math_block|num_N2[6]~corein                                           ; combout          ;
+; |math_block|num_N2[5]                                        ; |math_block|num_N2[5]~corein                                           ; combout          ;
+; |math_block|num_N2[4]                                        ; |math_block|num_N2[4]~corein                                           ; combout          ;
+; |math_block|num_N2[3]                                        ; |math_block|num_N2[3]~corein                                           ; combout          ;
+; |math_block|num_N2[13]                                       ; |math_block|num_N2[13]~corein                                          ; combout          ;
+; |math_block|num_N2[12]                                       ; |math_block|num_N2[12]~corein                                          ; combout          ;
+; |math_block|num_N2[11]                                       ; |math_block|num_N2[11]~corein                                          ; combout          ;
+; |math_block|num_N2[10]                                       ; |math_block|num_N2[10]~corein                                          ; combout          ;
+; |math_block|num_N2[8]                                        ; |math_block|num_N2[8]~corein                                           ; combout          ;
+; |math_block|num_N2[9]                                        ; |math_block|num_N2[9]~corein                                           ; combout          ;
 +--------------------------------------------------------------+------------------------------------------------------------------------+------------------+
 
 
@@ -3167,37 +3167,37 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |math_block|Equal1~4                                         ; |math_block|Equal1~4                                                   ; combout          ;
 ; |math_block|exp~1                                            ; |math_block|exp~1                                                      ; combout          ;
 ; |math_block|exp~2                                            ; |math_block|exp~2                                                      ; combout          ;
-; |math_block|X[1]                                             ; |math_block|X[1]~corein                                                ; combout          ;
-; |math_block|N[31]                                            ; |math_block|N[31]~corein                                               ; combout          ;
-; |math_block|N[30]                                            ; |math_block|N[30]~corein                                               ; combout          ;
-; |math_block|N[29]                                            ; |math_block|N[29]~corein                                               ; combout          ;
-; |math_block|N[28]                                            ; |math_block|N[28]~corein                                               ; combout          ;
-; |math_block|N[26]                                            ; |math_block|N[26]~corein                                               ; combout          ;
-; |math_block|N[27]                                            ; |math_block|N[27]~corein                                               ; combout          ;
-; |math_block|N[25]                                            ; |math_block|N[25]~corein                                               ; combout          ;
-; |math_block|N[24]                                            ; |math_block|N[24]~corein                                               ; combout          ;
-; |math_block|N[23]                                            ; |math_block|N[23]~corein                                               ; combout          ;
-; |math_block|N[22]                                            ; |math_block|N[22]~corein                                               ; combout          ;
-; |math_block|N[20]                                            ; |math_block|N[20]~corein                                               ; combout          ;
-; |math_block|N[21]                                            ; |math_block|N[21]~corein                                               ; combout          ;
-; |math_block|N[19]                                            ; |math_block|N[19]~corein                                               ; combout          ;
-; |math_block|N[18]                                            ; |math_block|N[18]~corein                                               ; combout          ;
-; |math_block|N[17]                                            ; |math_block|N[17]~corein                                               ; combout          ;
-; |math_block|N[16]                                            ; |math_block|N[16]~corein                                               ; combout          ;
-; |math_block|N[14]                                            ; |math_block|N[14]~corein                                               ; combout          ;
-; |math_block|N[15]                                            ; |math_block|N[15]~corein                                               ; combout          ;
-; |math_block|N[7]                                             ; |math_block|N[7]~corein                                                ; combout          ;
-; |math_block|N[6]                                             ; |math_block|N[6]~corein                                                ; combout          ;
-; |math_block|N[5]                                             ; |math_block|N[5]~corein                                                ; combout          ;
-; |math_block|N[4]                                             ; |math_block|N[4]~corein                                                ; combout          ;
-; |math_block|N[2]                                             ; |math_block|N[2]~corein                                                ; combout          ;
-; |math_block|N[3]                                             ; |math_block|N[3]~corein                                                ; combout          ;
-; |math_block|N[13]                                            ; |math_block|N[13]~corein                                               ; combout          ;
-; |math_block|N[12]                                            ; |math_block|N[12]~corein                                               ; combout          ;
-; |math_block|N[11]                                            ; |math_block|N[11]~corein                                               ; combout          ;
-; |math_block|N[10]                                            ; |math_block|N[10]~corein                                               ; combout          ;
-; |math_block|N[8]                                             ; |math_block|N[8]~corein                                                ; combout          ;
-; |math_block|N[9]                                             ; |math_block|N[9]~corein                                                ; combout          ;
+; |math_block|num_X2[1]                                        ; |math_block|num_X2[1]~corein                                           ; combout          ;
+; |math_block|num_N2[31]                                       ; |math_block|num_N2[31]~corein                                          ; combout          ;
+; |math_block|num_N2[30]                                       ; |math_block|num_N2[30]~corein                                          ; combout          ;
+; |math_block|num_N2[29]                                       ; |math_block|num_N2[29]~corein                                          ; combout          ;
+; |math_block|num_N2[28]                                       ; |math_block|num_N2[28]~corein                                          ; combout          ;
+; |math_block|num_N2[26]                                       ; |math_block|num_N2[26]~corein                                          ; combout          ;
+; |math_block|num_N2[27]                                       ; |math_block|num_N2[27]~corein                                          ; combout          ;
+; |math_block|num_N2[25]                                       ; |math_block|num_N2[25]~corein                                          ; combout          ;
+; |math_block|num_N2[24]                                       ; |math_block|num_N2[24]~corein                                          ; combout          ;
+; |math_block|num_N2[23]                                       ; |math_block|num_N2[23]~corein                                          ; combout          ;
+; |math_block|num_N2[22]                                       ; |math_block|num_N2[22]~corein                                          ; combout          ;
+; |math_block|num_N2[20]                                       ; |math_block|num_N2[20]~corein                                          ; combout          ;
+; |math_block|num_N2[21]                                       ; |math_block|num_N2[21]~corein                                          ; combout          ;
+; |math_block|num_N2[19]                                       ; |math_block|num_N2[19]~corein                                          ; combout          ;
+; |math_block|num_N2[18]                                       ; |math_block|num_N2[18]~corein                                          ; combout          ;
+; |math_block|num_N2[17]                                       ; |math_block|num_N2[17]~corein                                          ; combout          ;
+; |math_block|num_N2[16]                                       ; |math_block|num_N2[16]~corein                                          ; combout          ;
+; |math_block|num_N2[14]                                       ; |math_block|num_N2[14]~corein                                          ; combout          ;
+; |math_block|num_N2[15]                                       ; |math_block|num_N2[15]~corein                                          ; combout          ;
+; |math_block|num_N2[7]                                        ; |math_block|num_N2[7]~corein                                           ; combout          ;
+; |math_block|num_N2[6]                                        ; |math_block|num_N2[6]~corein                                           ; combout          ;
+; |math_block|num_N2[5]                                        ; |math_block|num_N2[5]~corein                                           ; combout          ;
+; |math_block|num_N2[4]                                        ; |math_block|num_N2[4]~corein                                           ; combout          ;
+; |math_block|num_N2[2]                                        ; |math_block|num_N2[2]~corein                                           ; combout          ;
+; |math_block|num_N2[3]                                        ; |math_block|num_N2[3]~corein                                           ; combout          ;
+; |math_block|num_N2[13]                                       ; |math_block|num_N2[13]~corein                                          ; combout          ;
+; |math_block|num_N2[12]                                       ; |math_block|num_N2[12]~corein                                          ; combout          ;
+; |math_block|num_N2[11]                                       ; |math_block|num_N2[11]~corein                                          ; combout          ;
+; |math_block|num_N2[10]                                       ; |math_block|num_N2[10]~corein                                          ; combout          ;
+; |math_block|num_N2[8]                                        ; |math_block|num_N2[8]~corein                                           ; combout          ;
+; |math_block|num_N2[9]                                        ; |math_block|num_N2[9]~corein                                           ; combout          ;
 +--------------------------------------------------------------+------------------------------------------------------------------------+------------------+
 
 
@@ -3214,9 +3214,9 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Wed Oct 20 17:32:07 2021
+    Info: Processing started: Wed Feb 09 21:51:21 2022
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off math_block -c math_block
-Info: Using vector source file "C:/Users/FOMSI/Desktop/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/math_block/math_block.vwf"
+Info: Using vector source file "C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/math_block/math_block.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
 Info: Simulation partitioned into 1 sub-simulations
@@ -3224,8 +3224,8 @@ Info: Simulation coverage is      67.51 %
 Info: Number of transitions in simulation is 27721
 Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 169 megabytes
-    Info: Processing ended: Wed Oct 20 17:32:08 2021
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Wed Feb 09 21:51:21 2022
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 

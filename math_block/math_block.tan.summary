@@ -6,8 +6,8 @@ Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
 Actual Time    : 67.100 ns
-From           : X[4]
-To             : sum_out[18]
+From           : num_X2[4]
+To             : res_sum[18]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0

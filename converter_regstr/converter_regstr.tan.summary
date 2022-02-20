@@ -6,8 +6,8 @@ Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
 Actual Time    : 6.851 ns
-From           : signalv~reg0
-To             : signalv
+From           : signal_hex~reg0
+To             : signal_hex
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0

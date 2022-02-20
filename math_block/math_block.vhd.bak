@@ -57,12 +57,12 @@ process(num_N2, num_X2)
 		variable a1, a2, a3, a4 : integer;
 begin
 
-	a1 := ( exp(3, num_X2)*Fakt(1) ) / exp(1,2);
-	a2 := ( exp(5, num_X2)*Fakt(3) ) / exp(2,2);
-	a3 := ( exp(7, num_X2)*Fakt(7) ) / exp(3,2);
-	a4 := ( exp(9, num_X2)*Fakt(15) ) / exp(4,2);
+	a1 := ( exp(3,num_X2)*Fakt(1) ) / exp(1,2);
+	a2 := ( exp(5,num_X2)*Fakt(3) ) / exp(2,2);
+	a3 := ( exp(7,num_X2)*Fakt(5) ) / exp(3,2);
+	a4 := ( exp(9,num_X2)*Fakt(7) ) / exp(4,2);
 
-case num_N2 is
+case n is
 	when 1 => temp:= a1;
 	when 2 => temp:= a1 + a2;
 	when 3 => temp:= a1 + a2 + a3;

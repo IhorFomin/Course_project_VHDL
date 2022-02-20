@@ -42,7 +42,17 @@ SIGNAL("clk")
 	PARENT = "";
 }
 
-SIGNAL("pam")
+SIGNAL("stb")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("discharge_arr")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = BUS;
@@ -52,343 +62,333 @@ SIGNAL("pam")
 	PARENT = "";
 }
 
-SIGNAL("pam[31]")
+SIGNAL("discharge_arr[31]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[30]")
+SIGNAL("discharge_arr[30]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[29]")
+SIGNAL("discharge_arr[29]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[28]")
+SIGNAL("discharge_arr[28]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[27]")
+SIGNAL("discharge_arr[27]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[26]")
+SIGNAL("discharge_arr[26]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[25]")
+SIGNAL("discharge_arr[25]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[24]")
+SIGNAL("discharge_arr[24]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[23]")
+SIGNAL("discharge_arr[23]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[22]")
+SIGNAL("discharge_arr[22]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[21]")
+SIGNAL("discharge_arr[21]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[20]")
+SIGNAL("discharge_arr[20]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[19]")
+SIGNAL("discharge_arr[19]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[18]")
+SIGNAL("discharge_arr[18]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[17]")
+SIGNAL("discharge_arr[17]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[16]")
+SIGNAL("discharge_arr[16]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[15]")
+SIGNAL("discharge_arr[15]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[14]")
+SIGNAL("discharge_arr[14]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[13]")
+SIGNAL("discharge_arr[13]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[12]")
+SIGNAL("discharge_arr[12]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[11]")
+SIGNAL("discharge_arr[11]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[10]")
+SIGNAL("discharge_arr[10]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[9]")
+SIGNAL("discharge_arr[9]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[8]")
+SIGNAL("discharge_arr[8]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[7]")
+SIGNAL("discharge_arr[7]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[6]")
+SIGNAL("discharge_arr[6]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[5]")
+SIGNAL("discharge_arr[5]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[4]")
+SIGNAL("discharge_arr[4]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[3]")
+SIGNAL("discharge_arr[3]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[2]")
+SIGNAL("discharge_arr[2]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[1]")
+SIGNAL("discharge_arr[1]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("pam[0]")
+SIGNAL("discharge_arr[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "pam";
+	PARENT = "discharge_arr";
 }
 
-SIGNAL("signalv")
+SIGNAL("signal_hex")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("stb")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
 	PARENT = "";
 }
 
@@ -406,303 +406,6 @@ TRANSITION_LIST("clk")
 	}
 }
 
-TRANSITION_LIST("pam[31]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[30]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[29]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[28]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[27]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[26]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[25]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[24]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[23]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[22]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[21]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[20]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[19]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[18]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[17]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[16]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[15]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[14]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[13]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[12]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[11]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[10]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[9]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[8]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("pam[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000000.0;
-	}
-}
-
-TRANSITION_LIST("signalv")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 1000000.0;
-	}
-}
-
 TRANSITION_LIST("stb")
 {
 	NODE
@@ -711,6 +414,303 @@ TRANSITION_LIST("stb")
 		LEVEL 0 FOR 13.926;
 		LEVEL 1 FOR 18702.651;
 		LEVEL 0 FOR 981283.423;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[31]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[30]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[29]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[28]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[27]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[26]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[25]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[24]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[23]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[22]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[21]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[20]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[19]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[18]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[17]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[16]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[15]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[14]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[13]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[12]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[11]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[10]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[9]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[8]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("discharge_arr[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000000.0;
+	}
+}
+
+TRANSITION_LIST("signal_hex")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1000000.0;
 	}
 }
 
@@ -734,7 +734,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam";
+	CHANNEL = "discharge_arr";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 2;
@@ -744,7 +744,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[31]";
+	CHANNEL = "discharge_arr[31]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 3;
@@ -754,7 +754,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[30]";
+	CHANNEL = "discharge_arr[30]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 4;
@@ -764,7 +764,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[29]";
+	CHANNEL = "discharge_arr[29]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 5;
@@ -774,7 +774,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[28]";
+	CHANNEL = "discharge_arr[28]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 6;
@@ -784,7 +784,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[27]";
+	CHANNEL = "discharge_arr[27]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 7;
@@ -794,7 +794,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[26]";
+	CHANNEL = "discharge_arr[26]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 8;
@@ -804,7 +804,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[25]";
+	CHANNEL = "discharge_arr[25]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 9;
@@ -814,7 +814,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[24]";
+	CHANNEL = "discharge_arr[24]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 10;
@@ -824,7 +824,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[23]";
+	CHANNEL = "discharge_arr[23]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 11;
@@ -834,7 +834,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[22]";
+	CHANNEL = "discharge_arr[22]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 12;
@@ -844,7 +844,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[21]";
+	CHANNEL = "discharge_arr[21]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 13;
@@ -854,7 +854,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[20]";
+	CHANNEL = "discharge_arr[20]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 14;
@@ -864,7 +864,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[19]";
+	CHANNEL = "discharge_arr[19]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 15;
@@ -874,7 +874,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[18]";
+	CHANNEL = "discharge_arr[18]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 16;
@@ -884,7 +884,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[17]";
+	CHANNEL = "discharge_arr[17]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 17;
@@ -894,7 +894,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[16]";
+	CHANNEL = "discharge_arr[16]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 18;
@@ -904,7 +904,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[15]";
+	CHANNEL = "discharge_arr[15]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 19;
@@ -914,7 +914,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[14]";
+	CHANNEL = "discharge_arr[14]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 20;
@@ -924,7 +924,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[13]";
+	CHANNEL = "discharge_arr[13]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 21;
@@ -934,7 +934,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[12]";
+	CHANNEL = "discharge_arr[12]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 22;
@@ -944,7 +944,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[11]";
+	CHANNEL = "discharge_arr[11]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 23;
@@ -954,7 +954,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[10]";
+	CHANNEL = "discharge_arr[10]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 24;
@@ -964,7 +964,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[9]";
+	CHANNEL = "discharge_arr[9]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 25;
@@ -974,7 +974,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[8]";
+	CHANNEL = "discharge_arr[8]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 26;
@@ -984,7 +984,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[7]";
+	CHANNEL = "discharge_arr[7]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 27;
@@ -994,7 +994,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[6]";
+	CHANNEL = "discharge_arr[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 28;
@@ -1004,7 +1004,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[5]";
+	CHANNEL = "discharge_arr[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 29;
@@ -1014,7 +1014,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[4]";
+	CHANNEL = "discharge_arr[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 30;
@@ -1024,7 +1024,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[3]";
+	CHANNEL = "discharge_arr[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 31;
@@ -1034,7 +1034,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[2]";
+	CHANNEL = "discharge_arr[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 32;
@@ -1044,7 +1044,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[1]";
+	CHANNEL = "discharge_arr[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 33;
@@ -1054,7 +1054,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "pam[0]";
+	CHANNEL = "discharge_arr[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 34;
@@ -1064,7 +1064,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "signalv";
+	CHANNEL = "signal_hex";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Signed;
 	TREE_INDEX = 35;

@@ -1292,7 +1292,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "write";
+		SIGNAL = "write_signal";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -1612,7 +1612,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout";
+		SIGNAL = "date_out";
 		INDEX = 42;
 		FORMAT = T;
 		SCALE = 1;
@@ -1620,7 +1620,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[31]";
+		SIGNAL = "date_out[31]";
 		INDEX = 43;
 		FORMAT = E;
 		SCALE = 1;
@@ -1628,7 +1628,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[30]";
+		SIGNAL = "date_out[30]";
 		INDEX = 44;
 		FORMAT = E;
 		SCALE = 1;
@@ -1636,7 +1636,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[29]";
+		SIGNAL = "date_out[29]";
 		INDEX = 45;
 		FORMAT = E;
 		SCALE = 1;
@@ -1644,7 +1644,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[28]";
+		SIGNAL = "date_out[28]";
 		INDEX = 46;
 		FORMAT = E;
 		SCALE = 1;
@@ -1652,7 +1652,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[27]";
+		SIGNAL = "date_out[27]";
 		INDEX = 47;
 		FORMAT = E;
 		SCALE = 1;
@@ -1660,7 +1660,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[26]";
+		SIGNAL = "date_out[26]";
 		INDEX = 48;
 		FORMAT = E;
 		SCALE = 1;
@@ -1668,7 +1668,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[25]";
+		SIGNAL = "date_out[25]";
 		INDEX = 49;
 		FORMAT = E;
 		SCALE = 1;
@@ -1676,7 +1676,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[24]";
+		SIGNAL = "date_out[24]";
 		INDEX = 50;
 		FORMAT = E;
 		SCALE = 1;
@@ -1684,7 +1684,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[23]";
+		SIGNAL = "date_out[23]";
 		INDEX = 51;
 		FORMAT = E;
 		SCALE = 1;
@@ -1692,7 +1692,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[22]";
+		SIGNAL = "date_out[22]";
 		INDEX = 52;
 		FORMAT = E;
 		SCALE = 1;
@@ -1700,7 +1700,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[21]";
+		SIGNAL = "date_out[21]";
 		INDEX = 53;
 		FORMAT = E;
 		SCALE = 1;
@@ -1708,7 +1708,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[20]";
+		SIGNAL = "date_out[20]";
 		INDEX = 54;
 		FORMAT = E;
 		SCALE = 1;
@@ -1716,7 +1716,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[19]";
+		SIGNAL = "date_out[19]";
 		INDEX = 55;
 		FORMAT = E;
 		SCALE = 1;
@@ -1724,7 +1724,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[18]";
+		SIGNAL = "date_out[18]";
 		INDEX = 56;
 		FORMAT = E;
 		SCALE = 1;
@@ -1732,7 +1732,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[17]";
+		SIGNAL = "date_out[17]";
 		INDEX = 57;
 		FORMAT = E;
 		SCALE = 1;
@@ -1740,7 +1740,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[16]";
+		SIGNAL = "date_out[16]";
 		INDEX = 58;
 		FORMAT = E;
 		SCALE = 1;
@@ -1748,7 +1748,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[15]";
+		SIGNAL = "date_out[15]";
 		INDEX = 59;
 		FORMAT = E;
 		SCALE = 1;
@@ -1756,7 +1756,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[14]";
+		SIGNAL = "date_out[14]";
 		INDEX = 60;
 		FORMAT = E;
 		SCALE = 1;
@@ -1764,7 +1764,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[13]";
+		SIGNAL = "date_out[13]";
 		INDEX = 61;
 		FORMAT = E;
 		SCALE = 1;
@@ -1772,7 +1772,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[12]";
+		SIGNAL = "date_out[12]";
 		INDEX = 62;
 		FORMAT = E;
 		SCALE = 1;
@@ -1780,7 +1780,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[11]";
+		SIGNAL = "date_out[11]";
 		INDEX = 63;
 		FORMAT = E;
 		SCALE = 1;
@@ -1788,7 +1788,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[10]";
+		SIGNAL = "date_out[10]";
 		INDEX = 64;
 		FORMAT = E;
 		SCALE = 1;
@@ -1796,7 +1796,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[9]";
+		SIGNAL = "date_out[9]";
 		INDEX = 65;
 		FORMAT = E;
 		SCALE = 1;
@@ -1804,7 +1804,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[8]";
+		SIGNAL = "date_out[8]";
 		INDEX = 66;
 		FORMAT = E;
 		SCALE = 1;
@@ -1812,7 +1812,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[7]";
+		SIGNAL = "date_out[7]";
 		INDEX = 67;
 		FORMAT = E;
 		SCALE = 1;
@@ -1820,7 +1820,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[6]";
+		SIGNAL = "date_out[6]";
 		INDEX = 68;
 		FORMAT = E;
 		SCALE = 1;
@@ -1828,7 +1828,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[5]";
+		SIGNAL = "date_out[5]";
 		INDEX = 69;
 		FORMAT = E;
 		SCALE = 1;
@@ -1836,7 +1836,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[4]";
+		SIGNAL = "date_out[4]";
 		INDEX = 70;
 		FORMAT = E;
 		SCALE = 1;
@@ -1844,7 +1844,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[3]";
+		SIGNAL = "date_out[3]";
 		INDEX = 71;
 		FORMAT = E;
 		SCALE = 1;
@@ -1852,7 +1852,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[2]";
+		SIGNAL = "date_out[2]";
 		INDEX = 72;
 		FORMAT = E;
 		SCALE = 1;
@@ -1860,7 +1860,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[1]";
+		SIGNAL = "date_out[1]";
 		INDEX = 73;
 		FORMAT = E;
 		SCALE = 1;
@@ -1868,7 +1868,626 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "dout[0]";
+		SIGNAL = "date_out[0]";
+		INDEX = 74;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/ram_block_v2/db/ram_block_v2.sim.cvwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 1000000;
+		NUMERATOR = 1131;
+		DENOMINATOR = 1000000;
+		TOP_INDEX = 3;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "clk";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "cs";
+		INDEX = 1;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "write_signal";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "adress";
+		INDEX = 3;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "adress[4]";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "adress[3]";
+		INDEX = 5;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "adress[2]";
+		INDEX = 6;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "adress[1]";
+		INDEX = 7;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "adress[0]";
+		INDEX = 8;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y";
+		INDEX = 9;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[31]";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[30]";
+		INDEX = 11;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[29]";
+		INDEX = 12;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[28]";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[27]";
+		INDEX = 14;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[26]";
+		INDEX = 15;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[25]";
+		INDEX = 16;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[24]";
+		INDEX = 17;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[23]";
+		INDEX = 18;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[22]";
+		INDEX = 19;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[21]";
+		INDEX = 20;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[20]";
+		INDEX = 21;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[19]";
+		INDEX = 22;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[18]";
+		INDEX = 23;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[17]";
+		INDEX = 24;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[16]";
+		INDEX = 25;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[15]";
+		INDEX = 26;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[14]";
+		INDEX = 27;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[13]";
+		INDEX = 28;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[12]";
+		INDEX = 29;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[11]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[10]";
+		INDEX = 31;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[9]";
+		INDEX = 32;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[8]";
+		INDEX = 33;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[7]";
+		INDEX = 34;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[6]";
+		INDEX = 35;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[5]";
+		INDEX = 36;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[4]";
+		INDEX = 37;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[3]";
+		INDEX = 38;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[2]";
+		INDEX = 39;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[1]";
+		INDEX = 40;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "y[0]";
+		INDEX = 41;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out";
+		INDEX = 42;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[31]";
+		INDEX = 43;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[30]";
+		INDEX = 44;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[29]";
+		INDEX = 45;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[28]";
+		INDEX = 46;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[27]";
+		INDEX = 47;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[26]";
+		INDEX = 48;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[25]";
+		INDEX = 49;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[24]";
+		INDEX = 50;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[23]";
+		INDEX = 51;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[22]";
+		INDEX = 52;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[21]";
+		INDEX = 53;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[20]";
+		INDEX = 54;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[19]";
+		INDEX = 55;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[18]";
+		INDEX = 56;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[17]";
+		INDEX = 57;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[16]";
+		INDEX = 58;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[15]";
+		INDEX = 59;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[14]";
+		INDEX = 60;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[13]";
+		INDEX = 61;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[12]";
+		INDEX = 62;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[11]";
+		INDEX = 63;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[10]";
+		INDEX = 64;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[9]";
+		INDEX = 65;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[8]";
+		INDEX = 66;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[7]";
+		INDEX = 67;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[6]";
+		INDEX = 68;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[5]";
+		INDEX = 69;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[4]";
+		INDEX = 70;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[3]";
+		INDEX = 71;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[2]";
+		INDEX = 72;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[1]";
+		INDEX = 73;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "date_out[0]";
 		INDEX = 74;
 		FORMAT = E;
 		SCALE = 1;

@@ -99,17 +99,17 @@ VCCIO6                       : AA1       : power  :                   : 3.3V    
 GND                          : AA2       : gnd    :                   :         :           :                
 nCEO                         : AA3       :        :                   :         : 7         :                
 GND*                         : AA4       :        :                   :         : 7         :                
-pam[28]                      : AA5       : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[28]            : AA5       : input  : 3.3-V LVTTL       :         : 7         : N              
 GND*                         : AA6       :        :                   :         : 7         :                
 GND*                         : AA7       :        :                   :         : 7         :                
 GND*                         : AA8       :        :                   :         : 7         :                
 GND*                         : AA9       :        :                   :         : 10        :                
 GND*                         : AA10      :        :                   :         : 10        :                
 GND*                         : AA11      :        :                   :         : 7         :                
-pam[1]                       : AA12      : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[1]             : AA12      : input  : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : AA13      :        :                   :         : 8         :                
 VREFB8                       : AA14      : power  :                   :         : 8         :                
-pam[4]                       : AA15      : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[4]             : AA15      : input  : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : AA16      :        :                   :         : 8         :                
 GND*                         : AA17      :        :                   :         : 8         :                
 GND*                         : AA18      :        :                   :         : 8         :                
@@ -132,7 +132,7 @@ VCCIO8                       : AB12      : power  :                   : 3.3V    
 GND*                         : AB13      :        :                   :         : 8         :                
 GND                          : AB14      : gnd    :                   :         :           :                
 GND*                         : AB15      :        :                   :         : 8         :                
-pam[10]                      : AB16      : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[10]            : AB16      : input  : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : AB17      :        :                   :         : 8         :                
 GND*                         : AB18      :        :                   :         : 8         :                
 TRST                         : AB19      : input  :                   :         : 8         :                
@@ -153,10 +153,10 @@ GND*                         : B11       :        :                   :         
 GND*                         : B12       :        :                   :         : 4         :                
 GND*                         : B13       :        :                   :         : 3         :                
 VREFB3                       : B14       : power  :                   :         : 3         :                
-signalv                      : B15       : output : 3.3-V LVTTL       :         : 3         : N              
+signal_hex                   : B15       : output : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : B16       :        :                   :         : 3         :                
 GND*                         : B17       :        :                   :         : 3         :                
-pam[7]                       : B18       : input  : 3.3-V LVTTL       :         : 3         : N              
+discharge_arr[7]             : B18       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : B19       :        :                   :         : 3         :                
 nSTATUS                      : B20       :        :                   :         : 3         :                
 GND                          : B21       : gnd    :                   :         :           :                
@@ -212,7 +212,7 @@ GND*                         : E4        :        :                   :         
 MSEL0                        : E5        :        :                   :         : 4         :                
 GND*                         : E6        :        :                   :         : 4         :                
 GND*                         : E7        :        :                   :         : 4         :                
-pam[26]                      : E8        : input  : 3.3-V LVTTL       :         : 4         : N              
+discharge_arr[26]            : E8        : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : E9        :        :                   :         : 4         :                
 GND*                         : E10       :        :                   :         : 4         :                
 GND*                         : E11       :        :                   :         : 3         :                
@@ -233,7 +233,7 @@ VREFB5                       : F3        : power  :                   :         
 GND*                         : F4        :        :                   :         : 5         :                
 GND*                         : F5        :        :                   :         : 5         :                
 GND*                         : F6        :        :                   :         : 4         :                
-pam[31]                      : F7        : input  : 3.3-V LVTTL       :         : 4         : N              
+discharge_arr[31]            : F7        : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : F8        :        :                   :         : 4         :                
 GND*                         : F9        :        :                   :         : 4         :                
 GNDA_PLL5                    : F10       : gnd    :                   :         :           :                
@@ -430,10 +430,10 @@ GND*                         : R2        :        :                   :         
 GND*                         : R3        :        :                   :         : 6         :                
 GND*                         : R4        :        :                   :         : 6         :                
 GND*                         : R5        :        :                   :         : 6         :                
-pam[15]                      : R6        : input  : 3.3-V LVTTL       :         : 6         : N              
+discharge_arr[15]            : R6        : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : R7        :        :                   :         : 6         :                
 GND*                         : R8        :        :                   :         : 6         :                
-pam[24]                      : R9        : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[24]            : R9        : input  : 3.3-V LVTTL       :         : 7         : N              
 GND                          : R10       : gnd    :                   :         :           :                
 VCC_PLL6_OUT                 : R11       : power  :                   : 3.3V    : 10        :                
 VCCA_PLL6                    : R12       : power  :                   : 1.2V    :           :                
@@ -450,12 +450,12 @@ GND*                         : R22       :        :                   :         
 GND*                         : T1        :        :                   :         : 6         :                
 GND*                         : T2        :        :                   :         : 6         :                
 GND*                         : T3        :        :                   :         : 6         :                
-pam[9]                       : T4        : input  : 3.3-V LVTTL       :         : 6         : N              
+discharge_arr[9]             : T4        : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : T5        :        :                   :         : 6         :                
 GND*                         : T6        :        :                   :         : 6         :                
 GND*                         : T7        :        :                   :         : 7         :                
-pam[25]                      : T8        : input  : 3.3-V LVTTL       :         : 7         : N              
-pam[22]                      : T9        : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[25]            : T8        : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[22]            : T9        : input  : 3.3-V LVTTL       :         : 7         : N              
 GND*                         : T10       :        :                   :         : 7         :                
 GNDA_PLL6                    : T11       : gnd    :                   :         :           :                
 GNDA_PLL6                    : T12       : gnd    :                   :         :           :                
@@ -473,14 +473,14 @@ GND*                         : U1        :        :                   :         
 GND*                         : U2        :        :                   :         : 6         :                
 VREFB6                       : U3        : power  :                   :         : 6         :                
 GND*                         : U4        :        :                   :         : 6         :                
-pam[2]                       : U5        : input  : 3.3-V LVTTL       :         : 6         : N              
+discharge_arr[2]             : U5        : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : U6        :        :                   :         : 7         :                
-pam[6]                       : U7        : input  : 3.3-V LVTTL       :         : 7         : N              
-pam[17]                      : U8        : input  : 3.3-V LVTTL       :         : 7         : N              
-pam[27]                      : U9        : input  : 3.3-V LVTTL       :         : 7         : N              
-pam[19]                      : U10       : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[6]             : U7        : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[17]            : U8        : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[27]            : U9        : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[19]            : U10       : input  : 3.3-V LVTTL       :         : 7         : N              
 VCCD_PLL6                    : U11       : power  :                   : 1.2V    :           :                
-pam[3]                       : U12       : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[3]             : U12       : input  : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : U13       :        :                   :         : 8         :                
 GND*                         : U14       :        :                   :         : 8         :                
 GND*                         : U15       :        :                   :         : 8         :                
@@ -489,7 +489,7 @@ GND*                         : U17       :        :                   :         
 GND*                         : U18       :        :                   :         : 1         :                
 GND*                         : U19       :        :                   :         : 1         :                
 GND*                         : U20       :        :                   :         : 1         :                
-pam[12]                      : U21       : input  : 3.3-V LVTTL       :         : 1         : N              
+discharge_arr[12]            : U21       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : U22       :        :                   :         : 1         :                
 GND*                         : V1        :        :                   :         : 6         :                
 GND*                         : V2        :        :                   :         : 6         :                
@@ -497,12 +497,12 @@ GND*                         : V3        :        :                   :         
 GND*                         : V4        :        :                   :         : 6         :                
 PORSEL                       : V5        :        :                   :         : 7         :                
 GND*                         : V6        :        :                   :         : 7         :                
-pam[16]                      : V7        : input  : 3.3-V LVTTL       :         : 7         : N              
-pam[30]                      : V8        : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[16]            : V7        : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[30]            : V8        : input  : 3.3-V LVTTL       :         : 7         : N              
 GND*                         : V9        :        :                   :         : 10        :                
 GND*                         : V10       :        :                   :         : 7         :                
-pam[8]                       : V11       : input  : 3.3-V LVTTL       :         : 8         : N              
-pam[5]                       : V12       : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[8]             : V11       : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[5]             : V12       : input  : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : V13       :        :                   :         : 8         :                
 GND*                         : V14       :        :                   :         : 8         :                
 GND*                         : V15       :        :                   :         : 8         :                
@@ -515,7 +515,7 @@ GND*                         : V21       :        :                   :         
 GND*                         : V22       :        :                   :         : 1         :                
 GND*                         : W1        :        :                   :         : 6         :                
 GND*                         : W2        :        :                   :         : 6         :                
-pam[29]                      : W3        : input  : 3.3-V LVTTL       :         : 6         : N              
+discharge_arr[29]            : W3        : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : W4        :        :                   :         : 6         :                
 GND*                         : W5        :        :                   :         : 7         :                
 VREFB7                       : W6        : power  :                   :         : 7         :                
@@ -523,8 +523,8 @@ GND*                         : W7        :        :                   :         
 VREFB7                       : W8        : power  :                   :         : 7         :                
 GND*                         : W9        :        :                   :         : 10        :                
 GND*                         : W10       :        :                   :         : 7         :                
-pam[11]                      : W11       : input  : 3.3-V LVTTL       :         : 8         : N              
-pam[13]                      : W12       : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[11]            : W11       : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[13]            : W12       : input  : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : W13       :        :                   :         : 8         :                
 GND*                         : W14       :        :                   :         : 8         :                
 GND*                         : W15       :        :                   :         : 8         :                
@@ -536,24 +536,24 @@ GND*                         : W20       :        :                   :         
 GND*                         : W21       :        :                   :         : 1         :                
 GND*                         : W22       :        :                   :         : 1         :                
 GND*                         : Y1        :        :                   :         : 6         :                
-pam[23]                      : Y2        : input  : 3.3-V LVTTL       :         : 6         : N              
+discharge_arr[23]            : Y2        : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : Y3        :        :                   :         : 7         :                
 PLL_ENA                      : Y4        :        :                   :         : 7         :                
 GND*                         : Y5        :        :                   :         : 7         :                
-pam[20]                      : Y6        : input  : 3.3-V LVTTL       :         : 7         : N              
+discharge_arr[20]            : Y6        : input  : 3.3-V LVTTL       :         : 7         : N              
 GND*                         : Y7        :        :                   :         : 7         :                
 GND*                         : Y8        :        :                   :         : 7         :                
 GND*                         : Y9        :        :                   :         : 10        :                
 GND*                         : Y10       :        :                   :         : 7         :                
 GND*                         : Y11       :        :                   :         : 7         :                
 GND*                         : Y12       :        :                   :         : 8         :                
-pam[0]                       : Y13       : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[0]             : Y13       : input  : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : Y14       :        :                   :         : 8         :                
-pam[21]                      : Y15       : input  : 3.3-V LVTTL       :         : 8         : N              
-pam[14]                      : Y16       : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[21]            : Y15       : input  : 3.3-V LVTTL       :         : 8         : N              
+discharge_arr[14]            : Y16       : input  : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : Y17       :        :                   :         : 8         :                
 GND*                         : Y18       :        :                   :         : 8         :                
 VREFB8                       : Y19       : power  :                   :         : 8         :                
 GND*                         : Y20       :        :                   :         : 8         :                
 GND*                         : Y21       :        :                   :         : 1         :                
-pam[18]                      : Y22       : input  : 3.3-V LVTTL       :         : 1         : N              
+discharge_arr[18]            : Y22       : input  : 3.3-V LVTTL       :         : 1         : N              

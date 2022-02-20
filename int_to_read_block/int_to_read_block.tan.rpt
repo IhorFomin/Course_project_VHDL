@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for int_to_read_block
-Tue Oct 12 20:51:20 2021
+Thu Feb 10 22:01:03 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -746,7 +746,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Oct 12 20:51:20 2021
+    Info: Processing started: Thu Feb 10 22:01:02 2022
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off int_to_read_block -c int_to_read_block --timing_analysis_only
 Warning: Found pins functioning as undefined clocks and/or memory enables
     Info: Assuming node "stb" is an undefined clock
@@ -889,8 +889,8 @@ Info: Longest tpd from source pin "sign" to destination pin "x_real[31]" is 6.58
     Info: Total interconnect delay = 3.654 ns ( 55.46 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 176 megabytes
-    Info: Processing ended: Tue Oct 12 20:51:20 2021
-    Info: Elapsed time: 00:00:00
+    Info: Processing ended: Thu Feb 10 22:01:03 2022
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

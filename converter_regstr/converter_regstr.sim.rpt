@@ -1,5 +1,5 @@
 Simulator report for converter_regstr
-Fri Jan 28 21:20:16 2022
+Mon Feb 14 20:53:37 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -105,167 +105,167 @@ Please use Quartus II to view the waveform report data.
 
 
 The following table displays output ports that toggle between 1 and 0 during simulation.
-+--------------------------------------------------------------------------------------+
-; Complete 1/0-Value Coverage                                                          ;
-+---------------------------------+---------------------------------+------------------+
-; Node Name                       ; Output Port Name                ; Output Port Type ;
-+---------------------------------+---------------------------------+------------------+
-; |converter_regstr|signalv~reg0  ; |converter_regstr|signalv~reg0  ; regout           ;
-; |converter_regstr|w1[0]         ; |converter_regstr|w1[0]         ; regout           ;
-; |converter_regstr|w1[1]         ; |converter_regstr|w1[1]         ; regout           ;
-; |converter_regstr|w1[2]         ; |converter_regstr|w1[2]         ; regout           ;
-; |converter_regstr|w1[3]         ; |converter_regstr|w1[3]         ; regout           ;
-; |converter_regstr|w1[4]         ; |converter_regstr|w1[4]         ; regout           ;
-; |converter_regstr|w1[5]         ; |converter_regstr|w1[5]         ; regout           ;
-; |converter_regstr|w1[6]         ; |converter_regstr|w1[6]         ; regout           ;
-; |converter_regstr|w1[7]         ; |converter_regstr|w1[7]         ; regout           ;
-; |converter_regstr|w1[8]         ; |converter_regstr|w1[8]         ; regout           ;
-; |converter_regstr|w1[9]         ; |converter_regstr|w1[9]         ; regout           ;
-; |converter_regstr|w1[10]        ; |converter_regstr|w1[10]        ; regout           ;
-; |converter_regstr|w1[11]        ; |converter_regstr|w1[11]        ; regout           ;
-; |converter_regstr|w1[12]        ; |converter_regstr|w1[12]        ; regout           ;
-; |converter_regstr|w1[13]        ; |converter_regstr|w1[13]        ; regout           ;
-; |converter_regstr|w1[14]        ; |converter_regstr|w1[14]        ; regout           ;
-; |converter_regstr|w1[15]        ; |converter_regstr|w1[15]        ; regout           ;
-; |converter_regstr|w1[16]        ; |converter_regstr|w1[16]        ; regout           ;
-; |converter_regstr|w1[17]        ; |converter_regstr|w1[17]        ; regout           ;
-; |converter_regstr|w1[18]        ; |converter_regstr|w1[18]        ; regout           ;
-; |converter_regstr|w1[19]        ; |converter_regstr|w1[19]        ; regout           ;
-; |converter_regstr|w1[20]        ; |converter_regstr|w1[20]        ; regout           ;
-; |converter_regstr|w1[21]        ; |converter_regstr|w1[21]        ; regout           ;
-; |converter_regstr|w1[22]        ; |converter_regstr|w1[22]        ; regout           ;
-; |converter_regstr|w1[23]        ; |converter_regstr|w1[23]        ; regout           ;
-; |converter_regstr|w1[24]        ; |converter_regstr|w1[24]        ; regout           ;
-; |converter_regstr|w1[25]        ; |converter_regstr|w1[25]        ; regout           ;
-; |converter_regstr|w1[26]        ; |converter_regstr|w1[26]        ; regout           ;
-; |converter_regstr|w1[27]        ; |converter_regstr|w1[27]        ; regout           ;
-; |converter_regstr|w1[28]        ; |converter_regstr|w1[28]        ; regout           ;
-; |converter_regstr|w1[29]        ; |converter_regstr|w1[29]        ; regout           ;
-; |converter_regstr|w1[30]        ; |converter_regstr|w1[30]        ; regout           ;
-; |converter_regstr|w1[31]        ; |converter_regstr|w1[31]        ; regout           ;
-; |converter_regstr|signalv       ; |converter_regstr|signalv       ; padio            ;
-; |converter_regstr|clk           ; |converter_regstr|clk~corein    ; combout          ;
-; |converter_regstr|stb           ; |converter_regstr|stb~corein    ; combout          ;
-; |converter_regstr|clk~clkctrl   ; |converter_regstr|clk~clkctrl   ; outclk           ;
-; |converter_regstr|stb~clkctrl   ; |converter_regstr|stb~clkctrl   ; outclk           ;
-; |converter_regstr|w1[0]~feeder  ; |converter_regstr|w1[0]~feeder  ; combout          ;
-; |converter_regstr|w1[1]~feeder  ; |converter_regstr|w1[1]~feeder  ; combout          ;
-; |converter_regstr|w1[2]~feeder  ; |converter_regstr|w1[2]~feeder  ; combout          ;
-; |converter_regstr|w1[3]~feeder  ; |converter_regstr|w1[3]~feeder  ; combout          ;
-; |converter_regstr|w1[4]~feeder  ; |converter_regstr|w1[4]~feeder  ; combout          ;
-; |converter_regstr|w1[5]~feeder  ; |converter_regstr|w1[5]~feeder  ; combout          ;
-; |converter_regstr|w1[6]~feeder  ; |converter_regstr|w1[6]~feeder  ; combout          ;
-; |converter_regstr|w1[7]~feeder  ; |converter_regstr|w1[7]~feeder  ; combout          ;
-; |converter_regstr|w1[8]~feeder  ; |converter_regstr|w1[8]~feeder  ; combout          ;
-; |converter_regstr|w1[9]~feeder  ; |converter_regstr|w1[9]~feeder  ; combout          ;
-; |converter_regstr|w1[10]~feeder ; |converter_regstr|w1[10]~feeder ; combout          ;
-; |converter_regstr|w1[11]~feeder ; |converter_regstr|w1[11]~feeder ; combout          ;
-; |converter_regstr|w1[12]~feeder ; |converter_regstr|w1[12]~feeder ; combout          ;
-; |converter_regstr|w1[13]~feeder ; |converter_regstr|w1[13]~feeder ; combout          ;
-; |converter_regstr|w1[14]~feeder ; |converter_regstr|w1[14]~feeder ; combout          ;
-; |converter_regstr|w1[15]~feeder ; |converter_regstr|w1[15]~feeder ; combout          ;
-; |converter_regstr|w1[16]~feeder ; |converter_regstr|w1[16]~feeder ; combout          ;
-; |converter_regstr|w1[17]~feeder ; |converter_regstr|w1[17]~feeder ; combout          ;
-; |converter_regstr|w1[18]~feeder ; |converter_regstr|w1[18]~feeder ; combout          ;
-; |converter_regstr|w1[19]~feeder ; |converter_regstr|w1[19]~feeder ; combout          ;
-; |converter_regstr|w1[20]~feeder ; |converter_regstr|w1[20]~feeder ; combout          ;
-; |converter_regstr|w1[21]~feeder ; |converter_regstr|w1[21]~feeder ; combout          ;
-; |converter_regstr|w1[22]~feeder ; |converter_regstr|w1[22]~feeder ; combout          ;
-; |converter_regstr|w1[23]~feeder ; |converter_regstr|w1[23]~feeder ; combout          ;
-; |converter_regstr|w1[24]~feeder ; |converter_regstr|w1[24]~feeder ; combout          ;
-; |converter_regstr|w1[25]~feeder ; |converter_regstr|w1[25]~feeder ; combout          ;
-; |converter_regstr|w1[26]~feeder ; |converter_regstr|w1[26]~feeder ; combout          ;
-; |converter_regstr|w1[27]~feeder ; |converter_regstr|w1[27]~feeder ; combout          ;
-; |converter_regstr|w1[28]~feeder ; |converter_regstr|w1[28]~feeder ; combout          ;
-; |converter_regstr|w1[29]~feeder ; |converter_regstr|w1[29]~feeder ; combout          ;
-; |converter_regstr|w1[30]~feeder ; |converter_regstr|w1[30]~feeder ; combout          ;
-+---------------------------------+---------------------------------+------------------+
++------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                              ;
++-----------------------------------+-----------------------------------+------------------+
+; Node Name                         ; Output Port Name                  ; Output Port Type ;
++-----------------------------------+-----------------------------------+------------------+
+; |converter_regstr|signal_hex~reg0 ; |converter_regstr|signal_hex~reg0 ; regout           ;
+; |converter_regstr|w1[0]           ; |converter_regstr|w1[0]           ; regout           ;
+; |converter_regstr|w1[1]           ; |converter_regstr|w1[1]           ; regout           ;
+; |converter_regstr|w1[2]           ; |converter_regstr|w1[2]           ; regout           ;
+; |converter_regstr|w1[3]           ; |converter_regstr|w1[3]           ; regout           ;
+; |converter_regstr|w1[4]           ; |converter_regstr|w1[4]           ; regout           ;
+; |converter_regstr|w1[5]           ; |converter_regstr|w1[5]           ; regout           ;
+; |converter_regstr|w1[6]           ; |converter_regstr|w1[6]           ; regout           ;
+; |converter_regstr|w1[7]           ; |converter_regstr|w1[7]           ; regout           ;
+; |converter_regstr|w1[8]           ; |converter_regstr|w1[8]           ; regout           ;
+; |converter_regstr|w1[9]           ; |converter_regstr|w1[9]           ; regout           ;
+; |converter_regstr|w1[10]          ; |converter_regstr|w1[10]          ; regout           ;
+; |converter_regstr|w1[11]          ; |converter_regstr|w1[11]          ; regout           ;
+; |converter_regstr|w1[12]          ; |converter_regstr|w1[12]          ; regout           ;
+; |converter_regstr|w1[13]          ; |converter_regstr|w1[13]          ; regout           ;
+; |converter_regstr|w1[14]          ; |converter_regstr|w1[14]          ; regout           ;
+; |converter_regstr|w1[15]          ; |converter_regstr|w1[15]          ; regout           ;
+; |converter_regstr|w1[16]          ; |converter_regstr|w1[16]          ; regout           ;
+; |converter_regstr|w1[17]          ; |converter_regstr|w1[17]          ; regout           ;
+; |converter_regstr|w1[18]          ; |converter_regstr|w1[18]          ; regout           ;
+; |converter_regstr|w1[19]          ; |converter_regstr|w1[19]          ; regout           ;
+; |converter_regstr|w1[20]          ; |converter_regstr|w1[20]          ; regout           ;
+; |converter_regstr|w1[21]          ; |converter_regstr|w1[21]          ; regout           ;
+; |converter_regstr|w1[22]          ; |converter_regstr|w1[22]          ; regout           ;
+; |converter_regstr|w1[23]          ; |converter_regstr|w1[23]          ; regout           ;
+; |converter_regstr|w1[24]          ; |converter_regstr|w1[24]          ; regout           ;
+; |converter_regstr|w1[25]          ; |converter_regstr|w1[25]          ; regout           ;
+; |converter_regstr|w1[26]          ; |converter_regstr|w1[26]          ; regout           ;
+; |converter_regstr|w1[27]          ; |converter_regstr|w1[27]          ; regout           ;
+; |converter_regstr|w1[28]          ; |converter_regstr|w1[28]          ; regout           ;
+; |converter_regstr|w1[29]          ; |converter_regstr|w1[29]          ; regout           ;
+; |converter_regstr|w1[30]          ; |converter_regstr|w1[30]          ; regout           ;
+; |converter_regstr|w1[31]          ; |converter_regstr|w1[31]          ; regout           ;
+; |converter_regstr|signal_hex      ; |converter_regstr|signal_hex      ; padio            ;
+; |converter_regstr|clk             ; |converter_regstr|clk~corein      ; combout          ;
+; |converter_regstr|stb             ; |converter_regstr|stb~corein      ; combout          ;
+; |converter_regstr|clk~clkctrl     ; |converter_regstr|clk~clkctrl     ; outclk           ;
+; |converter_regstr|stb~clkctrl     ; |converter_regstr|stb~clkctrl     ; outclk           ;
+; |converter_regstr|w1[0]~feeder    ; |converter_regstr|w1[0]~feeder    ; combout          ;
+; |converter_regstr|w1[1]~feeder    ; |converter_regstr|w1[1]~feeder    ; combout          ;
+; |converter_regstr|w1[2]~feeder    ; |converter_regstr|w1[2]~feeder    ; combout          ;
+; |converter_regstr|w1[3]~feeder    ; |converter_regstr|w1[3]~feeder    ; combout          ;
+; |converter_regstr|w1[4]~feeder    ; |converter_regstr|w1[4]~feeder    ; combout          ;
+; |converter_regstr|w1[5]~feeder    ; |converter_regstr|w1[5]~feeder    ; combout          ;
+; |converter_regstr|w1[6]~feeder    ; |converter_regstr|w1[6]~feeder    ; combout          ;
+; |converter_regstr|w1[7]~feeder    ; |converter_regstr|w1[7]~feeder    ; combout          ;
+; |converter_regstr|w1[8]~feeder    ; |converter_regstr|w1[8]~feeder    ; combout          ;
+; |converter_regstr|w1[9]~feeder    ; |converter_regstr|w1[9]~feeder    ; combout          ;
+; |converter_regstr|w1[10]~feeder   ; |converter_regstr|w1[10]~feeder   ; combout          ;
+; |converter_regstr|w1[11]~feeder   ; |converter_regstr|w1[11]~feeder   ; combout          ;
+; |converter_regstr|w1[12]~feeder   ; |converter_regstr|w1[12]~feeder   ; combout          ;
+; |converter_regstr|w1[13]~feeder   ; |converter_regstr|w1[13]~feeder   ; combout          ;
+; |converter_regstr|w1[14]~feeder   ; |converter_regstr|w1[14]~feeder   ; combout          ;
+; |converter_regstr|w1[15]~feeder   ; |converter_regstr|w1[15]~feeder   ; combout          ;
+; |converter_regstr|w1[16]~feeder   ; |converter_regstr|w1[16]~feeder   ; combout          ;
+; |converter_regstr|w1[17]~feeder   ; |converter_regstr|w1[17]~feeder   ; combout          ;
+; |converter_regstr|w1[18]~feeder   ; |converter_regstr|w1[18]~feeder   ; combout          ;
+; |converter_regstr|w1[19]~feeder   ; |converter_regstr|w1[19]~feeder   ; combout          ;
+; |converter_regstr|w1[20]~feeder   ; |converter_regstr|w1[20]~feeder   ; combout          ;
+; |converter_regstr|w1[21]~feeder   ; |converter_regstr|w1[21]~feeder   ; combout          ;
+; |converter_regstr|w1[22]~feeder   ; |converter_regstr|w1[22]~feeder   ; combout          ;
+; |converter_regstr|w1[23]~feeder   ; |converter_regstr|w1[23]~feeder   ; combout          ;
+; |converter_regstr|w1[24]~feeder   ; |converter_regstr|w1[24]~feeder   ; combout          ;
+; |converter_regstr|w1[25]~feeder   ; |converter_regstr|w1[25]~feeder   ; combout          ;
+; |converter_regstr|w1[26]~feeder   ; |converter_regstr|w1[26]~feeder   ; combout          ;
+; |converter_regstr|w1[27]~feeder   ; |converter_regstr|w1[27]~feeder   ; combout          ;
+; |converter_regstr|w1[28]~feeder   ; |converter_regstr|w1[28]~feeder   ; combout          ;
+; |converter_regstr|w1[29]~feeder   ; |converter_regstr|w1[29]~feeder   ; combout          ;
+; |converter_regstr|w1[30]~feeder   ; |converter_regstr|w1[30]~feeder   ; combout          ;
++-----------------------------------+-----------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
-+---------------------------------------------------------------------------------------+
-; Missing 1-Value Coverage                                                              ;
-+---------------------------------+----------------------------------+------------------+
-; Node Name                       ; Output Port Name                 ; Output Port Type ;
-+---------------------------------+----------------------------------+------------------+
-; |converter_regstr|w1[31]~0      ; |converter_regstr|w1[31]~0       ; combout          ;
-; |converter_regstr|pam[0]        ; |converter_regstr|pam[0]~corein  ; combout          ;
-; |converter_regstr|pam[1]        ; |converter_regstr|pam[1]~corein  ; combout          ;
-; |converter_regstr|pam[2]        ; |converter_regstr|pam[2]~corein  ; combout          ;
-; |converter_regstr|pam[3]        ; |converter_regstr|pam[3]~corein  ; combout          ;
-; |converter_regstr|pam[4]        ; |converter_regstr|pam[4]~corein  ; combout          ;
-; |converter_regstr|pam[5]        ; |converter_regstr|pam[5]~corein  ; combout          ;
-; |converter_regstr|pam[6]        ; |converter_regstr|pam[6]~corein  ; combout          ;
-; |converter_regstr|pam[7]        ; |converter_regstr|pam[7]~corein  ; combout          ;
-; |converter_regstr|pam[8]        ; |converter_regstr|pam[8]~corein  ; combout          ;
-; |converter_regstr|pam[9]        ; |converter_regstr|pam[9]~corein  ; combout          ;
-; |converter_regstr|pam[10]       ; |converter_regstr|pam[10]~corein ; combout          ;
-; |converter_regstr|pam[11]       ; |converter_regstr|pam[11]~corein ; combout          ;
-; |converter_regstr|pam[12]       ; |converter_regstr|pam[12]~corein ; combout          ;
-; |converter_regstr|pam[13]       ; |converter_regstr|pam[13]~corein ; combout          ;
-; |converter_regstr|pam[14]       ; |converter_regstr|pam[14]~corein ; combout          ;
-; |converter_regstr|pam[15]       ; |converter_regstr|pam[15]~corein ; combout          ;
-; |converter_regstr|pam[16]       ; |converter_regstr|pam[16]~corein ; combout          ;
-; |converter_regstr|pam[17]       ; |converter_regstr|pam[17]~corein ; combout          ;
-; |converter_regstr|pam[18]       ; |converter_regstr|pam[18]~corein ; combout          ;
-; |converter_regstr|pam[19]       ; |converter_regstr|pam[19]~corein ; combout          ;
-; |converter_regstr|pam[20]       ; |converter_regstr|pam[20]~corein ; combout          ;
-; |converter_regstr|pam[21]       ; |converter_regstr|pam[21]~corein ; combout          ;
-; |converter_regstr|pam[22]       ; |converter_regstr|pam[22]~corein ; combout          ;
-; |converter_regstr|pam[23]       ; |converter_regstr|pam[23]~corein ; combout          ;
-; |converter_regstr|pam[24]       ; |converter_regstr|pam[24]~corein ; combout          ;
-; |converter_regstr|pam[25]       ; |converter_regstr|pam[25]~corein ; combout          ;
-; |converter_regstr|pam[26]       ; |converter_regstr|pam[26]~corein ; combout          ;
-; |converter_regstr|pam[27]       ; |converter_regstr|pam[27]~corein ; combout          ;
-; |converter_regstr|pam[28]       ; |converter_regstr|pam[28]~corein ; combout          ;
-; |converter_regstr|pam[29]       ; |converter_regstr|pam[29]~corein ; combout          ;
-; |converter_regstr|pam[30]       ; |converter_regstr|pam[30]~corein ; combout          ;
-; |converter_regstr|pam[31]       ; |converter_regstr|pam[31]~corein ; combout          ;
-; |converter_regstr|w1[31]~feeder ; |converter_regstr|w1[31]~feeder  ; combout          ;
-+---------------------------------+----------------------------------+------------------+
++-----------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                            ;
++-------------------------------------+--------------------------------------------+------------------+
+; Node Name                           ; Output Port Name                           ; Output Port Type ;
++-------------------------------------+--------------------------------------------+------------------+
+; |converter_regstr|w1[31]~0          ; |converter_regstr|w1[31]~0                 ; combout          ;
+; |converter_regstr|discharge_arr[0]  ; |converter_regstr|discharge_arr[0]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[1]  ; |converter_regstr|discharge_arr[1]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[2]  ; |converter_regstr|discharge_arr[2]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[3]  ; |converter_regstr|discharge_arr[3]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[4]  ; |converter_regstr|discharge_arr[4]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[5]  ; |converter_regstr|discharge_arr[5]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[6]  ; |converter_regstr|discharge_arr[6]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[7]  ; |converter_regstr|discharge_arr[7]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[8]  ; |converter_regstr|discharge_arr[8]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[9]  ; |converter_regstr|discharge_arr[9]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[10] ; |converter_regstr|discharge_arr[10]~corein ; combout          ;
+; |converter_regstr|discharge_arr[11] ; |converter_regstr|discharge_arr[11]~corein ; combout          ;
+; |converter_regstr|discharge_arr[12] ; |converter_regstr|discharge_arr[12]~corein ; combout          ;
+; |converter_regstr|discharge_arr[13] ; |converter_regstr|discharge_arr[13]~corein ; combout          ;
+; |converter_regstr|discharge_arr[14] ; |converter_regstr|discharge_arr[14]~corein ; combout          ;
+; |converter_regstr|discharge_arr[15] ; |converter_regstr|discharge_arr[15]~corein ; combout          ;
+; |converter_regstr|discharge_arr[16] ; |converter_regstr|discharge_arr[16]~corein ; combout          ;
+; |converter_regstr|discharge_arr[17] ; |converter_regstr|discharge_arr[17]~corein ; combout          ;
+; |converter_regstr|discharge_arr[18] ; |converter_regstr|discharge_arr[18]~corein ; combout          ;
+; |converter_regstr|discharge_arr[19] ; |converter_regstr|discharge_arr[19]~corein ; combout          ;
+; |converter_regstr|discharge_arr[20] ; |converter_regstr|discharge_arr[20]~corein ; combout          ;
+; |converter_regstr|discharge_arr[21] ; |converter_regstr|discharge_arr[21]~corein ; combout          ;
+; |converter_regstr|discharge_arr[22] ; |converter_regstr|discharge_arr[22]~corein ; combout          ;
+; |converter_regstr|discharge_arr[23] ; |converter_regstr|discharge_arr[23]~corein ; combout          ;
+; |converter_regstr|discharge_arr[24] ; |converter_regstr|discharge_arr[24]~corein ; combout          ;
+; |converter_regstr|discharge_arr[25] ; |converter_regstr|discharge_arr[25]~corein ; combout          ;
+; |converter_regstr|discharge_arr[26] ; |converter_regstr|discharge_arr[26]~corein ; combout          ;
+; |converter_regstr|discharge_arr[27] ; |converter_regstr|discharge_arr[27]~corein ; combout          ;
+; |converter_regstr|discharge_arr[28] ; |converter_regstr|discharge_arr[28]~corein ; combout          ;
+; |converter_regstr|discharge_arr[29] ; |converter_regstr|discharge_arr[29]~corein ; combout          ;
+; |converter_regstr|discharge_arr[30] ; |converter_regstr|discharge_arr[30]~corein ; combout          ;
+; |converter_regstr|discharge_arr[31] ; |converter_regstr|discharge_arr[31]~corein ; combout          ;
+; |converter_regstr|w1[31]~feeder     ; |converter_regstr|w1[31]~feeder            ; combout          ;
++-------------------------------------+--------------------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 0 during simulation.
-+---------------------------------------------------------------------------------------+
-; Missing 0-Value Coverage                                                              ;
-+---------------------------------+----------------------------------+------------------+
-; Node Name                       ; Output Port Name                 ; Output Port Type ;
-+---------------------------------+----------------------------------+------------------+
-; |converter_regstr|w1[31]~0      ; |converter_regstr|w1[31]~0       ; combout          ;
-; |converter_regstr|pam[0]        ; |converter_regstr|pam[0]~corein  ; combout          ;
-; |converter_regstr|pam[1]        ; |converter_regstr|pam[1]~corein  ; combout          ;
-; |converter_regstr|pam[2]        ; |converter_regstr|pam[2]~corein  ; combout          ;
-; |converter_regstr|pam[3]        ; |converter_regstr|pam[3]~corein  ; combout          ;
-; |converter_regstr|pam[4]        ; |converter_regstr|pam[4]~corein  ; combout          ;
-; |converter_regstr|pam[5]        ; |converter_regstr|pam[5]~corein  ; combout          ;
-; |converter_regstr|pam[6]        ; |converter_regstr|pam[6]~corein  ; combout          ;
-; |converter_regstr|pam[7]        ; |converter_regstr|pam[7]~corein  ; combout          ;
-; |converter_regstr|pam[8]        ; |converter_regstr|pam[8]~corein  ; combout          ;
-; |converter_regstr|pam[9]        ; |converter_regstr|pam[9]~corein  ; combout          ;
-; |converter_regstr|pam[10]       ; |converter_regstr|pam[10]~corein ; combout          ;
-; |converter_regstr|pam[11]       ; |converter_regstr|pam[11]~corein ; combout          ;
-; |converter_regstr|pam[12]       ; |converter_regstr|pam[12]~corein ; combout          ;
-; |converter_regstr|pam[13]       ; |converter_regstr|pam[13]~corein ; combout          ;
-; |converter_regstr|pam[14]       ; |converter_regstr|pam[14]~corein ; combout          ;
-; |converter_regstr|pam[15]       ; |converter_regstr|pam[15]~corein ; combout          ;
-; |converter_regstr|pam[16]       ; |converter_regstr|pam[16]~corein ; combout          ;
-; |converter_regstr|pam[17]       ; |converter_regstr|pam[17]~corein ; combout          ;
-; |converter_regstr|pam[18]       ; |converter_regstr|pam[18]~corein ; combout          ;
-; |converter_regstr|pam[19]       ; |converter_regstr|pam[19]~corein ; combout          ;
-; |converter_regstr|pam[20]       ; |converter_regstr|pam[20]~corein ; combout          ;
-; |converter_regstr|pam[21]       ; |converter_regstr|pam[21]~corein ; combout          ;
-; |converter_regstr|pam[22]       ; |converter_regstr|pam[22]~corein ; combout          ;
-; |converter_regstr|pam[23]       ; |converter_regstr|pam[23]~corein ; combout          ;
-; |converter_regstr|pam[24]       ; |converter_regstr|pam[24]~corein ; combout          ;
-; |converter_regstr|pam[25]       ; |converter_regstr|pam[25]~corein ; combout          ;
-; |converter_regstr|pam[26]       ; |converter_regstr|pam[26]~corein ; combout          ;
-; |converter_regstr|pam[27]       ; |converter_regstr|pam[27]~corein ; combout          ;
-; |converter_regstr|pam[28]       ; |converter_regstr|pam[28]~corein ; combout          ;
-; |converter_regstr|pam[29]       ; |converter_regstr|pam[29]~corein ; combout          ;
-; |converter_regstr|pam[30]       ; |converter_regstr|pam[30]~corein ; combout          ;
-; |converter_regstr|pam[31]       ; |converter_regstr|pam[31]~corein ; combout          ;
-; |converter_regstr|w1[31]~feeder ; |converter_regstr|w1[31]~feeder  ; combout          ;
-+---------------------------------+----------------------------------+------------------+
++-----------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                            ;
++-------------------------------------+--------------------------------------------+------------------+
+; Node Name                           ; Output Port Name                           ; Output Port Type ;
++-------------------------------------+--------------------------------------------+------------------+
+; |converter_regstr|w1[31]~0          ; |converter_regstr|w1[31]~0                 ; combout          ;
+; |converter_regstr|discharge_arr[0]  ; |converter_regstr|discharge_arr[0]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[1]  ; |converter_regstr|discharge_arr[1]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[2]  ; |converter_regstr|discharge_arr[2]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[3]  ; |converter_regstr|discharge_arr[3]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[4]  ; |converter_regstr|discharge_arr[4]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[5]  ; |converter_regstr|discharge_arr[5]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[6]  ; |converter_regstr|discharge_arr[6]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[7]  ; |converter_regstr|discharge_arr[7]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[8]  ; |converter_regstr|discharge_arr[8]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[9]  ; |converter_regstr|discharge_arr[9]~corein  ; combout          ;
+; |converter_regstr|discharge_arr[10] ; |converter_regstr|discharge_arr[10]~corein ; combout          ;
+; |converter_regstr|discharge_arr[11] ; |converter_regstr|discharge_arr[11]~corein ; combout          ;
+; |converter_regstr|discharge_arr[12] ; |converter_regstr|discharge_arr[12]~corein ; combout          ;
+; |converter_regstr|discharge_arr[13] ; |converter_regstr|discharge_arr[13]~corein ; combout          ;
+; |converter_regstr|discharge_arr[14] ; |converter_regstr|discharge_arr[14]~corein ; combout          ;
+; |converter_regstr|discharge_arr[15] ; |converter_regstr|discharge_arr[15]~corein ; combout          ;
+; |converter_regstr|discharge_arr[16] ; |converter_regstr|discharge_arr[16]~corein ; combout          ;
+; |converter_regstr|discharge_arr[17] ; |converter_regstr|discharge_arr[17]~corein ; combout          ;
+; |converter_regstr|discharge_arr[18] ; |converter_regstr|discharge_arr[18]~corein ; combout          ;
+; |converter_regstr|discharge_arr[19] ; |converter_regstr|discharge_arr[19]~corein ; combout          ;
+; |converter_regstr|discharge_arr[20] ; |converter_regstr|discharge_arr[20]~corein ; combout          ;
+; |converter_regstr|discharge_arr[21] ; |converter_regstr|discharge_arr[21]~corein ; combout          ;
+; |converter_regstr|discharge_arr[22] ; |converter_regstr|discharge_arr[22]~corein ; combout          ;
+; |converter_regstr|discharge_arr[23] ; |converter_regstr|discharge_arr[23]~corein ; combout          ;
+; |converter_regstr|discharge_arr[24] ; |converter_regstr|discharge_arr[24]~corein ; combout          ;
+; |converter_regstr|discharge_arr[25] ; |converter_regstr|discharge_arr[25]~corein ; combout          ;
+; |converter_regstr|discharge_arr[26] ; |converter_regstr|discharge_arr[26]~corein ; combout          ;
+; |converter_regstr|discharge_arr[27] ; |converter_regstr|discharge_arr[27]~corein ; combout          ;
+; |converter_regstr|discharge_arr[28] ; |converter_regstr|discharge_arr[28]~corein ; combout          ;
+; |converter_regstr|discharge_arr[29] ; |converter_regstr|discharge_arr[29]~corein ; combout          ;
+; |converter_regstr|discharge_arr[30] ; |converter_regstr|discharge_arr[30]~corein ; combout          ;
+; |converter_regstr|discharge_arr[31] ; |converter_regstr|discharge_arr[31]~corein ; combout          ;
+; |converter_regstr|w1[31]~feeder     ; |converter_regstr|w1[31]~feeder            ; combout          ;
++-------------------------------------+--------------------------------------------+------------------+
 
 
 +---------------------+
@@ -281,7 +281,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Fri Jan 28 21:20:16 2022
+    Info: Processing started: Mon Feb 14 20:53:37 2022
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off converter_regstr -c converter_regstr
 Info: Using vector source file "C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/converter_regstr/converter_regstr.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
@@ -291,7 +291,7 @@ Info: Simulation coverage is      66.99 %
 Info: Number of transitions in simulation is 452
 Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 149 megabytes
-    Info: Processing ended: Fri Jan 28 21:20:16 2022
+    Info: Processing ended: Mon Feb 14 20:53:37 2022
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 

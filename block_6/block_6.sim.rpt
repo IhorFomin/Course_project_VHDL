@@ -1,5 +1,5 @@
 Simulator report for block_6
-Fri Jan 28 21:24:07 2022
+Mon Feb 14 20:43:58 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -121,7 +121,7 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |block_6|count[1]             ; |block_6|count[1]             ; regout           ;
 ; |block_6|count[2]             ; |block_6|count[2]             ; regout           ;
 ; |block_6|count[3]             ; |block_6|count[3]             ; regout           ;
-; |block_6|kod~0                ; |block_6|kod~0                ; combout          ;
+; |block_6|out_kode~0           ; |block_6|out_kode~0           ; combout          ;
 ; |block_6|process_0~0          ; |block_6|process_0~0          ; combout          ;
 ; |block_6|count[0]~0           ; |block_6|count[0]~0           ; combout          ;
 ; |block_6|count[0]~1           ; |block_6|count[0]~1           ; combout          ;
@@ -167,10 +167,10 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |block_6|count_key[1]         ; |block_6|count_key[1]         ; padio            ;
 ; |block_6|count_key[2]         ; |block_6|count_key[2]         ; padio            ;
 ; |block_6|count_key[3]         ; |block_6|count_key[3]         ; padio            ;
-; |block_6|kod                  ; |block_6|kod                  ; padio            ;
+; |block_6|out_kode             ; |block_6|out_kode             ; padio            ;
 ; |block_6|load                 ; |block_6|load~corein          ; combout          ;
 ; |block_6|clk                  ; |block_6|clk~corein           ; combout          ;
-; |block_6|posledov             ; |block_6|posledov~corein      ; combout          ;
+; |block_6|sequence             ; |block_6|sequence~corein      ; combout          ;
 ; |block_6|clk~clkctrl          ; |block_6|clk~clkctrl          ; outclk           ;
 ; |block_6|reg1[31]~0clkctrl    ; |block_6|reg1[31]~0clkctrl    ; outclk           ;
 ; |block_6|process_0~0DUPLICATE ; |block_6|process_0~0DUPLICATE ; combout          ;
@@ -209,147 +209,147 @@ The following table displays output ports that toggle between 1 and 0 during sim
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
-+----------------------------------------------------------------------+
-; Missing 1-Value Coverage                                             ;
-+------------------------+--------------------------+------------------+
-; Node Name              ; Output Port Name         ; Output Port Type ;
-+------------------------+--------------------------+------------------+
-; |block_6|count_key[5]  ; |block_6|count_key[5]    ; padio            ;
-; |block_6|count_key[6]  ; |block_6|count_key[6]    ; padio            ;
-; |block_6|count_key[7]  ; |block_6|count_key[7]    ; padio            ;
-; |block_6|count_key[8]  ; |block_6|count_key[8]    ; padio            ;
-; |block_6|count_key[9]  ; |block_6|count_key[9]    ; padio            ;
-; |block_6|count_key[10] ; |block_6|count_key[10]   ; padio            ;
-; |block_6|count_key[11] ; |block_6|count_key[11]   ; padio            ;
-; |block_6|count_key[12] ; |block_6|count_key[12]   ; padio            ;
-; |block_6|count_key[13] ; |block_6|count_key[13]   ; padio            ;
-; |block_6|count_key[14] ; |block_6|count_key[14]   ; padio            ;
-; |block_6|count_key[15] ; |block_6|count_key[15]   ; padio            ;
-; |block_6|count_key[16] ; |block_6|count_key[16]   ; padio            ;
-; |block_6|count_key[17] ; |block_6|count_key[17]   ; padio            ;
-; |block_6|count_key[18] ; |block_6|count_key[18]   ; padio            ;
-; |block_6|count_key[19] ; |block_6|count_key[19]   ; padio            ;
-; |block_6|count_key[20] ; |block_6|count_key[20]   ; padio            ;
-; |block_6|count_key[21] ; |block_6|count_key[21]   ; padio            ;
-; |block_6|count_key[22] ; |block_6|count_key[22]   ; padio            ;
-; |block_6|count_key[23] ; |block_6|count_key[23]   ; padio            ;
-; |block_6|count_key[24] ; |block_6|count_key[24]   ; padio            ;
-; |block_6|count_key[25] ; |block_6|count_key[25]   ; padio            ;
-; |block_6|count_key[26] ; |block_6|count_key[26]   ; padio            ;
-; |block_6|count_key[27] ; |block_6|count_key[27]   ; padio            ;
-; |block_6|count_key[28] ; |block_6|count_key[28]   ; padio            ;
-; |block_6|count_key[29] ; |block_6|count_key[29]   ; padio            ;
-; |block_6|count_key[30] ; |block_6|count_key[30]   ; padio            ;
-; |block_6|count_key[31] ; |block_6|count_key[31]   ; padio            ;
-; |block_6|ask           ; |block_6|ask~corein      ; combout          ;
-; |block_6|sdv           ; |block_6|sdv~corein      ; combout          ;
-; |block_6|key1[0]       ; |block_6|key1[0]~corein  ; combout          ;
-; |block_6|key1[18]      ; |block_6|key1[18]~corein ; combout          ;
-; |block_6|key1[8]       ; |block_6|key1[8]~corein  ; combout          ;
-; |block_6|key1[1]       ; |block_6|key1[1]~corein  ; combout          ;
-; |block_6|key1[19]      ; |block_6|key1[19]~corein ; combout          ;
-; |block_6|key1[9]       ; |block_6|key1[9]~corein  ; combout          ;
-; |block_6|key1[2]       ; |block_6|key1[2]~corein  ; combout          ;
-; |block_6|key1[20]      ; |block_6|key1[20]~corein ; combout          ;
-; |block_6|key1[10]      ; |block_6|key1[10]~corein ; combout          ;
-; |block_6|key1[3]       ; |block_6|key1[3]~corein  ; combout          ;
-; |block_6|key1[21]      ; |block_6|key1[21]~corein ; combout          ;
-; |block_6|key1[11]      ; |block_6|key1[11]~corein ; combout          ;
-; |block_6|key1[4]       ; |block_6|key1[4]~corein  ; combout          ;
-; |block_6|key1[22]      ; |block_6|key1[22]~corein ; combout          ;
-; |block_6|key1[12]      ; |block_6|key1[12]~corein ; combout          ;
-; |block_6|key1[5]       ; |block_6|key1[5]~corein  ; combout          ;
-; |block_6|key1[23]      ; |block_6|key1[23]~corein ; combout          ;
-; |block_6|key1[13]      ; |block_6|key1[13]~corein ; combout          ;
-; |block_6|key1[6]       ; |block_6|key1[6]~corein  ; combout          ;
-; |block_6|key1[24]      ; |block_6|key1[24]~corein ; combout          ;
-; |block_6|key1[14]      ; |block_6|key1[14]~corein ; combout          ;
-; |block_6|key1[7]       ; |block_6|key1[7]~corein  ; combout          ;
-; |block_6|key1[25]      ; |block_6|key1[25]~corein ; combout          ;
-; |block_6|key1[15]      ; |block_6|key1[15]~corein ; combout          ;
-; |block_6|key1[26]      ; |block_6|key1[26]~corein ; combout          ;
-; |block_6|key1[16]      ; |block_6|key1[16]~corein ; combout          ;
-; |block_6|key1[27]      ; |block_6|key1[27]~corein ; combout          ;
-; |block_6|key1[17]      ; |block_6|key1[17]~corein ; combout          ;
-; |block_6|key1[28]      ; |block_6|key1[28]~corein ; combout          ;
-; |block_6|key1[29]      ; |block_6|key1[29]~corein ; combout          ;
-; |block_6|key1[30]      ; |block_6|key1[30]~corein ; combout          ;
-; |block_6|key1[31]      ; |block_6|key1[31]~corein ; combout          ;
-+------------------------+--------------------------+------------------+
++-------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                ;
++------------------------+-----------------------------+------------------+
+; Node Name              ; Output Port Name            ; Output Port Type ;
++------------------------+-----------------------------+------------------+
+; |block_6|count_key[5]  ; |block_6|count_key[5]       ; padio            ;
+; |block_6|count_key[6]  ; |block_6|count_key[6]       ; padio            ;
+; |block_6|count_key[7]  ; |block_6|count_key[7]       ; padio            ;
+; |block_6|count_key[8]  ; |block_6|count_key[8]       ; padio            ;
+; |block_6|count_key[9]  ; |block_6|count_key[9]       ; padio            ;
+; |block_6|count_key[10] ; |block_6|count_key[10]      ; padio            ;
+; |block_6|count_key[11] ; |block_6|count_key[11]      ; padio            ;
+; |block_6|count_key[12] ; |block_6|count_key[12]      ; padio            ;
+; |block_6|count_key[13] ; |block_6|count_key[13]      ; padio            ;
+; |block_6|count_key[14] ; |block_6|count_key[14]      ; padio            ;
+; |block_6|count_key[15] ; |block_6|count_key[15]      ; padio            ;
+; |block_6|count_key[16] ; |block_6|count_key[16]      ; padio            ;
+; |block_6|count_key[17] ; |block_6|count_key[17]      ; padio            ;
+; |block_6|count_key[18] ; |block_6|count_key[18]      ; padio            ;
+; |block_6|count_key[19] ; |block_6|count_key[19]      ; padio            ;
+; |block_6|count_key[20] ; |block_6|count_key[20]      ; padio            ;
+; |block_6|count_key[21] ; |block_6|count_key[21]      ; padio            ;
+; |block_6|count_key[22] ; |block_6|count_key[22]      ; padio            ;
+; |block_6|count_key[23] ; |block_6|count_key[23]      ; padio            ;
+; |block_6|count_key[24] ; |block_6|count_key[24]      ; padio            ;
+; |block_6|count_key[25] ; |block_6|count_key[25]      ; padio            ;
+; |block_6|count_key[26] ; |block_6|count_key[26]      ; padio            ;
+; |block_6|count_key[27] ; |block_6|count_key[27]      ; padio            ;
+; |block_6|count_key[28] ; |block_6|count_key[28]      ; padio            ;
+; |block_6|count_key[29] ; |block_6|count_key[29]      ; padio            ;
+; |block_6|count_key[30] ; |block_6|count_key[30]      ; padio            ;
+; |block_6|count_key[31] ; |block_6|count_key[31]      ; padio            ;
+; |block_6|ask           ; |block_6|ask~corein         ; combout          ;
+; |block_6|shear_sig     ; |block_6|shear_sig~corein   ; combout          ;
+; |block_6|key_sig[0]    ; |block_6|key_sig[0]~corein  ; combout          ;
+; |block_6|key_sig[18]   ; |block_6|key_sig[18]~corein ; combout          ;
+; |block_6|key_sig[8]    ; |block_6|key_sig[8]~corein  ; combout          ;
+; |block_6|key_sig[1]    ; |block_6|key_sig[1]~corein  ; combout          ;
+; |block_6|key_sig[19]   ; |block_6|key_sig[19]~corein ; combout          ;
+; |block_6|key_sig[9]    ; |block_6|key_sig[9]~corein  ; combout          ;
+; |block_6|key_sig[2]    ; |block_6|key_sig[2]~corein  ; combout          ;
+; |block_6|key_sig[20]   ; |block_6|key_sig[20]~corein ; combout          ;
+; |block_6|key_sig[10]   ; |block_6|key_sig[10]~corein ; combout          ;
+; |block_6|key_sig[3]    ; |block_6|key_sig[3]~corein  ; combout          ;
+; |block_6|key_sig[21]   ; |block_6|key_sig[21]~corein ; combout          ;
+; |block_6|key_sig[11]   ; |block_6|key_sig[11]~corein ; combout          ;
+; |block_6|key_sig[4]    ; |block_6|key_sig[4]~corein  ; combout          ;
+; |block_6|key_sig[22]   ; |block_6|key_sig[22]~corein ; combout          ;
+; |block_6|key_sig[12]   ; |block_6|key_sig[12]~corein ; combout          ;
+; |block_6|key_sig[5]    ; |block_6|key_sig[5]~corein  ; combout          ;
+; |block_6|key_sig[23]   ; |block_6|key_sig[23]~corein ; combout          ;
+; |block_6|key_sig[13]   ; |block_6|key_sig[13]~corein ; combout          ;
+; |block_6|key_sig[6]    ; |block_6|key_sig[6]~corein  ; combout          ;
+; |block_6|key_sig[24]   ; |block_6|key_sig[24]~corein ; combout          ;
+; |block_6|key_sig[14]   ; |block_6|key_sig[14]~corein ; combout          ;
+; |block_6|key_sig[7]    ; |block_6|key_sig[7]~corein  ; combout          ;
+; |block_6|key_sig[25]   ; |block_6|key_sig[25]~corein ; combout          ;
+; |block_6|key_sig[15]   ; |block_6|key_sig[15]~corein ; combout          ;
+; |block_6|key_sig[26]   ; |block_6|key_sig[26]~corein ; combout          ;
+; |block_6|key_sig[16]   ; |block_6|key_sig[16]~corein ; combout          ;
+; |block_6|key_sig[27]   ; |block_6|key_sig[27]~corein ; combout          ;
+; |block_6|key_sig[17]   ; |block_6|key_sig[17]~corein ; combout          ;
+; |block_6|key_sig[28]   ; |block_6|key_sig[28]~corein ; combout          ;
+; |block_6|key_sig[29]   ; |block_6|key_sig[29]~corein ; combout          ;
+; |block_6|key_sig[30]   ; |block_6|key_sig[30]~corein ; combout          ;
+; |block_6|key_sig[31]   ; |block_6|key_sig[31]~corein ; combout          ;
++------------------------+-----------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 0 during simulation.
-+----------------------------------------------------------------------+
-; Missing 0-Value Coverage                                             ;
-+------------------------+--------------------------+------------------+
-; Node Name              ; Output Port Name         ; Output Port Type ;
-+------------------------+--------------------------+------------------+
-; |block_6|count[4]      ; |block_6|count[4]        ; regout           ;
-; |block_6|count_key[4]  ; |block_6|count_key[4]    ; padio            ;
-; |block_6|count_key[5]  ; |block_6|count_key[5]    ; padio            ;
-; |block_6|count_key[6]  ; |block_6|count_key[6]    ; padio            ;
-; |block_6|count_key[7]  ; |block_6|count_key[7]    ; padio            ;
-; |block_6|count_key[8]  ; |block_6|count_key[8]    ; padio            ;
-; |block_6|count_key[9]  ; |block_6|count_key[9]    ; padio            ;
-; |block_6|count_key[10] ; |block_6|count_key[10]   ; padio            ;
-; |block_6|count_key[11] ; |block_6|count_key[11]   ; padio            ;
-; |block_6|count_key[12] ; |block_6|count_key[12]   ; padio            ;
-; |block_6|count_key[13] ; |block_6|count_key[13]   ; padio            ;
-; |block_6|count_key[14] ; |block_6|count_key[14]   ; padio            ;
-; |block_6|count_key[15] ; |block_6|count_key[15]   ; padio            ;
-; |block_6|count_key[16] ; |block_6|count_key[16]   ; padio            ;
-; |block_6|count_key[17] ; |block_6|count_key[17]   ; padio            ;
-; |block_6|count_key[18] ; |block_6|count_key[18]   ; padio            ;
-; |block_6|count_key[19] ; |block_6|count_key[19]   ; padio            ;
-; |block_6|count_key[20] ; |block_6|count_key[20]   ; padio            ;
-; |block_6|count_key[21] ; |block_6|count_key[21]   ; padio            ;
-; |block_6|count_key[22] ; |block_6|count_key[22]   ; padio            ;
-; |block_6|count_key[23] ; |block_6|count_key[23]   ; padio            ;
-; |block_6|count_key[24] ; |block_6|count_key[24]   ; padio            ;
-; |block_6|count_key[25] ; |block_6|count_key[25]   ; padio            ;
-; |block_6|count_key[26] ; |block_6|count_key[26]   ; padio            ;
-; |block_6|count_key[27] ; |block_6|count_key[27]   ; padio            ;
-; |block_6|count_key[28] ; |block_6|count_key[28]   ; padio            ;
-; |block_6|count_key[29] ; |block_6|count_key[29]   ; padio            ;
-; |block_6|count_key[30] ; |block_6|count_key[30]   ; padio            ;
-; |block_6|count_key[31] ; |block_6|count_key[31]   ; padio            ;
-; |block_6|ask           ; |block_6|ask~corein      ; combout          ;
-; |block_6|start         ; |block_6|start~corein    ; combout          ;
-; |block_6|sdv           ; |block_6|sdv~corein      ; combout          ;
-; |block_6|key1[0]       ; |block_6|key1[0]~corein  ; combout          ;
-; |block_6|key1[18]      ; |block_6|key1[18]~corein ; combout          ;
-; |block_6|key1[8]       ; |block_6|key1[8]~corein  ; combout          ;
-; |block_6|key1[1]       ; |block_6|key1[1]~corein  ; combout          ;
-; |block_6|key1[19]      ; |block_6|key1[19]~corein ; combout          ;
-; |block_6|key1[9]       ; |block_6|key1[9]~corein  ; combout          ;
-; |block_6|key1[2]       ; |block_6|key1[2]~corein  ; combout          ;
-; |block_6|key1[20]      ; |block_6|key1[20]~corein ; combout          ;
-; |block_6|key1[10]      ; |block_6|key1[10]~corein ; combout          ;
-; |block_6|key1[3]       ; |block_6|key1[3]~corein  ; combout          ;
-; |block_6|key1[21]      ; |block_6|key1[21]~corein ; combout          ;
-; |block_6|key1[11]      ; |block_6|key1[11]~corein ; combout          ;
-; |block_6|key1[4]       ; |block_6|key1[4]~corein  ; combout          ;
-; |block_6|key1[22]      ; |block_6|key1[22]~corein ; combout          ;
-; |block_6|key1[12]      ; |block_6|key1[12]~corein ; combout          ;
-; |block_6|key1[5]       ; |block_6|key1[5]~corein  ; combout          ;
-; |block_6|key1[23]      ; |block_6|key1[23]~corein ; combout          ;
-; |block_6|key1[13]      ; |block_6|key1[13]~corein ; combout          ;
-; |block_6|key1[6]       ; |block_6|key1[6]~corein  ; combout          ;
-; |block_6|key1[24]      ; |block_6|key1[24]~corein ; combout          ;
-; |block_6|key1[14]      ; |block_6|key1[14]~corein ; combout          ;
-; |block_6|key1[7]       ; |block_6|key1[7]~corein  ; combout          ;
-; |block_6|key1[25]      ; |block_6|key1[25]~corein ; combout          ;
-; |block_6|key1[15]      ; |block_6|key1[15]~corein ; combout          ;
-; |block_6|key1[26]      ; |block_6|key1[26]~corein ; combout          ;
-; |block_6|key1[16]      ; |block_6|key1[16]~corein ; combout          ;
-; |block_6|key1[27]      ; |block_6|key1[27]~corein ; combout          ;
-; |block_6|key1[17]      ; |block_6|key1[17]~corein ; combout          ;
-; |block_6|key1[28]      ; |block_6|key1[28]~corein ; combout          ;
-; |block_6|key1[29]      ; |block_6|key1[29]~corein ; combout          ;
-; |block_6|key1[30]      ; |block_6|key1[30]~corein ; combout          ;
-; |block_6|key1[31]      ; |block_6|key1[31]~corein ; combout          ;
-; |block_6|start~clkctrl ; |block_6|start~clkctrl   ; outclk           ;
-+------------------------+--------------------------+------------------+
++-------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                ;
++------------------------+-----------------------------+------------------+
+; Node Name              ; Output Port Name            ; Output Port Type ;
++------------------------+-----------------------------+------------------+
+; |block_6|count[4]      ; |block_6|count[4]           ; regout           ;
+; |block_6|count_key[4]  ; |block_6|count_key[4]       ; padio            ;
+; |block_6|count_key[5]  ; |block_6|count_key[5]       ; padio            ;
+; |block_6|count_key[6]  ; |block_6|count_key[6]       ; padio            ;
+; |block_6|count_key[7]  ; |block_6|count_key[7]       ; padio            ;
+; |block_6|count_key[8]  ; |block_6|count_key[8]       ; padio            ;
+; |block_6|count_key[9]  ; |block_6|count_key[9]       ; padio            ;
+; |block_6|count_key[10] ; |block_6|count_key[10]      ; padio            ;
+; |block_6|count_key[11] ; |block_6|count_key[11]      ; padio            ;
+; |block_6|count_key[12] ; |block_6|count_key[12]      ; padio            ;
+; |block_6|count_key[13] ; |block_6|count_key[13]      ; padio            ;
+; |block_6|count_key[14] ; |block_6|count_key[14]      ; padio            ;
+; |block_6|count_key[15] ; |block_6|count_key[15]      ; padio            ;
+; |block_6|count_key[16] ; |block_6|count_key[16]      ; padio            ;
+; |block_6|count_key[17] ; |block_6|count_key[17]      ; padio            ;
+; |block_6|count_key[18] ; |block_6|count_key[18]      ; padio            ;
+; |block_6|count_key[19] ; |block_6|count_key[19]      ; padio            ;
+; |block_6|count_key[20] ; |block_6|count_key[20]      ; padio            ;
+; |block_6|count_key[21] ; |block_6|count_key[21]      ; padio            ;
+; |block_6|count_key[22] ; |block_6|count_key[22]      ; padio            ;
+; |block_6|count_key[23] ; |block_6|count_key[23]      ; padio            ;
+; |block_6|count_key[24] ; |block_6|count_key[24]      ; padio            ;
+; |block_6|count_key[25] ; |block_6|count_key[25]      ; padio            ;
+; |block_6|count_key[26] ; |block_6|count_key[26]      ; padio            ;
+; |block_6|count_key[27] ; |block_6|count_key[27]      ; padio            ;
+; |block_6|count_key[28] ; |block_6|count_key[28]      ; padio            ;
+; |block_6|count_key[29] ; |block_6|count_key[29]      ; padio            ;
+; |block_6|count_key[30] ; |block_6|count_key[30]      ; padio            ;
+; |block_6|count_key[31] ; |block_6|count_key[31]      ; padio            ;
+; |block_6|ask           ; |block_6|ask~corein         ; combout          ;
+; |block_6|start         ; |block_6|start~corein       ; combout          ;
+; |block_6|shear_sig     ; |block_6|shear_sig~corein   ; combout          ;
+; |block_6|key_sig[0]    ; |block_6|key_sig[0]~corein  ; combout          ;
+; |block_6|key_sig[18]   ; |block_6|key_sig[18]~corein ; combout          ;
+; |block_6|key_sig[8]    ; |block_6|key_sig[8]~corein  ; combout          ;
+; |block_6|key_sig[1]    ; |block_6|key_sig[1]~corein  ; combout          ;
+; |block_6|key_sig[19]   ; |block_6|key_sig[19]~corein ; combout          ;
+; |block_6|key_sig[9]    ; |block_6|key_sig[9]~corein  ; combout          ;
+; |block_6|key_sig[2]    ; |block_6|key_sig[2]~corein  ; combout          ;
+; |block_6|key_sig[20]   ; |block_6|key_sig[20]~corein ; combout          ;
+; |block_6|key_sig[10]   ; |block_6|key_sig[10]~corein ; combout          ;
+; |block_6|key_sig[3]    ; |block_6|key_sig[3]~corein  ; combout          ;
+; |block_6|key_sig[21]   ; |block_6|key_sig[21]~corein ; combout          ;
+; |block_6|key_sig[11]   ; |block_6|key_sig[11]~corein ; combout          ;
+; |block_6|key_sig[4]    ; |block_6|key_sig[4]~corein  ; combout          ;
+; |block_6|key_sig[22]   ; |block_6|key_sig[22]~corein ; combout          ;
+; |block_6|key_sig[12]   ; |block_6|key_sig[12]~corein ; combout          ;
+; |block_6|key_sig[5]    ; |block_6|key_sig[5]~corein  ; combout          ;
+; |block_6|key_sig[23]   ; |block_6|key_sig[23]~corein ; combout          ;
+; |block_6|key_sig[13]   ; |block_6|key_sig[13]~corein ; combout          ;
+; |block_6|key_sig[6]    ; |block_6|key_sig[6]~corein  ; combout          ;
+; |block_6|key_sig[24]   ; |block_6|key_sig[24]~corein ; combout          ;
+; |block_6|key_sig[14]   ; |block_6|key_sig[14]~corein ; combout          ;
+; |block_6|key_sig[7]    ; |block_6|key_sig[7]~corein  ; combout          ;
+; |block_6|key_sig[25]   ; |block_6|key_sig[25]~corein ; combout          ;
+; |block_6|key_sig[15]   ; |block_6|key_sig[15]~corein ; combout          ;
+; |block_6|key_sig[26]   ; |block_6|key_sig[26]~corein ; combout          ;
+; |block_6|key_sig[16]   ; |block_6|key_sig[16]~corein ; combout          ;
+; |block_6|key_sig[27]   ; |block_6|key_sig[27]~corein ; combout          ;
+; |block_6|key_sig[17]   ; |block_6|key_sig[17]~corein ; combout          ;
+; |block_6|key_sig[28]   ; |block_6|key_sig[28]~corein ; combout          ;
+; |block_6|key_sig[29]   ; |block_6|key_sig[29]~corein ; combout          ;
+; |block_6|key_sig[30]   ; |block_6|key_sig[30]~corein ; combout          ;
+; |block_6|key_sig[31]   ; |block_6|key_sig[31]~corein ; combout          ;
+; |block_6|start~clkctrl ; |block_6|start~clkctrl      ; outclk           ;
++------------------------+-----------------------------+------------------+
 
 
 +---------------------+
@@ -365,7 +365,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Fri Jan 28 21:24:06 2022
+    Info: Processing started: Mon Feb 14 20:43:58 2022
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off block_6 -c block_6
 Info: Using vector source file "C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/block_6/block_6.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
@@ -375,8 +375,8 @@ Info: Simulation coverage is      59.38 %
 Info: Number of transitions in simulation is 1924
 Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 150 megabytes
-    Info: Processing ended: Fri Jan 28 21:24:07 2022
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Processing ended: Mon Feb 14 20:43:58 2022
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

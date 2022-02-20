@@ -25,7 +25,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 1000000000;
-		NUMERATOR = 1122;
+		NUMERATOR = 1114;
 		DENOMINATOR = 1000000000;
 		TOP_INDEX = 0;
 	}
@@ -54,7 +54,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam";
+		SIGNAL = "discharge_arr";
 		INDEX = 2;
 		FORMAT = T;
 		SCALE = 1;
@@ -62,7 +62,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[31]";
+		SIGNAL = "discharge_arr[31]";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -70,7 +70,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[30]";
+		SIGNAL = "discharge_arr[30]";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -78,7 +78,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[29]";
+		SIGNAL = "discharge_arr[29]";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -86,7 +86,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[28]";
+		SIGNAL = "discharge_arr[28]";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -94,7 +94,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[27]";
+		SIGNAL = "discharge_arr[27]";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -102,7 +102,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[26]";
+		SIGNAL = "discharge_arr[26]";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -110,7 +110,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[25]";
+		SIGNAL = "discharge_arr[25]";
 		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
@@ -118,7 +118,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[24]";
+		SIGNAL = "discharge_arr[24]";
 		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
@@ -126,7 +126,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[23]";
+		SIGNAL = "discharge_arr[23]";
 		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
@@ -134,7 +134,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[22]";
+		SIGNAL = "discharge_arr[22]";
 		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
@@ -142,7 +142,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[21]";
+		SIGNAL = "discharge_arr[21]";
 		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
@@ -150,7 +150,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[20]";
+		SIGNAL = "discharge_arr[20]";
 		INDEX = 14;
 		FORMAT = E;
 		SCALE = 1;
@@ -158,7 +158,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[19]";
+		SIGNAL = "discharge_arr[19]";
 		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
@@ -166,7 +166,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[18]";
+		SIGNAL = "discharge_arr[18]";
 		INDEX = 16;
 		FORMAT = E;
 		SCALE = 1;
@@ -174,7 +174,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[17]";
+		SIGNAL = "discharge_arr[17]";
 		INDEX = 17;
 		FORMAT = E;
 		SCALE = 1;
@@ -182,7 +182,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[16]";
+		SIGNAL = "discharge_arr[16]";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -190,7 +190,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[15]";
+		SIGNAL = "discharge_arr[15]";
 		INDEX = 19;
 		FORMAT = E;
 		SCALE = 1;
@@ -198,7 +198,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[14]";
+		SIGNAL = "discharge_arr[14]";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -206,7 +206,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[13]";
+		SIGNAL = "discharge_arr[13]";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -214,7 +214,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[12]";
+		SIGNAL = "discharge_arr[12]";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -222,7 +222,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[11]";
+		SIGNAL = "discharge_arr[11]";
 		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
@@ -230,7 +230,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[10]";
+		SIGNAL = "discharge_arr[10]";
 		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
@@ -238,7 +238,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[9]";
+		SIGNAL = "discharge_arr[9]";
 		INDEX = 25;
 		FORMAT = E;
 		SCALE = 1;
@@ -246,7 +246,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[8]";
+		SIGNAL = "discharge_arr[8]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -254,7 +254,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[7]";
+		SIGNAL = "discharge_arr[7]";
 		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
@@ -262,7 +262,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[6]";
+		SIGNAL = "discharge_arr[6]";
 		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
@@ -270,7 +270,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[5]";
+		SIGNAL = "discharge_arr[5]";
 		INDEX = 29;
 		FORMAT = E;
 		SCALE = 1;
@@ -278,7 +278,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[4]";
+		SIGNAL = "discharge_arr[4]";
 		INDEX = 30;
 		FORMAT = E;
 		SCALE = 1;
@@ -286,7 +286,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[3]";
+		SIGNAL = "discharge_arr[3]";
 		INDEX = 31;
 		FORMAT = E;
 		SCALE = 1;
@@ -294,7 +294,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[2]";
+		SIGNAL = "discharge_arr[2]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -302,7 +302,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[1]";
+		SIGNAL = "discharge_arr[1]";
 		INDEX = 33;
 		FORMAT = E;
 		SCALE = 1;
@@ -310,7 +310,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[0]";
+		SIGNAL = "discharge_arr[0]";
 		INDEX = 34;
 		FORMAT = E;
 		SCALE = 1;
@@ -318,7 +318,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "signalv";
+		SIGNAL = "signal_hex";
 		INDEX = 35;
 		FORMAT = E;
 		SCALE = 1;
@@ -361,7 +361,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam";
+		SIGNAL = "discharge_arr";
 		INDEX = 2;
 		FORMAT = T;
 		SCALE = 1;
@@ -369,7 +369,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[31]";
+		SIGNAL = "discharge_arr[31]";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -377,7 +377,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[30]";
+		SIGNAL = "discharge_arr[30]";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -385,7 +385,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[29]";
+		SIGNAL = "discharge_arr[29]";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -393,7 +393,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[28]";
+		SIGNAL = "discharge_arr[28]";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -401,7 +401,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[27]";
+		SIGNAL = "discharge_arr[27]";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -409,7 +409,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[26]";
+		SIGNAL = "discharge_arr[26]";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -417,7 +417,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[25]";
+		SIGNAL = "discharge_arr[25]";
 		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
@@ -425,7 +425,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[24]";
+		SIGNAL = "discharge_arr[24]";
 		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
@@ -433,7 +433,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[23]";
+		SIGNAL = "discharge_arr[23]";
 		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
@@ -441,7 +441,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[22]";
+		SIGNAL = "discharge_arr[22]";
 		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
@@ -449,7 +449,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[21]";
+		SIGNAL = "discharge_arr[21]";
 		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
@@ -457,7 +457,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[20]";
+		SIGNAL = "discharge_arr[20]";
 		INDEX = 14;
 		FORMAT = E;
 		SCALE = 1;
@@ -465,7 +465,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[19]";
+		SIGNAL = "discharge_arr[19]";
 		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
@@ -473,7 +473,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[18]";
+		SIGNAL = "discharge_arr[18]";
 		INDEX = 16;
 		FORMAT = E;
 		SCALE = 1;
@@ -481,7 +481,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[17]";
+		SIGNAL = "discharge_arr[17]";
 		INDEX = 17;
 		FORMAT = E;
 		SCALE = 1;
@@ -489,7 +489,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[16]";
+		SIGNAL = "discharge_arr[16]";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -497,7 +497,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[15]";
+		SIGNAL = "discharge_arr[15]";
 		INDEX = 19;
 		FORMAT = E;
 		SCALE = 1;
@@ -505,7 +505,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[14]";
+		SIGNAL = "discharge_arr[14]";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -513,7 +513,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[13]";
+		SIGNAL = "discharge_arr[13]";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -521,7 +521,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[12]";
+		SIGNAL = "discharge_arr[12]";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -529,7 +529,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[11]";
+		SIGNAL = "discharge_arr[11]";
 		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
@@ -537,7 +537,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[10]";
+		SIGNAL = "discharge_arr[10]";
 		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
@@ -545,7 +545,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[9]";
+		SIGNAL = "discharge_arr[9]";
 		INDEX = 25;
 		FORMAT = E;
 		SCALE = 1;
@@ -553,7 +553,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[8]";
+		SIGNAL = "discharge_arr[8]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -561,7 +561,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[7]";
+		SIGNAL = "discharge_arr[7]";
 		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
@@ -569,7 +569,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[6]";
+		SIGNAL = "discharge_arr[6]";
 		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
@@ -577,7 +577,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[5]";
+		SIGNAL = "discharge_arr[5]";
 		INDEX = 29;
 		FORMAT = E;
 		SCALE = 1;
@@ -585,7 +585,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[4]";
+		SIGNAL = "discharge_arr[4]";
 		INDEX = 30;
 		FORMAT = E;
 		SCALE = 1;
@@ -593,7 +593,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[3]";
+		SIGNAL = "discharge_arr[3]";
 		INDEX = 31;
 		FORMAT = E;
 		SCALE = 1;
@@ -601,7 +601,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[2]";
+		SIGNAL = "discharge_arr[2]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -609,7 +609,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[1]";
+		SIGNAL = "discharge_arr[1]";
 		INDEX = 33;
 		FORMAT = E;
 		SCALE = 1;
@@ -617,7 +617,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pam[0]";
+		SIGNAL = "discharge_arr[0]";
 		INDEX = 34;
 		FORMAT = E;
 		SCALE = 1;
@@ -625,7 +625,7 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "signalv";
+		SIGNAL = "signal_hex";
 		INDEX = 35;
 		FORMAT = E;
 		SCALE = 1;

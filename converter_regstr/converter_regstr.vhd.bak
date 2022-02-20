@@ -29,8 +29,10 @@ begin
 		signalv <= '0';
 	elsif (clk'event and clk='1') then
 		w1 <= '0' & w1(31 downto 1);
-		ct := ct + 1;
+		-- w1 <= w1(30 downto 0) & '0';
+		ct := ct + 1; 
 		signalv <= w1(0);
+		-- signalv <= w1(31);
 	end if;
 	if (ct > 0) and (ct <= 31) then
 		ct1 <= clk;

@@ -17,7 +17,7 @@ Slack          : N/A
 Required Time  : None
 Actual Time    : 7.246 ns
 From           : data[11]
-To             : dout[11]
+To             : date_out[11]
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0

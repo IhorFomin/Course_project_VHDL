@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for math_block
-Tue Oct 12 20:45:14 2021
+Wed Feb 09 21:49:12 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -34,14 +34,14 @@ applicable agreement for further details.
 
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-; Timing Analyzer Summary                                                                                                        ;
-+------------------------------+-------+---------------+-------------+------+-------------+------------+----------+--------------+
-; Type                         ; Slack ; Required Time ; Actual Time ; From ; To          ; From Clock ; To Clock ; Failed Paths ;
-+------------------------------+-------+---------------+-------------+------+-------------+------------+----------+--------------+
-; Worst-case tpd               ; N/A   ; None          ; 67.100 ns   ; X[4] ; sum_out[18] ; --         ; --       ; 0            ;
-; Total number of failed paths ;       ;               ;             ;      ;             ;            ;          ; 0            ;
-+------------------------------+-------+---------------+-------------+------+-------------+------------+----------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                                                                             ;
++------------------------------+-------+---------------+-------------+-----------+-------------+------------+----------+--------------+
+; Type                         ; Slack ; Required Time ; Actual Time ; From      ; To          ; From Clock ; To Clock ; Failed Paths ;
++------------------------------+-------+---------------+-------------+-----------+-------------+------------+----------+--------------+
+; Worst-case tpd               ; N/A   ; None          ; 67.100 ns   ; num_X2[4] ; res_sum[18] ; --         ; --       ; 0            ;
+; Total number of failed paths ;       ;               ;             ;           ;             ;            ;          ; 0            ;
++------------------------------+-------+---------------+-------------+-----------+-------------+------------+----------+--------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -87,213 +87,213 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; tpd                                                                                                                                   ;
-+-----------------------------------------+-----------------------------------------------------+-----------------+-------+-------------+
-; Slack                                   ; Required P2P Time                                   ; Actual P2P Time ; From  ; To          ;
-+-----------------------------------------+-----------------------------------------------------+-----------------+-------+-------------+
-; N/A                                     ; None                                                ; 67.100 ns       ; X[4]  ; sum_out[18] ;
-; N/A                                     ; None                                                ; 67.096 ns       ; X[4]  ; sum_out[31] ;
-; N/A                                     ; None                                                ; 67.063 ns       ; X[4]  ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 67.047 ns       ; X[14] ; sum_out[18] ;
-; N/A                                     ; None                                                ; 67.043 ns       ; X[14] ; sum_out[31] ;
-; N/A                                     ; None                                                ; 67.010 ns       ; X[14] ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 66.918 ns       ; X[4]  ; sum_out[6]  ;
-; N/A                                     ; None                                                ; 66.865 ns       ; X[14] ; sum_out[6]  ;
-; N/A                                     ; None                                                ; 66.821 ns       ; X[4]  ; sum_out[26] ;
-; N/A                                     ; None                                                ; 66.797 ns       ; X[4]  ; sum_out[23] ;
-; N/A                                     ; None                                                ; 66.768 ns       ; X[14] ; sum_out[26] ;
-; N/A                                     ; None                                                ; 66.753 ns       ; X[4]  ; sum_out[11] ;
-; N/A                                     ; None                                                ; 66.751 ns       ; X[4]  ; sum_out[13] ;
-; N/A                                     ; None                                                ; 66.744 ns       ; X[14] ; sum_out[23] ;
-; N/A                                     ; None                                                ; 66.736 ns       ; X[1]  ; sum_out[18] ;
-; N/A                                     ; None                                                ; 66.732 ns       ; X[1]  ; sum_out[31] ;
-; N/A                                     ; None                                                ; 66.724 ns       ; X[4]  ; sum_out[9]  ;
-; N/A                                     ; None                                                ; 66.700 ns       ; X[14] ; sum_out[11] ;
-; N/A                                     ; None                                                ; 66.699 ns       ; X[1]  ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 66.698 ns       ; X[14] ; sum_out[13] ;
-; N/A                                     ; None                                                ; 66.677 ns       ; X[8]  ; sum_out[18] ;
-; N/A                                     ; None                                                ; 66.673 ns       ; X[8]  ; sum_out[31] ;
-; N/A                                     ; None                                                ; 66.671 ns       ; X[14] ; sum_out[9]  ;
-; N/A                                     ; None                                                ; 66.656 ns       ; X[4]  ; sum_out[10] ;
-; N/A                                     ; None                                                ; 66.640 ns       ; X[8]  ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 66.625 ns       ; X[4]  ; sum_out[12] ;
-; N/A                                     ; None                                                ; 66.603 ns       ; X[14] ; sum_out[10] ;
-; N/A                                     ; None                                                ; 66.576 ns       ; X[4]  ; sum_out[3]  ;
-; N/A                                     ; None                                                ; 66.572 ns       ; X[14] ; sum_out[12] ;
-; N/A                                     ; None                                                ; 66.554 ns       ; X[1]  ; sum_out[6]  ;
-; N/A                                     ; None                                                ; 66.523 ns       ; X[14] ; sum_out[3]  ;
-; N/A                                     ; None                                                ; 66.509 ns       ; X[4]  ; sum_out[19] ;
-; N/A                                     ; None                                                ; 66.495 ns       ; X[8]  ; sum_out[6]  ;
-; N/A                                     ; None                                                ; 66.457 ns       ; X[1]  ; sum_out[26] ;
-; N/A                                     ; None                                                ; 66.456 ns       ; X[14] ; sum_out[19] ;
-; N/A                                     ; None                                                ; 66.454 ns       ; X[4]  ; sum_out[27] ;
-; N/A                                     ; None                                                ; 66.439 ns       ; X[4]  ; sum_out[14] ;
-; N/A                                     ; None                                                ; 66.433 ns       ; X[1]  ; sum_out[23] ;
-; N/A                                     ; None                                                ; 66.424 ns       ; X[4]  ; sum_out[5]  ;
-; N/A                                     ; None                                                ; 66.406 ns       ; X[4]  ; sum_out[0]  ;
-; N/A                                     ; None                                                ; 66.401 ns       ; X[14] ; sum_out[27] ;
-; N/A                                     ; None                                                ; 66.398 ns       ; X[8]  ; sum_out[26] ;
-; N/A                                     ; None                                                ; 66.389 ns       ; X[1]  ; sum_out[11] ;
-; N/A                                     ; None                                                ; 66.387 ns       ; X[1]  ; sum_out[13] ;
-; N/A                                     ; None                                                ; 66.386 ns       ; X[14] ; sum_out[14] ;
-; N/A                                     ; None                                                ; 66.379 ns       ; X[9]  ; sum_out[18] ;
-; N/A                                     ; None                                                ; 66.375 ns       ; X[9]  ; sum_out[31] ;
-; N/A                                     ; None                                                ; 66.374 ns       ; X[8]  ; sum_out[23] ;
-; N/A                                     ; None                                                ; 66.371 ns       ; X[14] ; sum_out[5]  ;
-; N/A                                     ; None                                                ; 66.362 ns       ; X[4]  ; sum_out[1]  ;
-; N/A                                     ; None                                                ; 66.360 ns       ; X[1]  ; sum_out[9]  ;
-; N/A                                     ; None                                                ; 66.353 ns       ; X[14] ; sum_out[0]  ;
-; N/A                                     ; None                                                ; 66.342 ns       ; X[9]  ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 66.330 ns       ; X[8]  ; sum_out[11] ;
-; N/A                                     ; None                                                ; 66.328 ns       ; X[8]  ; sum_out[13] ;
-; N/A                                     ; None                                                ; 66.326 ns       ; X[4]  ; sum_out[30] ;
-; N/A                                     ; None                                                ; 66.309 ns       ; X[14] ; sum_out[1]  ;
-; N/A                                     ; None                                                ; 66.301 ns       ; X[8]  ; sum_out[9]  ;
-; N/A                                     ; None                                                ; 66.292 ns       ; X[1]  ; sum_out[10] ;
-; N/A                                     ; None                                                ; 66.273 ns       ; X[14] ; sum_out[30] ;
-; N/A                                     ; None                                                ; 66.261 ns       ; X[1]  ; sum_out[12] ;
-; N/A                                     ; None                                                ; 66.257 ns       ; X[18] ; sum_out[18] ;
-; N/A                                     ; None                                                ; 66.253 ns       ; X[18] ; sum_out[31] ;
-; N/A                                     ; None                                                ; 66.233 ns       ; X[8]  ; sum_out[10] ;
-; N/A                                     ; None                                                ; 66.220 ns       ; X[18] ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 66.212 ns       ; X[4]  ; sum_out[28] ;
-; N/A                                     ; None                                                ; 66.212 ns       ; X[1]  ; sum_out[3]  ;
-; N/A                                     ; None                                                ; 66.202 ns       ; X[8]  ; sum_out[12] ;
-; N/A                                     ; None                                                ; 66.197 ns       ; X[9]  ; sum_out[6]  ;
-; N/A                                     ; None                                                ; 66.159 ns       ; X[14] ; sum_out[28] ;
-; N/A                                     ; None                                                ; 66.153 ns       ; X[8]  ; sum_out[3]  ;
-; N/A                                     ; None                                                ; 66.145 ns       ; X[1]  ; sum_out[19] ;
-; N/A                                     ; None                                                ; 66.127 ns       ; X[4]  ; sum_out[8]  ;
-; N/A                                     ; None                                                ; 66.123 ns       ; X[4]  ; sum_out[25] ;
-; N/A                                     ; None                                                ; 66.107 ns       ; X[4]  ; sum_out[20] ;
-; N/A                                     ; None                                                ; 66.100 ns       ; X[9]  ; sum_out[26] ;
-; N/A                                     ; None                                                ; 66.090 ns       ; X[1]  ; sum_out[27] ;
-; N/A                                     ; None                                                ; 66.086 ns       ; X[8]  ; sum_out[19] ;
-; N/A                                     ; None                                                ; 66.078 ns       ; X[4]  ; sum_out[29] ;
-; N/A                                     ; None                                                ; 66.076 ns       ; X[9]  ; sum_out[23] ;
-; N/A                                     ; None                                                ; 66.075 ns       ; X[1]  ; sum_out[14] ;
-; N/A                                     ; None                                                ; 66.075 ns       ; X[18] ; sum_out[6]  ;
-; N/A                                     ; None                                                ; 66.074 ns       ; X[14] ; sum_out[8]  ;
-; N/A                                     ; None                                                ; 66.070 ns       ; X[14] ; sum_out[25] ;
-; N/A                                     ; None                                                ; 66.060 ns       ; X[1]  ; sum_out[5]  ;
-; N/A                                     ; None                                                ; 66.055 ns       ; X[0]  ; sum_out[18] ;
-; N/A                                     ; None                                                ; 66.055 ns       ; X[4]  ; sum_out[4]  ;
-; N/A                                     ; None                                                ; 66.054 ns       ; X[14] ; sum_out[20] ;
-; N/A                                     ; None                                                ; 66.051 ns       ; X[0]  ; sum_out[31] ;
-; N/A                                     ; None                                                ; 66.042 ns       ; X[1]  ; sum_out[0]  ;
-; N/A                                     ; None                                                ; 66.032 ns       ; X[9]  ; sum_out[11] ;
-; N/A                                     ; None                                                ; 66.031 ns       ; X[8]  ; sum_out[27] ;
-; N/A                                     ; None                                                ; 66.030 ns       ; X[9]  ; sum_out[13] ;
-; N/A                                     ; None                                                ; 66.029 ns       ; X[4]  ; sum_out[2]  ;
-; N/A                                     ; None                                                ; 66.025 ns       ; X[14] ; sum_out[29] ;
-; N/A                                     ; None                                                ; 66.018 ns       ; X[0]  ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 66.016 ns       ; X[4]  ; sum_out[17] ;
-; N/A                                     ; None                                                ; 66.016 ns       ; X[8]  ; sum_out[14] ;
-; N/A                                     ; None                                                ; 66.003 ns       ; X[9]  ; sum_out[9]  ;
-; N/A                                     ; None                                                ; 66.002 ns       ; X[14] ; sum_out[4]  ;
-; N/A                                     ; None                                                ; 66.001 ns       ; X[8]  ; sum_out[5]  ;
-; N/A                                     ; None                                                ; 65.998 ns       ; X[1]  ; sum_out[1]  ;
-; N/A                                     ; None                                                ; 65.983 ns       ; X[8]  ; sum_out[0]  ;
-; N/A                                     ; None                                                ; 65.978 ns       ; X[18] ; sum_out[26] ;
-; N/A                                     ; None                                                ; 65.976 ns       ; X[14] ; sum_out[2]  ;
-; N/A                                     ; None                                                ; 65.972 ns       ; X[4]  ; sum_out[21] ;
-; N/A                                     ; None                                                ; 65.963 ns       ; X[14] ; sum_out[17] ;
-; N/A                                     ; None                                                ; 65.962 ns       ; X[1]  ; sum_out[30] ;
-; N/A                                     ; None                                                ; 65.954 ns       ; X[18] ; sum_out[23] ;
-; N/A                                     ; None                                                ; 65.947 ns       ; X[13] ; sum_out[18] ;
-; N/A                                     ; None                                                ; 65.943 ns       ; X[13] ; sum_out[31] ;
-; N/A                                     ; None                                                ; 65.939 ns       ; X[8]  ; sum_out[1]  ;
-; N/A                                     ; None                                                ; 65.935 ns       ; X[9]  ; sum_out[10] ;
-; N/A                                     ; None                                                ; 65.919 ns       ; X[14] ; sum_out[21] ;
-; N/A                                     ; None                                                ; 65.910 ns       ; X[18] ; sum_out[11] ;
-; N/A                                     ; None                                                ; 65.910 ns       ; X[13] ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 65.908 ns       ; X[18] ; sum_out[13] ;
-; N/A                                     ; None                                                ; 65.904 ns       ; X[9]  ; sum_out[12] ;
-; N/A                                     ; None                                                ; 65.903 ns       ; X[8]  ; sum_out[30] ;
-; N/A                                     ; None                                                ; 65.881 ns       ; X[18] ; sum_out[9]  ;
-; N/A                                     ; None                                                ; 65.873 ns       ; X[0]  ; sum_out[6]  ;
-; N/A                                     ; None                                                ; 65.864 ns       ; X[4]  ; sum_out[24] ;
-; N/A                                     ; None                                                ; 65.855 ns       ; X[9]  ; sum_out[3]  ;
-; N/A                                     ; None                                                ; 65.850 ns       ; X[4]  ; singX_out   ;
-; N/A                                     ; None                                                ; 65.848 ns       ; X[1]  ; sum_out[28] ;
-; N/A                                     ; None                                                ; 65.846 ns       ; X[2]  ; sum_out[18] ;
-; N/A                                     ; None                                                ; 65.842 ns       ; X[2]  ; sum_out[31] ;
-; N/A                                     ; None                                                ; 65.813 ns       ; X[18] ; sum_out[10] ;
-; N/A                                     ; None                                                ; 65.811 ns       ; X[14] ; sum_out[24] ;
-; N/A                                     ; None                                                ; 65.809 ns       ; X[2]  ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 65.797 ns       ; X[14] ; singX_out   ;
-; N/A                                     ; None                                                ; 65.796 ns       ; X[21] ; sum_out[18] ;
-; N/A                                     ; None                                                ; 65.792 ns       ; X[21] ; sum_out[31] ;
-; N/A                                     ; None                                                ; 65.789 ns       ; X[8]  ; sum_out[28] ;
-; N/A                                     ; None                                                ; 65.788 ns       ; X[9]  ; sum_out[19] ;
-; N/A                                     ; None                                                ; 65.782 ns       ; X[18] ; sum_out[12] ;
-; N/A                                     ; None                                                ; 65.776 ns       ; X[0]  ; sum_out[26] ;
-; N/A                                     ; None                                                ; 65.765 ns       ; X[13] ; sum_out[6]  ;
-; N/A                                     ; None                                                ; 65.763 ns       ; X[1]  ; sum_out[8]  ;
-; N/A                                     ; None                                                ; 65.759 ns       ; X[1]  ; sum_out[25] ;
-; N/A                                     ; None                                                ; 65.759 ns       ; X[21] ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 65.752 ns       ; X[0]  ; sum_out[23] ;
-; N/A                                     ; None                                                ; 65.743 ns       ; X[1]  ; sum_out[20] ;
-; N/A                                     ; None                                                ; 65.742 ns       ; X[5]  ; sum_out[18] ;
-; N/A                                     ; None                                                ; 65.738 ns       ; X[5]  ; sum_out[31] ;
-; N/A                                     ; None                                                ; 65.733 ns       ; X[9]  ; sum_out[27] ;
-; N/A                                     ; None                                                ; 65.733 ns       ; X[18] ; sum_out[3]  ;
-; N/A                                     ; None                                                ; 65.718 ns       ; X[9]  ; sum_out[14] ;
-; N/A                                     ; None                                                ; 65.714 ns       ; X[1]  ; sum_out[29] ;
-; N/A                                     ; None                                                ; 65.714 ns       ; X[12] ; sum_out[18] ;
-; N/A                                     ; None                                                ; 65.708 ns       ; X[0]  ; sum_out[11] ;
-; N/A                                     ; None                                                ; 65.706 ns       ; X[0]  ; sum_out[13] ;
-; N/A                                     ; None                                                ; 65.705 ns       ; X[5]  ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 65.704 ns       ; X[8]  ; sum_out[8]  ;
-; N/A                                     ; None                                                ; 65.703 ns       ; X[9]  ; sum_out[5]  ;
-; N/A                                     ; None                                                ; 65.700 ns       ; X[8]  ; sum_out[25] ;
-; N/A                                     ; None                                                ; 65.691 ns       ; X[1]  ; sum_out[4]  ;
-; N/A                                     ; None                                                ; 65.685 ns       ; X[9]  ; sum_out[0]  ;
-; N/A                                     ; None                                                ; 65.684 ns       ; X[8]  ; sum_out[20] ;
-; N/A                                     ; None                                                ; 65.680 ns       ; X[17] ; sum_out[18] ;
-; N/A                                     ; None                                                ; 65.679 ns       ; X[0]  ; sum_out[9]  ;
-; N/A                                     ; None                                                ; 65.677 ns       ; X[12] ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 65.676 ns       ; X[17] ; sum_out[31] ;
-; N/A                                     ; None                                                ; 65.668 ns       ; X[13] ; sum_out[26] ;
-; N/A                                     ; None                                                ; 65.666 ns       ; X[18] ; sum_out[19] ;
-; N/A                                     ; None                                                ; 65.665 ns       ; X[1]  ; sum_out[2]  ;
-; N/A                                     ; None                                                ; 65.664 ns       ; X[2]  ; sum_out[6]  ;
-; N/A                                     ; None                                                ; 65.655 ns       ; X[8]  ; sum_out[29] ;
-; N/A                                     ; None                                                ; 65.652 ns       ; X[1]  ; sum_out[17] ;
-; N/A                                     ; None                                                ; 65.648 ns       ; X[12] ; sum_out[31] ;
-; N/A                                     ; None                                                ; 65.644 ns       ; X[13] ; sum_out[23] ;
-; N/A                                     ; None                                                ; 65.643 ns       ; X[17] ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 65.641 ns       ; X[9]  ; sum_out[1]  ;
-; N/A                                     ; None                                                ; 65.640 ns       ; X[4]  ; sum_out[22] ;
-; N/A                                     ; None                                                ; 65.632 ns       ; X[8]  ; sum_out[4]  ;
-; N/A                                     ; None                                                ; 65.625 ns       ; X[0]  ; sum_out[19] ;
-; N/A                                     ; None                                                ; 65.624 ns       ; X[4]  ; sum_out[16] ;
-; N/A                                     ; None                                                ; 65.617 ns       ; X[16] ; sum_out[18] ;
-; N/A                                     ; None                                                ; 65.614 ns       ; X[21] ; sum_out[6]  ;
-; N/A                                     ; None                                                ; 65.613 ns       ; X[16] ; sum_out[31] ;
-; N/A                                     ; None                                                ; 65.611 ns       ; X[18] ; sum_out[27] ;
-; N/A                                     ; None                                                ; 65.611 ns       ; X[0]  ; sum_out[10] ;
-; N/A                                     ; None                                                ; 65.608 ns       ; X[1]  ; sum_out[21] ;
-; N/A                                     ; None                                                ; 65.606 ns       ; X[8]  ; sum_out[2]  ;
-; N/A                                     ; None                                                ; 65.605 ns       ; X[9]  ; sum_out[30] ;
-; N/A                                     ; None                                                ; 65.604 ns       ; X[15] ; sum_out[18] ;
-; N/A                                     ; None                                                ; 65.600 ns       ; X[15] ; sum_out[31] ;
-; N/A                                     ; None                                                ; 65.600 ns       ; X[13] ; sum_out[11] ;
-; N/A                                     ; None                                                ; 65.598 ns       ; X[13] ; sum_out[13] ;
-; N/A                                     ; None                                                ; 65.596 ns       ; X[4]  ; sum_out[15] ;
-; N/A                                     ; None                                                ; 65.596 ns       ; X[18] ; sum_out[14] ;
-; N/A                                     ; None                                                ; 65.593 ns       ; X[8]  ; sum_out[17] ;
-; N/A                                     ; None                                                ; 65.587 ns       ; X[14] ; sum_out[22] ;
-; N/A                                     ; None                                                ; 65.581 ns       ; X[18] ; sum_out[5]  ;
-; N/A                                     ; None                                                ; 65.580 ns       ; X[0]  ; sum_out[12] ;
-; N/A                                     ; None                                                ; 65.580 ns       ; X[16] ; sum_out[7]  ;
-; N/A                                     ; None                                                ; 65.571 ns       ; X[14] ; sum_out[16] ;
-; N/A                                     ; None                                                ; 65.571 ns       ; X[13] ; sum_out[9]  ;
-; N/A                                     ; None                                                ; 65.567 ns       ; X[2]  ; sum_out[26] ;
-; N/A                                     ; None                                                ; 65.567 ns       ; X[15] ; sum_out[7]  ;
-; Timing analysis restricted to 200 rows. ; To change the limit use Settings (Assignments menu) ;                 ;       ;             ;
-+-----------------------------------------+-----------------------------------------------------+-----------------+-------+-------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; tpd                                                                                                                                             ;
++-----------------------------------------+-----------------------------------------------------+-----------------+------------+------------------+
+; Slack                                   ; Required P2P Time                                   ; Actual P2P Time ; From       ; To               ;
++-----------------------------------------+-----------------------------------------------------+-----------------+------------+------------------+
+; N/A                                     ; None                                                ; 67.100 ns       ; num_X2[4]  ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 67.096 ns       ; num_X2[4]  ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 67.063 ns       ; num_X2[4]  ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 67.047 ns       ; num_X2[14] ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 67.043 ns       ; num_X2[14] ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 67.010 ns       ; num_X2[14] ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 66.918 ns       ; num_X2[4]  ; res_sum[6]       ;
+; N/A                                     ; None                                                ; 66.865 ns       ; num_X2[14] ; res_sum[6]       ;
+; N/A                                     ; None                                                ; 66.821 ns       ; num_X2[4]  ; res_sum[26]      ;
+; N/A                                     ; None                                                ; 66.797 ns       ; num_X2[4]  ; res_sum[23]      ;
+; N/A                                     ; None                                                ; 66.768 ns       ; num_X2[14] ; res_sum[26]      ;
+; N/A                                     ; None                                                ; 66.753 ns       ; num_X2[4]  ; res_sum[11]      ;
+; N/A                                     ; None                                                ; 66.751 ns       ; num_X2[4]  ; res_sum[13]      ;
+; N/A                                     ; None                                                ; 66.744 ns       ; num_X2[14] ; res_sum[23]      ;
+; N/A                                     ; None                                                ; 66.736 ns       ; num_X2[1]  ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 66.732 ns       ; num_X2[1]  ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 66.724 ns       ; num_X2[4]  ; res_sum[9]       ;
+; N/A                                     ; None                                                ; 66.700 ns       ; num_X2[14] ; res_sum[11]      ;
+; N/A                                     ; None                                                ; 66.699 ns       ; num_X2[1]  ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 66.698 ns       ; num_X2[14] ; res_sum[13]      ;
+; N/A                                     ; None                                                ; 66.677 ns       ; num_X2[8]  ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 66.673 ns       ; num_X2[8]  ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 66.671 ns       ; num_X2[14] ; res_sum[9]       ;
+; N/A                                     ; None                                                ; 66.656 ns       ; num_X2[4]  ; res_sum[10]      ;
+; N/A                                     ; None                                                ; 66.640 ns       ; num_X2[8]  ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 66.625 ns       ; num_X2[4]  ; res_sum[12]      ;
+; N/A                                     ; None                                                ; 66.603 ns       ; num_X2[14] ; res_sum[10]      ;
+; N/A                                     ; None                                                ; 66.576 ns       ; num_X2[4]  ; res_sum[3]       ;
+; N/A                                     ; None                                                ; 66.572 ns       ; num_X2[14] ; res_sum[12]      ;
+; N/A                                     ; None                                                ; 66.554 ns       ; num_X2[1]  ; res_sum[6]       ;
+; N/A                                     ; None                                                ; 66.523 ns       ; num_X2[14] ; res_sum[3]       ;
+; N/A                                     ; None                                                ; 66.509 ns       ; num_X2[4]  ; res_sum[19]      ;
+; N/A                                     ; None                                                ; 66.495 ns       ; num_X2[8]  ; res_sum[6]       ;
+; N/A                                     ; None                                                ; 66.457 ns       ; num_X2[1]  ; res_sum[26]      ;
+; N/A                                     ; None                                                ; 66.456 ns       ; num_X2[14] ; res_sum[19]      ;
+; N/A                                     ; None                                                ; 66.454 ns       ; num_X2[4]  ; res_sum[27]      ;
+; N/A                                     ; None                                                ; 66.439 ns       ; num_X2[4]  ; res_sum[14]      ;
+; N/A                                     ; None                                                ; 66.433 ns       ; num_X2[1]  ; res_sum[23]      ;
+; N/A                                     ; None                                                ; 66.424 ns       ; num_X2[4]  ; res_sum[5]       ;
+; N/A                                     ; None                                                ; 66.406 ns       ; num_X2[4]  ; res_sum[0]       ;
+; N/A                                     ; None                                                ; 66.401 ns       ; num_X2[14] ; res_sum[27]      ;
+; N/A                                     ; None                                                ; 66.398 ns       ; num_X2[8]  ; res_sum[26]      ;
+; N/A                                     ; None                                                ; 66.389 ns       ; num_X2[1]  ; res_sum[11]      ;
+; N/A                                     ; None                                                ; 66.387 ns       ; num_X2[1]  ; res_sum[13]      ;
+; N/A                                     ; None                                                ; 66.386 ns       ; num_X2[14] ; res_sum[14]      ;
+; N/A                                     ; None                                                ; 66.379 ns       ; num_X2[9]  ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 66.375 ns       ; num_X2[9]  ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 66.374 ns       ; num_X2[8]  ; res_sum[23]      ;
+; N/A                                     ; None                                                ; 66.371 ns       ; num_X2[14] ; res_sum[5]       ;
+; N/A                                     ; None                                                ; 66.362 ns       ; num_X2[4]  ; res_sum[1]       ;
+; N/A                                     ; None                                                ; 66.360 ns       ; num_X2[1]  ; res_sum[9]       ;
+; N/A                                     ; None                                                ; 66.353 ns       ; num_X2[14] ; res_sum[0]       ;
+; N/A                                     ; None                                                ; 66.342 ns       ; num_X2[9]  ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 66.330 ns       ; num_X2[8]  ; res_sum[11]      ;
+; N/A                                     ; None                                                ; 66.328 ns       ; num_X2[8]  ; res_sum[13]      ;
+; N/A                                     ; None                                                ; 66.326 ns       ; num_X2[4]  ; res_sum[30]      ;
+; N/A                                     ; None                                                ; 66.309 ns       ; num_X2[14] ; res_sum[1]       ;
+; N/A                                     ; None                                                ; 66.301 ns       ; num_X2[8]  ; res_sum[9]       ;
+; N/A                                     ; None                                                ; 66.292 ns       ; num_X2[1]  ; res_sum[10]      ;
+; N/A                                     ; None                                                ; 66.273 ns       ; num_X2[14] ; res_sum[30]      ;
+; N/A                                     ; None                                                ; 66.261 ns       ; num_X2[1]  ; res_sum[12]      ;
+; N/A                                     ; None                                                ; 66.257 ns       ; num_X2[18] ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 66.253 ns       ; num_X2[18] ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 66.233 ns       ; num_X2[8]  ; res_sum[10]      ;
+; N/A                                     ; None                                                ; 66.220 ns       ; num_X2[18] ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 66.212 ns       ; num_X2[4]  ; res_sum[28]      ;
+; N/A                                     ; None                                                ; 66.212 ns       ; num_X2[1]  ; res_sum[3]       ;
+; N/A                                     ; None                                                ; 66.202 ns       ; num_X2[8]  ; res_sum[12]      ;
+; N/A                                     ; None                                                ; 66.197 ns       ; num_X2[9]  ; res_sum[6]       ;
+; N/A                                     ; None                                                ; 66.159 ns       ; num_X2[14] ; res_sum[28]      ;
+; N/A                                     ; None                                                ; 66.153 ns       ; num_X2[8]  ; res_sum[3]       ;
+; N/A                                     ; None                                                ; 66.145 ns       ; num_X2[1]  ; res_sum[19]      ;
+; N/A                                     ; None                                                ; 66.127 ns       ; num_X2[4]  ; res_sum[8]       ;
+; N/A                                     ; None                                                ; 66.123 ns       ; num_X2[4]  ; res_sum[25]      ;
+; N/A                                     ; None                                                ; 66.107 ns       ; num_X2[4]  ; res_sum[20]      ;
+; N/A                                     ; None                                                ; 66.100 ns       ; num_X2[9]  ; res_sum[26]      ;
+; N/A                                     ; None                                                ; 66.090 ns       ; num_X2[1]  ; res_sum[27]      ;
+; N/A                                     ; None                                                ; 66.086 ns       ; num_X2[8]  ; res_sum[19]      ;
+; N/A                                     ; None                                                ; 66.078 ns       ; num_X2[4]  ; res_sum[29]      ;
+; N/A                                     ; None                                                ; 66.076 ns       ; num_X2[9]  ; res_sum[23]      ;
+; N/A                                     ; None                                                ; 66.075 ns       ; num_X2[1]  ; res_sum[14]      ;
+; N/A                                     ; None                                                ; 66.075 ns       ; num_X2[18] ; res_sum[6]       ;
+; N/A                                     ; None                                                ; 66.074 ns       ; num_X2[14] ; res_sum[8]       ;
+; N/A                                     ; None                                                ; 66.070 ns       ; num_X2[14] ; res_sum[25]      ;
+; N/A                                     ; None                                                ; 66.060 ns       ; num_X2[1]  ; res_sum[5]       ;
+; N/A                                     ; None                                                ; 66.055 ns       ; num_X2[0]  ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 66.055 ns       ; num_X2[4]  ; res_sum[4]       ;
+; N/A                                     ; None                                                ; 66.054 ns       ; num_X2[14] ; res_sum[20]      ;
+; N/A                                     ; None                                                ; 66.051 ns       ; num_X2[0]  ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 66.042 ns       ; num_X2[1]  ; res_sum[0]       ;
+; N/A                                     ; None                                                ; 66.032 ns       ; num_X2[9]  ; res_sum[11]      ;
+; N/A                                     ; None                                                ; 66.031 ns       ; num_X2[8]  ; res_sum[27]      ;
+; N/A                                     ; None                                                ; 66.030 ns       ; num_X2[9]  ; res_sum[13]      ;
+; N/A                                     ; None                                                ; 66.029 ns       ; num_X2[4]  ; res_sum[2]       ;
+; N/A                                     ; None                                                ; 66.025 ns       ; num_X2[14] ; res_sum[29]      ;
+; N/A                                     ; None                                                ; 66.018 ns       ; num_X2[0]  ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 66.016 ns       ; num_X2[4]  ; res_sum[17]      ;
+; N/A                                     ; None                                                ; 66.016 ns       ; num_X2[8]  ; res_sum[14]      ;
+; N/A                                     ; None                                                ; 66.003 ns       ; num_X2[9]  ; res_sum[9]       ;
+; N/A                                     ; None                                                ; 66.002 ns       ; num_X2[14] ; res_sum[4]       ;
+; N/A                                     ; None                                                ; 66.001 ns       ; num_X2[8]  ; res_sum[5]       ;
+; N/A                                     ; None                                                ; 65.998 ns       ; num_X2[1]  ; res_sum[1]       ;
+; N/A                                     ; None                                                ; 65.983 ns       ; num_X2[8]  ; res_sum[0]       ;
+; N/A                                     ; None                                                ; 65.978 ns       ; num_X2[18] ; res_sum[26]      ;
+; N/A                                     ; None                                                ; 65.976 ns       ; num_X2[14] ; res_sum[2]       ;
+; N/A                                     ; None                                                ; 65.972 ns       ; num_X2[4]  ; res_sum[21]      ;
+; N/A                                     ; None                                                ; 65.963 ns       ; num_X2[14] ; res_sum[17]      ;
+; N/A                                     ; None                                                ; 65.962 ns       ; num_X2[1]  ; res_sum[30]      ;
+; N/A                                     ; None                                                ; 65.954 ns       ; num_X2[18] ; res_sum[23]      ;
+; N/A                                     ; None                                                ; 65.947 ns       ; num_X2[13] ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 65.943 ns       ; num_X2[13] ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 65.939 ns       ; num_X2[8]  ; res_sum[1]       ;
+; N/A                                     ; None                                                ; 65.935 ns       ; num_X2[9]  ; res_sum[10]      ;
+; N/A                                     ; None                                                ; 65.919 ns       ; num_X2[14] ; res_sum[21]      ;
+; N/A                                     ; None                                                ; 65.910 ns       ; num_X2[18] ; res_sum[11]      ;
+; N/A                                     ; None                                                ; 65.910 ns       ; num_X2[13] ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 65.908 ns       ; num_X2[18] ; res_sum[13]      ;
+; N/A                                     ; None                                                ; 65.904 ns       ; num_X2[9]  ; res_sum[12]      ;
+; N/A                                     ; None                                                ; 65.903 ns       ; num_X2[8]  ; res_sum[30]      ;
+; N/A                                     ; None                                                ; 65.881 ns       ; num_X2[18] ; res_sum[9]       ;
+; N/A                                     ; None                                                ; 65.873 ns       ; num_X2[0]  ; res_sum[6]       ;
+; N/A                                     ; None                                                ; 65.864 ns       ; num_X2[4]  ; res_sum[24]      ;
+; N/A                                     ; None                                                ; 65.855 ns       ; num_X2[9]  ; res_sum[3]       ;
+; N/A                                     ; None                                                ; 65.850 ns       ; num_X2[4]  ; contr_sign_x_out ;
+; N/A                                     ; None                                                ; 65.848 ns       ; num_X2[1]  ; res_sum[28]      ;
+; N/A                                     ; None                                                ; 65.846 ns       ; num_X2[2]  ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 65.842 ns       ; num_X2[2]  ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 65.813 ns       ; num_X2[18] ; res_sum[10]      ;
+; N/A                                     ; None                                                ; 65.811 ns       ; num_X2[14] ; res_sum[24]      ;
+; N/A                                     ; None                                                ; 65.809 ns       ; num_X2[2]  ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 65.797 ns       ; num_X2[14] ; contr_sign_x_out ;
+; N/A                                     ; None                                                ; 65.796 ns       ; num_X2[21] ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 65.792 ns       ; num_X2[21] ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 65.789 ns       ; num_X2[8]  ; res_sum[28]      ;
+; N/A                                     ; None                                                ; 65.788 ns       ; num_X2[9]  ; res_sum[19]      ;
+; N/A                                     ; None                                                ; 65.782 ns       ; num_X2[18] ; res_sum[12]      ;
+; N/A                                     ; None                                                ; 65.776 ns       ; num_X2[0]  ; res_sum[26]      ;
+; N/A                                     ; None                                                ; 65.765 ns       ; num_X2[13] ; res_sum[6]       ;
+; N/A                                     ; None                                                ; 65.763 ns       ; num_X2[1]  ; res_sum[8]       ;
+; N/A                                     ; None                                                ; 65.759 ns       ; num_X2[1]  ; res_sum[25]      ;
+; N/A                                     ; None                                                ; 65.759 ns       ; num_X2[21] ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 65.752 ns       ; num_X2[0]  ; res_sum[23]      ;
+; N/A                                     ; None                                                ; 65.743 ns       ; num_X2[1]  ; res_sum[20]      ;
+; N/A                                     ; None                                                ; 65.742 ns       ; num_X2[5]  ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 65.738 ns       ; num_X2[5]  ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 65.733 ns       ; num_X2[9]  ; res_sum[27]      ;
+; N/A                                     ; None                                                ; 65.733 ns       ; num_X2[18] ; res_sum[3]       ;
+; N/A                                     ; None                                                ; 65.718 ns       ; num_X2[9]  ; res_sum[14]      ;
+; N/A                                     ; None                                                ; 65.714 ns       ; num_X2[1]  ; res_sum[29]      ;
+; N/A                                     ; None                                                ; 65.714 ns       ; num_X2[12] ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 65.708 ns       ; num_X2[0]  ; res_sum[11]      ;
+; N/A                                     ; None                                                ; 65.706 ns       ; num_X2[0]  ; res_sum[13]      ;
+; N/A                                     ; None                                                ; 65.705 ns       ; num_X2[5]  ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 65.704 ns       ; num_X2[8]  ; res_sum[8]       ;
+; N/A                                     ; None                                                ; 65.703 ns       ; num_X2[9]  ; res_sum[5]       ;
+; N/A                                     ; None                                                ; 65.700 ns       ; num_X2[8]  ; res_sum[25]      ;
+; N/A                                     ; None                                                ; 65.691 ns       ; num_X2[1]  ; res_sum[4]       ;
+; N/A                                     ; None                                                ; 65.685 ns       ; num_X2[9]  ; res_sum[0]       ;
+; N/A                                     ; None                                                ; 65.684 ns       ; num_X2[8]  ; res_sum[20]      ;
+; N/A                                     ; None                                                ; 65.680 ns       ; num_X2[17] ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 65.679 ns       ; num_X2[0]  ; res_sum[9]       ;
+; N/A                                     ; None                                                ; 65.677 ns       ; num_X2[12] ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 65.676 ns       ; num_X2[17] ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 65.668 ns       ; num_X2[13] ; res_sum[26]      ;
+; N/A                                     ; None                                                ; 65.666 ns       ; num_X2[18] ; res_sum[19]      ;
+; N/A                                     ; None                                                ; 65.665 ns       ; num_X2[1]  ; res_sum[2]       ;
+; N/A                                     ; None                                                ; 65.664 ns       ; num_X2[2]  ; res_sum[6]       ;
+; N/A                                     ; None                                                ; 65.655 ns       ; num_X2[8]  ; res_sum[29]      ;
+; N/A                                     ; None                                                ; 65.652 ns       ; num_X2[1]  ; res_sum[17]      ;
+; N/A                                     ; None                                                ; 65.648 ns       ; num_X2[12] ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 65.644 ns       ; num_X2[13] ; res_sum[23]      ;
+; N/A                                     ; None                                                ; 65.643 ns       ; num_X2[17] ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 65.641 ns       ; num_X2[9]  ; res_sum[1]       ;
+; N/A                                     ; None                                                ; 65.640 ns       ; num_X2[4]  ; res_sum[22]      ;
+; N/A                                     ; None                                                ; 65.632 ns       ; num_X2[8]  ; res_sum[4]       ;
+; N/A                                     ; None                                                ; 65.625 ns       ; num_X2[0]  ; res_sum[19]      ;
+; N/A                                     ; None                                                ; 65.624 ns       ; num_X2[4]  ; res_sum[16]      ;
+; N/A                                     ; None                                                ; 65.617 ns       ; num_X2[16] ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 65.614 ns       ; num_X2[21] ; res_sum[6]       ;
+; N/A                                     ; None                                                ; 65.613 ns       ; num_X2[16] ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 65.611 ns       ; num_X2[18] ; res_sum[27]      ;
+; N/A                                     ; None                                                ; 65.611 ns       ; num_X2[0]  ; res_sum[10]      ;
+; N/A                                     ; None                                                ; 65.608 ns       ; num_X2[1]  ; res_sum[21]      ;
+; N/A                                     ; None                                                ; 65.606 ns       ; num_X2[8]  ; res_sum[2]       ;
+; N/A                                     ; None                                                ; 65.605 ns       ; num_X2[9]  ; res_sum[30]      ;
+; N/A                                     ; None                                                ; 65.604 ns       ; num_X2[15] ; res_sum[18]      ;
+; N/A                                     ; None                                                ; 65.600 ns       ; num_X2[15] ; res_sum[31]      ;
+; N/A                                     ; None                                                ; 65.600 ns       ; num_X2[13] ; res_sum[11]      ;
+; N/A                                     ; None                                                ; 65.598 ns       ; num_X2[13] ; res_sum[13]      ;
+; N/A                                     ; None                                                ; 65.596 ns       ; num_X2[4]  ; res_sum[15]      ;
+; N/A                                     ; None                                                ; 65.596 ns       ; num_X2[18] ; res_sum[14]      ;
+; N/A                                     ; None                                                ; 65.593 ns       ; num_X2[8]  ; res_sum[17]      ;
+; N/A                                     ; None                                                ; 65.587 ns       ; num_X2[14] ; res_sum[22]      ;
+; N/A                                     ; None                                                ; 65.581 ns       ; num_X2[18] ; res_sum[5]       ;
+; N/A                                     ; None                                                ; 65.580 ns       ; num_X2[0]  ; res_sum[12]      ;
+; N/A                                     ; None                                                ; 65.580 ns       ; num_X2[16] ; res_sum[7]       ;
+; N/A                                     ; None                                                ; 65.571 ns       ; num_X2[14] ; res_sum[16]      ;
+; N/A                                     ; None                                                ; 65.571 ns       ; num_X2[13] ; res_sum[9]       ;
+; N/A                                     ; None                                                ; 65.567 ns       ; num_X2[2]  ; res_sum[26]      ;
+; N/A                                     ; None                                                ; 65.567 ns       ; num_X2[15] ; res_sum[7]       ;
+; Timing analysis restricted to 200 rows. ; To change the limit use Settings (Assignments menu) ;                 ;            ;                  ;
++-----------------------------------------+-----------------------------------------------------+-----------------+------------+------------------+
 
 
 +--------------------------+
@@ -302,10 +302,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Oct 12 20:45:13 2021
+    Info: Processing started: Wed Feb 09 21:49:11 2022
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off math_block -c math_block --timing_analysis_only
-Info: Longest tpd from source pin "X[4]" to destination pin "sum_out[18]" is 67.100 ns
-    Info: 1: + IC(0.000 ns) + CELL(0.857 ns) = 0.857 ns; Loc. = PIN_Y17; Fanout = 471; PIN Node = 'X[4]'
+Info: Longest tpd from source pin "num_X2[4]" to destination pin "res_sum[18]" is 67.100 ns
+    Info: 1: + IC(0.000 ns) + CELL(0.857 ns) = 0.857 ns; Loc. = PIN_Y17; Fanout = 471; PIN Node = 'num_X2[4]'
     Info: 2: + IC(6.338 ns) + CELL(2.390 ns) = 9.585 ns; Loc. = DSPMULT_X28_Y3_N0; Fanout = 14; COMB Node = 'lpm_mult:Mult0|mult_k2t:auto_generated|mac_mult3~DATAOUT8'
     Info: 3: + IC(0.000 ns) + CELL(1.970 ns) = 11.555 ns; Loc. = DSPOUT_X28_Y5_N2; Fanout = 60; COMB Node = 'lpm_mult:Mult0|mult_k2t:auto_generated|mac_out5~DATAOUT26'
     Info: 4: + IC(0.676 ns) + CELL(2.390 ns) = 14.621 ns; Loc. = DSPMULT_X28_Y6_N0; Fanout = 14; COMB Node = 'lpm_mult:Mult1|mult_k2t:auto_generated|mac_mult4~DATAOUT8'
@@ -337,12 +337,12 @@ Info: Longest tpd from source pin "X[4]" to destination pin "sum_out[18]" is 67.
     Info: 30: + IC(0.000 ns) + CELL(0.035 ns) = 61.597 ns; Loc. = LCCOMB_X23_Y8_N28; Fanout = 1; COMB Node = 'Add9~122'
     Info: 31: + IC(0.000 ns) + CELL(0.125 ns) = 61.722 ns; Loc. = LCCOMB_X23_Y8_N30; Fanout = 34; COMB Node = 'Add9~125'
     Info: 32: + IC(0.609 ns) + CELL(0.346 ns) = 62.677 ns; Loc. = LCCOMB_X25_Y8_N24; Fanout = 1; COMB Node = 'temp_r~18'
-    Info: 33: + IC(2.451 ns) + CELL(1.972 ns) = 67.100 ns; Loc. = PIN_B16; Fanout = 0; PIN Node = 'sum_out[18]'
+    Info: 33: + IC(2.451 ns) + CELL(1.972 ns) = 67.100 ns; Loc. = PIN_B16; Fanout = 0; PIN Node = 'res_sum[18]'
     Info: Total cell delay = 44.287 ns ( 66.00 % )
     Info: Total interconnect delay = 22.813 ns ( 34.00 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 180 megabytes
-    Info: Processing ended: Tue Oct 12 20:45:14 2021
+    Info: Processing ended: Wed Feb 09 21:49:12 2022
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

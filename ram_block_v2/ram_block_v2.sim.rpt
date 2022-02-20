@@ -1,5 +1,5 @@
 Simulator report for ram_block_v2
-Sun Nov 21 22:47:15 2021
+Fri Feb 11 21:33:49 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -169,24 +169,24 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |ram_block_v2|ram_block~1138      ; |ram_block_v2|ram_block~1138      ; combout          ;
 ; |ram_block_v2|ram_block~1139      ; |ram_block_v2|ram_block~1139      ; combout          ;
 ; |ram_block_v2|ram_block~1141      ; |ram_block_v2|ram_block~1141      ; combout          ;
-; |ram_block_v2|dout[0]             ; |ram_block_v2|dout[0]             ; padio            ;
-; |ram_block_v2|dout[1]             ; |ram_block_v2|dout[1]             ; padio            ;
-; |ram_block_v2|dout[2]             ; |ram_block_v2|dout[2]             ; padio            ;
-; |ram_block_v2|dout[3]             ; |ram_block_v2|dout[3]             ; padio            ;
-; |ram_block_v2|dout[21]            ; |ram_block_v2|dout[21]            ; padio            ;
-; |ram_block_v2|dout[22]            ; |ram_block_v2|dout[22]            ; padio            ;
-; |ram_block_v2|dout[24]            ; |ram_block_v2|dout[24]            ; padio            ;
-; |ram_block_v2|dout[25]            ; |ram_block_v2|dout[25]            ; padio            ;
-; |ram_block_v2|dout[26]            ; |ram_block_v2|dout[26]            ; padio            ;
-; |ram_block_v2|dout[27]            ; |ram_block_v2|dout[27]            ; padio            ;
-; |ram_block_v2|dout[28]            ; |ram_block_v2|dout[28]            ; padio            ;
-; |ram_block_v2|dout[29]            ; |ram_block_v2|dout[29]            ; padio            ;
-; |ram_block_v2|dout[30]            ; |ram_block_v2|dout[30]            ; padio            ;
-; |ram_block_v2|dout[31]            ; |ram_block_v2|dout[31]            ; padio            ;
+; |ram_block_v2|date_out[0]         ; |ram_block_v2|date_out[0]         ; padio            ;
+; |ram_block_v2|date_out[1]         ; |ram_block_v2|date_out[1]         ; padio            ;
+; |ram_block_v2|date_out[2]         ; |ram_block_v2|date_out[2]         ; padio            ;
+; |ram_block_v2|date_out[3]         ; |ram_block_v2|date_out[3]         ; padio            ;
+; |ram_block_v2|date_out[21]        ; |ram_block_v2|date_out[21]        ; padio            ;
+; |ram_block_v2|date_out[22]        ; |ram_block_v2|date_out[22]        ; padio            ;
+; |ram_block_v2|date_out[24]        ; |ram_block_v2|date_out[24]        ; padio            ;
+; |ram_block_v2|date_out[25]        ; |ram_block_v2|date_out[25]        ; padio            ;
+; |ram_block_v2|date_out[26]        ; |ram_block_v2|date_out[26]        ; padio            ;
+; |ram_block_v2|date_out[27]        ; |ram_block_v2|date_out[27]        ; padio            ;
+; |ram_block_v2|date_out[28]        ; |ram_block_v2|date_out[28]        ; padio            ;
+; |ram_block_v2|date_out[29]        ; |ram_block_v2|date_out[29]        ; padio            ;
+; |ram_block_v2|date_out[30]        ; |ram_block_v2|date_out[30]        ; padio            ;
+; |ram_block_v2|date_out[31]        ; |ram_block_v2|date_out[31]        ; padio            ;
 ; |ram_block_v2|clk                 ; |ram_block_v2|clk~corein          ; combout          ;
 ; |ram_block_v2|adress[0]           ; |ram_block_v2|adress[0]~corein    ; combout          ;
 ; |ram_block_v2|cs                  ; |ram_block_v2|cs~corein           ; combout          ;
-; |ram_block_v2|write               ; |ram_block_v2|write~corein        ; combout          ;
+; |ram_block_v2|write_signal        ; |ram_block_v2|write_signal~corein ; combout          ;
 ; |ram_block_v2|y[1]                ; |ram_block_v2|y[1]~corein         ; combout          ;
 ; |ram_block_v2|y[3]                ; |ram_block_v2|y[3]~corein         ; combout          ;
 ; |ram_block_v2|y[22]               ; |ram_block_v2|y[22]~corein        ; combout          ;
@@ -872,17 +872,17 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |ram_block_v2|ram_block~1140      ; |ram_block_v2|ram_block~1140      ; combout          ;
 ; |ram_block_v2|ram_block~1142      ; |ram_block_v2|ram_block~1142      ; combout          ;
 ; |ram_block_v2|ram_block~1143      ; |ram_block_v2|ram_block~1143      ; combout          ;
-; |ram_block_v2|dout[5]             ; |ram_block_v2|dout[5]             ; padio            ;
-; |ram_block_v2|dout[6]             ; |ram_block_v2|dout[6]             ; padio            ;
-; |ram_block_v2|dout[7]             ; |ram_block_v2|dout[7]             ; padio            ;
-; |ram_block_v2|dout[8]             ; |ram_block_v2|dout[8]             ; padio            ;
-; |ram_block_v2|dout[9]             ; |ram_block_v2|dout[9]             ; padio            ;
-; |ram_block_v2|dout[10]            ; |ram_block_v2|dout[10]            ; padio            ;
-; |ram_block_v2|dout[11]            ; |ram_block_v2|dout[11]            ; padio            ;
-; |ram_block_v2|dout[12]            ; |ram_block_v2|dout[12]            ; padio            ;
-; |ram_block_v2|dout[13]            ; |ram_block_v2|dout[13]            ; padio            ;
-; |ram_block_v2|dout[16]            ; |ram_block_v2|dout[16]            ; padio            ;
-; |ram_block_v2|dout[19]            ; |ram_block_v2|dout[19]            ; padio            ;
+; |ram_block_v2|date_out[5]         ; |ram_block_v2|date_out[5]         ; padio            ;
+; |ram_block_v2|date_out[6]         ; |ram_block_v2|date_out[6]         ; padio            ;
+; |ram_block_v2|date_out[7]         ; |ram_block_v2|date_out[7]         ; padio            ;
+; |ram_block_v2|date_out[8]         ; |ram_block_v2|date_out[8]         ; padio            ;
+; |ram_block_v2|date_out[9]         ; |ram_block_v2|date_out[9]         ; padio            ;
+; |ram_block_v2|date_out[10]        ; |ram_block_v2|date_out[10]        ; padio            ;
+; |ram_block_v2|date_out[11]        ; |ram_block_v2|date_out[11]        ; padio            ;
+; |ram_block_v2|date_out[12]        ; |ram_block_v2|date_out[12]        ; padio            ;
+; |ram_block_v2|date_out[13]        ; |ram_block_v2|date_out[13]        ; padio            ;
+; |ram_block_v2|date_out[16]        ; |ram_block_v2|date_out[16]        ; padio            ;
+; |ram_block_v2|date_out[19]        ; |ram_block_v2|date_out[19]        ; padio            ;
 ; |ram_block_v2|adress[2]           ; |ram_block_v2|adress[2]~corein    ; combout          ;
 ; |ram_block_v2|adress[3]           ; |ram_block_v2|adress[3]~corein    ; combout          ;
 ; |ram_block_v2|adress[4]           ; |ram_block_v2|adress[4]~corein    ; combout          ;
@@ -1712,24 +1712,24 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |ram_block_v2|ram_block~1137      ; |ram_block_v2|ram_block~1137      ; combout          ;
 ; |ram_block_v2|ram_block~1142      ; |ram_block_v2|ram_block~1142      ; combout          ;
 ; |ram_block_v2|ram_block~1143      ; |ram_block_v2|ram_block~1143      ; combout          ;
-; |ram_block_v2|dout[4]             ; |ram_block_v2|dout[4]             ; padio            ;
-; |ram_block_v2|dout[5]             ; |ram_block_v2|dout[5]             ; padio            ;
-; |ram_block_v2|dout[6]             ; |ram_block_v2|dout[6]             ; padio            ;
-; |ram_block_v2|dout[7]             ; |ram_block_v2|dout[7]             ; padio            ;
-; |ram_block_v2|dout[8]             ; |ram_block_v2|dout[8]             ; padio            ;
-; |ram_block_v2|dout[9]             ; |ram_block_v2|dout[9]             ; padio            ;
-; |ram_block_v2|dout[10]            ; |ram_block_v2|dout[10]            ; padio            ;
-; |ram_block_v2|dout[11]            ; |ram_block_v2|dout[11]            ; padio            ;
-; |ram_block_v2|dout[12]            ; |ram_block_v2|dout[12]            ; padio            ;
-; |ram_block_v2|dout[13]            ; |ram_block_v2|dout[13]            ; padio            ;
-; |ram_block_v2|dout[14]            ; |ram_block_v2|dout[14]            ; padio            ;
-; |ram_block_v2|dout[15]            ; |ram_block_v2|dout[15]            ; padio            ;
-; |ram_block_v2|dout[16]            ; |ram_block_v2|dout[16]            ; padio            ;
-; |ram_block_v2|dout[17]            ; |ram_block_v2|dout[17]            ; padio            ;
-; |ram_block_v2|dout[18]            ; |ram_block_v2|dout[18]            ; padio            ;
-; |ram_block_v2|dout[19]            ; |ram_block_v2|dout[19]            ; padio            ;
-; |ram_block_v2|dout[20]            ; |ram_block_v2|dout[20]            ; padio            ;
-; |ram_block_v2|dout[23]            ; |ram_block_v2|dout[23]            ; padio            ;
+; |ram_block_v2|date_out[4]         ; |ram_block_v2|date_out[4]         ; padio            ;
+; |ram_block_v2|date_out[5]         ; |ram_block_v2|date_out[5]         ; padio            ;
+; |ram_block_v2|date_out[6]         ; |ram_block_v2|date_out[6]         ; padio            ;
+; |ram_block_v2|date_out[7]         ; |ram_block_v2|date_out[7]         ; padio            ;
+; |ram_block_v2|date_out[8]         ; |ram_block_v2|date_out[8]         ; padio            ;
+; |ram_block_v2|date_out[9]         ; |ram_block_v2|date_out[9]         ; padio            ;
+; |ram_block_v2|date_out[10]        ; |ram_block_v2|date_out[10]        ; padio            ;
+; |ram_block_v2|date_out[11]        ; |ram_block_v2|date_out[11]        ; padio            ;
+; |ram_block_v2|date_out[12]        ; |ram_block_v2|date_out[12]        ; padio            ;
+; |ram_block_v2|date_out[13]        ; |ram_block_v2|date_out[13]        ; padio            ;
+; |ram_block_v2|date_out[14]        ; |ram_block_v2|date_out[14]        ; padio            ;
+; |ram_block_v2|date_out[15]        ; |ram_block_v2|date_out[15]        ; padio            ;
+; |ram_block_v2|date_out[16]        ; |ram_block_v2|date_out[16]        ; padio            ;
+; |ram_block_v2|date_out[17]        ; |ram_block_v2|date_out[17]        ; padio            ;
+; |ram_block_v2|date_out[18]        ; |ram_block_v2|date_out[18]        ; padio            ;
+; |ram_block_v2|date_out[19]        ; |ram_block_v2|date_out[19]        ; padio            ;
+; |ram_block_v2|date_out[20]        ; |ram_block_v2|date_out[20]        ; padio            ;
+; |ram_block_v2|date_out[23]        ; |ram_block_v2|date_out[23]        ; padio            ;
 ; |ram_block_v2|adress[2]           ; |ram_block_v2|adress[2]~corein    ; combout          ;
 ; |ram_block_v2|adress[1]           ; |ram_block_v2|adress[1]~corein    ; combout          ;
 ; |ram_block_v2|adress[3]           ; |ram_block_v2|adress[3]~corein    ; combout          ;
@@ -1938,9 +1938,9 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sun Nov 21 22:47:14 2021
+    Info: Processing started: Fri Feb 11 21:33:48 2022
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off ram_block_v2 -c ram_block_v2
-Info: Using vector source file "C:/Users/FOMSI/Desktop/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/ram_block_v2/ram_block_v2.vwf"
+Info: Using vector source file "C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/ram_block_v2/ram_block_v2.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
 Info: Simulation partitioned into 1 sub-simulations
@@ -1948,7 +1948,7 @@ Info: Simulation coverage is      12.11 %
 Info: Number of transitions in simulation is 1074
 Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 154 megabytes
-    Info: Processing ended: Sun Nov 21 22:47:15 2021
+    Info: Processing ended: Fri Feb 11 21:33:49 2022
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
