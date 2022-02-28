@@ -1,5 +1,5 @@
 Simulator report for block_6
-Mon Feb 14 20:43:58 2022
+Tue Feb 22 23:23:09 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -365,7 +365,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon Feb 14 20:43:58 2022
+    Info: Processing started: Tue Feb 22 23:23:09 2022
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off block_6 -c block_6
 Info: Using vector source file "C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/block_6/block_6.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
@@ -375,8 +375,8 @@ Info: Simulation coverage is      59.38 %
 Info: Number of transitions in simulation is 1924
 Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 150 megabytes
-    Info: Processing ended: Mon Feb 14 20:43:58 2022
+    Info: Processing ended: Tue Feb 22 23:23:09 2022
     Info: Elapsed time: 00:00:00
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
 
 

@@ -1,5 +1,5 @@
 Simulator report for add_block
-Mon Feb 14 20:37:05 2022
+Mon Feb 21 21:14:54 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -6061,7 +6061,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon Feb 14 20:37:04 2022
+    Info: Processing started: Mon Feb 21 21:14:51 2022
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off add_block -c add_block
 Info: Using vector source file "C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/add_block_v6_revue/add_block/add_block.vwf"
 Info: Inverted registers were found during simulation
@@ -6092,8 +6092,8 @@ Info: Simulation coverage is      52.85 %
 Info: Number of transitions in simulation is 29549
 Info: Quartus II Simulator was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 178 megabytes
-    Info: Processing ended: Mon Feb 14 20:37:05 2022
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Processing ended: Mon Feb 21 21:14:54 2022
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 

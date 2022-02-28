@@ -13207,14 +13207,14 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 	}
 }
 
-VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/add_block_v6_revue/add_block/add_block.vwf")
+VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/add_block_v6_revue/add_block/db/add_block.sim.cvwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
+		ZBEGIN = 691202873;
 		ZEND = 1000000000;
-		NUMERATOR = 1115;
+		NUMERATOR = 1114;
 		DENOMINATOR = 1000000000;
-		TOP_INDEX = 0;
+		TOP_INDEX = 106;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -15050,14 +15050,14 @@ VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическо
 	}
 }
 
-VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/add_block_v6_revue/add_block/db/add_block.sim.cvwf")
+VECTOR("C:/Users/FOMSI/OneDrive/Рабочий стол/Учеба 2021 1-Семестр/Технологическое проектирование/Course_project/add_block_v6_revue/add_block/add_block.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 1000000000;
-		NUMERATOR = 1114;
+		NUMERATOR = 1115;
 		DENOMINATOR = 1000000000;
-		TOP_INDEX = 106;
+		TOP_INDEX = 0;
 	}
 	CLOCK{
 		PERIOD = 10000;
